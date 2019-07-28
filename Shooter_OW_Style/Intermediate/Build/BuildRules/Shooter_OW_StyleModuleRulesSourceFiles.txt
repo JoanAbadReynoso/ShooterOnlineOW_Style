@@ -1,3 +1,3 @@
-C:\Users\Joan Abad\Documents\Shooter_OW_Style\Source\Shooter_OW_Style\Shooter_OW_Style.Build.cs
-C:\Users\Joan Abad\Documents\Shooter_OW_Style\Source\Shooter_OW_Style.Target.cs
-C:\Users\Joan Abad\Documents\Shooter_OW_Style\Source\Shooter_OW_StyleEditor.Target.cs
+C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Source\Shooter_OW_Style\Shooter_OW_Style.Build.cs
+C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Source\Shooter_OW_Style.Target.cs
+C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Source\Shooter_OW_StyleEditor.Target.cs

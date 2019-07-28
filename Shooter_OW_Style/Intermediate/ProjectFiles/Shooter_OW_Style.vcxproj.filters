@@ -1,46 +1,63 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\Shooter_OW_Style.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{C83322B0-FD82-4BC2-87E6-08F294DC7635}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\Shooter_OW_Style.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\Shooter_OW_StyleEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{AAFC526E-8EFE-4484-981C-D42EF3337C28}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\Shooter_OW_Style">
-			<UniqueIdentifier>{FC1A44E6-2314-42B5-826D-C9EEBF3FDDB2}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\Shooter_OW_Style\Shooter_OW_Style.Build.cs">
-			<Filter>Source\Shooter_OW_Style</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\Shooter_OW_Style\Shooter_OW_Style.cpp">
-			<Filter>Source\Shooter_OW_Style</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Shooter_OW_Style\Shooter_OW_Style.h">
-			<Filter>Source\Shooter_OW_Style</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Shooter_OW_Style\Shooter_OW_StyleGameModeBase.cpp">
-			<Filter>Source\Shooter_OW_Style</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Shooter_OW_Style\Shooter_OW_StyleGameModeBase.h">
-			<Filter>Source\Shooter_OW_Style</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Shooter_OW_Style.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{C83322B0-FD82-4BC2-87E6-08F294DC7635}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Shooter_OW_Style.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Shooter_OW_StyleEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{AAFC526E-8EFE-4484-981C-D42EF3337C28}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Shooter_OW_Style">
+      <UniqueIdentifier>{FC1A44E6-2314-42B5-826D-C9EEBF3FDDB2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Shooter_OW_Style\Shooter_OW_Style.Build.cs">
+      <Filter>Source\Shooter_OW_Style</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Shooter_OW_Style\Shooter_OW_Style.cpp">
+      <Filter>Source\Shooter_OW_Style</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Shooter_OW_Style\Shooter_OW_Style.h">
+      <Filter>Source\Shooter_OW_Style</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Shooter_OW_Style\Shooter_OW_StyleGameModeBase.cpp">
+      <Filter>Source\Shooter_OW_Style</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Shooter_OW_Style\Shooter_OW_StyleGameModeBase.h">
+      <Filter>Source\Shooter_OW_Style</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\Shooter_OW_Style\Public">
+      <UniqueIdentifier>{337201f6-3236-410c-90c8-f0b3f34a053f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Shooter_OW_Style\Private">
+      <UniqueIdentifier>{0f8ef44b-515a-46aa-bad8-a7d66a029664}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Shooter_OW_Style\Public\C_BaseCharacter.h">
+      <Filter>Source\Shooter_OW_Style\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Shooter_OW_Style\Private\C_BaseCharacter.cpp">
+      <Filter>Source\Shooter_OW_Style\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
