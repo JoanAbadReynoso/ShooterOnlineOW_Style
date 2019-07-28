@@ -1,0 +1,16 @@
+Personaje: 
+
+1 Modelaje 3D Personaje (Skeletal Mesh)
+
+Animaciones:
+
+1 de Caminar 
+1 de Correr
+1/2 de IDLE
+1 de Saltar
+1 de Agacharse
+	
+
+
+
+

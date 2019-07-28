@@ -570,8 +570,10 @@
     <None Include="..\..\Config\DefaultEngine.ini" />
     <None Include="..\..\Config\DefaultGame.ini" />
     <None Include="..\..\Source\Shooter_OW_Style\Shooter_OW_Style.Build.cs" />
+    <ClCompile Include="..\..\Source\Shooter_OW_Style\Private\A_BaseWeapon.cpp" />
     <ClCompile Include="..\..\Source\Shooter_OW_Style\Private\C_BaseCharacter.cpp" />
     <ClCompile Include="..\..\Source\Shooter_OW_Style\Shooter_OW_Style.cpp" />
+    <ClInclude Include="..\..\Source\Shooter_OW_Style\Public\A_BaseWeapon.h" />
     <ClInclude Include="..\..\Source\Shooter_OW_Style\Public\C_BaseCharacter.h" />
     <ClInclude Include="..\..\Source\Shooter_OW_Style\Shooter_OW_Style.h" />
     <ClCompile Include="..\..\Source\Shooter_OW_Style\Shooter_OW_StyleGameModeBase.cpp" />

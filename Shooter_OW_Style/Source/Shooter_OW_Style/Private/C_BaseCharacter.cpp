@@ -93,3 +93,13 @@ void AC_BaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 
 }
 
+FVector AC_BaseCharacter::GetPawnViewLocation() const
+{
+	if(CameraComp)
+	{
+		return CameraComp->GetComponentLocation();
+	}
+
+	return Super::GetPawnViewLocation();
+}
+

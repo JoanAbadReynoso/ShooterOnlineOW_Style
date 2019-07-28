@@ -50,4 +50,6 @@ public:
 
 	bool jumping = false;
 	
+	virtual FVector GetPawnViewLocation() const override;
+
 };

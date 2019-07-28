@@ -1,0 +1,1320 @@
+﻿Log file open, 07/28/19 18:27:33
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Shooter_OW_Style
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.244639
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.889s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 8.1 (), CPU: Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.07.28-16.27.34:295][  0]LogInit: Selected Device Profile: [Windows]
+[2019.07.28-16.27.34:296][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.07.28-16.27.34:305][  0]LogHAL: Display: Platform has ~ 16 GB [17137950720 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.07.28-16.27.34:305][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.07.28-16.27.34:305][  0]LogInit: Going up to parent DeviceProfile []
+[2019.07.28-16.27.34:362][  0]LogInit: Computer: JOANPC
+[2019.07.28-16.27.34:362][  0]LogInit: User: JoanAbad
+[2019.07.28-16.27.34:362][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.07.28-16.27.34:362][  0]LogInit: High frequency timer resolution =3.421872 MHz
+[2019.07.28-16.27.34:363][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.07.28-16.27.34:363][  0]LogMemory: Platform Memory Stats for Windows
+[2019.07.28-16.27.34:363][  0]LogMemory: Process Physical Memory: 99.88 MB used, 99.88 MB peak
+[2019.07.28-16.27.34:363][  0]LogMemory: Process Virtual Memory: 92.18 MB used, 92.18 MB peak
+[2019.07.28-16.27.34:363][  0]LogMemory: Physical Memory: 9236.80 MB used,  7107.22 MB free, 16344.02 MB total
+[2019.07.28-16.27.34:364][  0]LogMemory: Virtual Memory: 482.45 MB used,  7107.22 MB free, 134217728.00 MB total
+[2019.07.28-16.27.34:476][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.07.28-16.27.34:476][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.07.28-16.27.34:843][  0]LogStreaming: Display: Took  0.367s to InitEngineTextLocalization.
+[2019.07.28-16.27.34:843][  0]LogInit: Setting process to per monitor DPI aware
+[2019.07.28-16.27.34:884][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.07.28-16.27.34:884][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.07.28-16.27.35:022][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.07.28-16.27.35:022][  0]LogD3D11RHI: D3D11 adapters:
+[2019.07.28-16.27.35:102][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.07.28-16.27.35:102][  0]LogD3D11RHI:       8046/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.07.28-16.27.35:106][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.07.28-16.27.35:106][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.07.28-16.27.35:106][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.07.28-16.27.35:111][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.07.28-16.27.35:111][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2019.07.28-16.27.35:111][  0]LogWindows: EnumDisplayDevices:
+[2019.07.28-16.27.35:111][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2019.07.28-16.27.35:111][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2019.07.28-16.27.35:112][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.07.28-16.27.35:112][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.07.28-16.27.35:112][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.07.28-16.27.35:112][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.07.28-16.27.35:112][  0]LogD3D11RHI:   Driver Version: 431.60 (internal:26.21.14.3160, unified:431.60)
+[2019.07.28-16.27.35:112][  0]LogD3D11RHI:      Driver Date: 7-17-2019
+[2019.07.28-16.27.35:112][  0]LogRHI: Texture pool is 5632 MB (70% of 8046 MB)
+[2019.07.28-16.27.35:135][  0]LogD3D11RHI: Async texture creation enabled
+[2019.07.28-16.27.35:155][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.07.28-16.27.35:199][  0]LogShaderCompilers: Guid format shader working directory is -40 characters bigger than the processId version (../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Intermediate/Shaders/WorkingDirectory/12912/).
+[2019.07.28-16.27.35:199][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Joan Abad/AppData/Local/Temp/UnrealShaderWorkingDir/A0CF500F4CB79FFAD124B89A1AB72F56/'.
+[2019.07.28-16.27.35:432][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.07.28-16.27.35:447][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.07.28-16.27.35:462][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.07.28-16.27.35:476][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.07.28-16.27.35:501][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.07.28-16.27.35:516][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.07.28-16.27.35:540][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.07.28-16.27.35:557][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.07.28-16.27.35:564][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.07.28-16.27.35:642][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-16.27.35:642][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-16.27.35:642][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-16.27.35:643][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-16.27.35:643][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-16.27.35:643][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-16.27.35:643][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-16.27.35:643][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-16.27.35:643][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-16.27.35:643][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-16.27.35:643][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-16.27.35:643][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-16.27.35:643][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-16.27.35:643][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-16.27.35:643][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-16.27.35:643][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-16.27.35:643][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-16.27.35:643][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-16.27.35:645][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.07.28-16.27.35:707][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.07.28-16.27.35:707][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.07.28-16.27.35:730][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.07.28-16.27.35:731][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.07.28-16.27.35:743][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.07.28-16.27.35:770][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.07.28-16.27.35:797][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.07.28-16.27.35:810][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.07.28-16.27.35:820][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.07.28-16.27.35:820][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.07.28-16.27.35:962][  0]LogXGEController: Cleaning working directory: C:/Users/Joan Abad/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.07.28-16.27.36:032][  0]LogShaderCompilers: Display: Using XGE Shader Compiler (Interception Interface).
+[2019.07.28-16.27.36:772][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.07.28-16.27.37:402][  0]LogDerivedDataCache: Loaded boot cache 0.63s 71MB C:/Users/Joan Abad/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.07.28-16.27.37:403][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Joan Abad/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.07.28-16.27.37:403][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.07.28-16.27.37:403][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.07.28-16.27.37:403][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.07.28-16.27.37:403][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.07.28-16.27.37:419][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.07.28-16.27.37:432][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Joan Abad/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.07.28-16.27.37:432][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.07.28-16.27.37:432][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.07.28-16.27.37:452][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.07.28-16.27.37:453][  0]LogSlate: Using FreeType 2.6.0
+[2019.07.28-16.27.37:454][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.07.28-16.27.37:525][  0]LogAssetRegistry: FAssetRegistry took 0.0281 seconds to start up
+[2019.07.28-16.27.37:816][  0]LogInit: Selected Device Profile: [Windows]
+[2019.07.28-16.27.37:995][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.07.28-16.27.38:022][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.07.28-16.27.38:022][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.07.28-16.27.38:022][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.07.28-16.27.38:022][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.07.28-16.27.38:046][  0]LogNetVersion: Shooter_OW_Style 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1206910907)
+[2019.07.28-16.27.38:564][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.066108 seconds
+[2019.07.28-16.27.38:570][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.07.28-16.27.38:571][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.07.28-16.27.38:571][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.07.28-16.27.39:685][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.07.28-16.27.39:707][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.07.28-16.27.40:053][  0]SourceControl: Source control is disabled
+[2019.07.28-16.27.40:053][  0]SourceControl: Source control is disabled
+[2019.07.28-16.27.40:066][  0]SourceControl: Source control is disabled
+[2019.07.28-16.27.40:069][  0]SourceControl: Source control is disabled
+[2019.07.28-16.27.40:473][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.07.28-16.27.40:594][  0]LogOcInput: OculusInput pre-init called
+[2019.07.28-16.27.40:661][  0]LogEngine: Initializing Engine...
+[2019.07.28-16.27.40:662][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.07.28-16.27.40:663][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.07.28-16.27.40:663][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.07.28-16.27.40:663][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.07.28-16.27.40:663][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.07.28-16.27.40:915][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.07.28-16.27.40:935][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.07.28-16.27.40:960][  0]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.28-16.27.40:967][  0]LogInit: FAudioDevice initialized.
+[2019.07.28-16.27.40:968][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.07.28-16.27.41:112][  0]LogDerivedDataCache: Saved boot cache 0.14s 71MB C:/Users/Joan Abad/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.07.28-16.27.41:117][  0]LogInit: Texture streaming: Enabled
+[2019.07.28-16.27.41:136][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.07.28-16.27.41:146][  0]LogInit: Transaction tracking system initialized
+[2019.07.28-16.27.41:173][  0]BlueprintLog: New page: Editor Load
+[2019.07.28-16.27.41:282][  0]LocalizationService: Localization service is disabled
+[2019.07.28-16.27.41:543][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2019.07.28-16.27.41:543][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2019.07.28-16.27.41:543][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2019.07.28-16.27.41:721][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.07.28-16.27.41:722][  0]LogCook: Display: Mobile HDR setting 1
+[2019.07.28-16.27.41:722][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.07.28-16.27.41:722][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.07.28-16.27.41:722][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.07.28-16.27.41:722][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.07.28-16.27.41:722][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.07.28-16.27.41:755][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/' took 0.01s
+[2019.07.28-16.27.41:997][  0]SourceControl: Source control is disabled
+[2019.07.28-16.27.41:997][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.07.28-16.27.41:998][  0]LightingResults: New page: Lighting Build
+[2019.07.28-16.27.42:000][  0]MapCheck: New page: Map Check
+[2019.07.28-16.27.42:000][  0]LightingResults: New page: Lighting Build
+[2019.07.28-16.27.42:790][  0]LogAIModule: Creating AISystem for world FirstMap
+[2019.07.28-16.27.42:797][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.07.28-16.27.42:832][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.07.28-16.27.42:887][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.79ms to complete.
+[2019.07.28-16.27.42:887][  0]LogFileHelpers: Loading map 'FirstMap' took 0.889
+[2019.07.28-16.27.42:980][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.28-16.27.42:987][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.28-16.27.42:994][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.28-16.27.43:001][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.28-16.27.43:007][  0]LogCollectionManager: Loaded 0 collections in 0.001309 seconds
+[2019.07.28-16.27.43:054][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Collections/' took 0.01s
+[2019.07.28-16.27.43:054][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Developers/JoanAbad/Collections/' took 0.01s
+[2019.07.28-16.27.43:054][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Collections/' took 0.01s
+[2019.07.28-16.27.43:054][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.07.28-16.27.43:065][  0]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2575 classes and 606 folders.
+[2019.07.28-16.27.43:074][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.07.28-16.27.43:105][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.07.28-16.27.43:112][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.07.28-16.27.43:180][  0]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.07.28-16.27.43:182][  0]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.07.28-16.27.43:188][  0]LogSlate: Took 0.000463 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.07.28-16.27.43:282][  0]LogRenderer: Reallocating scene render targets to support 1716x884 Format 10 NumSamples 1 (Frame:1).
+[2019.07.28-16.27.43:473][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.07.28-16.27.43:474][  0]LogLoad: (Engine Initialization) Total time: 11.40 seconds
+[2019.07.28-16.27.43:474][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.07.28-16.27.43:504][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.07.28-16.27.43:553][  1]LogAssetRegistry: Asset discovery search completed in 6.0524 seconds
+[2019.07.28-16.27.43:555][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.07.28-16.27.43:555][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000165 seconds (updated 0 objects)
+[2019.07.28-16.27.48:242][127]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-16.28.27:258][765]LogLinker: Warning: Can't find file '/Game/Weapons/Crosshairs/M_Crosshairs_MultiHolo_Scanline'
+[2019.07.28-16.28.27:259][765]LogLinker: Warning: Can't find file for asset '/Game/Weapons/Crosshairs/M_Crosshairs_MultiHolo_Scanline' while loading ../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Art/Weapons/Rifle/SK_Rifle.uasset.
+[2019.07.28-16.28.27:259][765]LoadErrors: Error: /Game/Art/Weapons/Rifle/SK_Rifle : Can't find file for asset. /Game/Weapons/Crosshairs/M_Crosshairs_MultiHolo_Scanline
+[2019.07.28-16.28.27:259][765]LogLinker: Warning: Can't find file '/Game/Weapons/MI_Rifle01'
+[2019.07.28-16.28.27:259][765]LogLinker: Warning: Can't find file for asset '/Game/Weapons/MI_Rifle01' while loading ../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Art/Weapons/Rifle/SK_Rifle.uasset.
+[2019.07.28-16.28.27:259][765]LoadErrors: Error: /Game/Art/Weapons/Rifle/SK_Rifle : Can't find file for asset. /Game/Weapons/MI_Rifle01
+[2019.07.28-16.28.27:259][765]LogLinker: Warning: Can't find file '/Game/Weapons/MI_Rifle02'
+[2019.07.28-16.28.27:260][765]LogLinker: Warning: Can't find file for asset '/Game/Weapons/MI_Rifle02' while loading ../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Art/Weapons/Rifle/SK_Rifle.uasset.
+[2019.07.28-16.28.27:260][765]LoadErrors: Error: /Game/Art/Weapons/Rifle/SK_Rifle : Can't find file for asset. /Game/Weapons/MI_Rifle02
+[2019.07.28-16.28.27:260][765]LogLinker: Warning: Can't find file '/Game/Weapons/Crosshairs/M_Crosshairs_MultiHolo_Scanline'
+[2019.07.28-16.28.27:260][765]LogLinker: Warning: Can't find file for asset '/Game/Weapons/Crosshairs/M_Crosshairs_MultiHolo_Scanline' while loading ../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Art/Weapons/Rifle/SK_Rifle.uasset.
+[2019.07.28-16.28.27:260][765]LogLinker: Warning: Can't find file '/Game/Weapons/MI_Rifle01'
+[2019.07.28-16.28.27:260][765]LogLinker: Warning: Can't find file for asset '/Game/Weapons/MI_Rifle01' while loading ../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Art/Weapons/Rifle/SK_Rifle.uasset.
+[2019.07.28-16.28.27:261][765]LogLinker: Warning: Can't find file '/Game/Weapons/MI_Rifle02'
+[2019.07.28-16.28.27:261][765]LogLinker: Warning: Can't find file for asset '/Game/Weapons/MI_Rifle02' while loading ../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Art/Weapons/Rifle/SK_Rifle.uasset.
+[2019.07.28-16.28.27:261][765]LogLinker: Warning: Can't find file '/Game/Weapons/SK_Rifle_Skeleton'
+[2019.07.28-16.28.27:261][765]LogLinker: Warning: Can't find file for asset '/Game/Weapons/SK_Rifle_Skeleton' while loading ../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Art/Weapons/Rifle/SK_Rifle.uasset.
+[2019.07.28-16.28.27:261][765]LoadErrors: Error: /Game/Art/Weapons/Rifle/SK_Rifle : Can't find file for asset. /Game/Weapons/SK_Rifle_Skeleton
+[2019.07.28-16.28.27:261][765]LogLinker: Warning: Can't find file '/Game/Weapons/SK_Rifle_Skeleton'
+[2019.07.28-16.28.27:261][765]LogLinker: Warning: Can't find file for asset '/Game/Weapons/SK_Rifle_Skeleton' while loading ../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Art/Weapons/Rifle/SK_Rifle.uasset.
+[2019.07.28-16.28.27:262][765]LogLinker: Warning: Can't find file '/Game/Weapons/SK_Rifle_Skeleton'
+[2019.07.28-16.28.27:262][765]LoadErrors: Failed to load /Game/Weapons/SK_Rifle_Skeleton.SK_Rifle_Skeleton Referenced by SK_Rifle
+[2019.07.28-16.28.27:263][765]LogLinker: Warning: Can't find file for asset '/Game/Weapons/SK_Rifle_Skeleton' while loading NULL.
+[2019.07.28-16.28.27:263][765]LogLinker: Warning: Can't find file '/Game/Weapons/MI_Rifle01'
+[2019.07.28-16.28.27:263][765]LoadErrors: Failed to load /Game/Weapons/MI_Rifle01.MI_Rifle01 Referenced by SK_Rifle
+[2019.07.28-16.28.27:263][765]LogLinker: Warning: Can't find file for asset '/Game/Weapons/MI_Rifle01' while loading NULL.
+[2019.07.28-16.28.27:263][765]LogLinker: Warning: Can't find file '/Game/Weapons/MI_Rifle02'
+[2019.07.28-16.28.27:263][765]LoadErrors: Failed to load /Game/Weapons/MI_Rifle02.MI_Rifle02 Referenced by SK_Rifle
+[2019.07.28-16.28.27:264][765]LogLinker: Warning: Can't find file for asset '/Game/Weapons/MI_Rifle02' while loading NULL.
+[2019.07.28-16.28.27:264][765]LogLinker: Warning: Can't find file '/Game/Weapons/Crosshairs/M_Crosshairs_MultiHolo_Scanline'
+[2019.07.28-16.28.27:264][765]LoadErrors: Failed to load /Game/Weapons/Crosshairs/M_Crosshairs_MultiHolo_Scanline.M_Crosshairs_MultiHolo_Scanline Referenced by SK_Rifle
+[2019.07.28-16.28.27:264][765]LogLinker: Warning: Can't find file for asset '/Game/Weapons/Crosshairs/M_Crosshairs_MultiHolo_Scanline' while loading NULL.
+[2019.07.28-16.28.27:281][765]LogSkeletalMesh: Building Skeletal Mesh SK_Rifle...
+[2019.07.28-16.28.27:311][765]LogSkeletalMesh: Built Skeletal Mesh [0.03s] /Game/Art/Weapons/Rifle/SK_Rifle.SK_Rifle
+[2019.07.28-16.28.27:322][765]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.07.28-16.28.27:329][765]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/Art/Weapons/Rifle/SK_Rifle.SK_Rifle
+[2019.07.28-16.28.30:275][765]LogSlate: Window 'Message' being destroyed
+[2019.07.28-16.28.30:294][765]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.07.28-16.28.30:518][765]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.28-16.28.30:521][765]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0004 seconds. Added 1 classes and 0 folders.
+[2019.07.28-16.28.30:816][765]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.07.28-16.28.30:896][765]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2019.07.28-16.28.30:900][765]LogRenderer: Reallocating scene render targets to support 1716x1248 Format 10 NumSamples 1 (Frame:1).
+[2019.07.28-16.28.39:161][576]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-16.28.40:507][713]LogSlate: Window 'SK_Rifle*' being destroyed
+[2019.07.28-16.28.41:610][833]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/SK_Rifle85DFE5A94763927AC307119058626E01.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Art/Weapons/Rifle/SK_Rifle.uasset'
+[2019.07.28-16.28.46:030][338]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/Art/Weapons/Rifle/SK_Rifle_Skeleton1.SK_Rifle_Skeleton1
+[2019.07.28-16.28.46:048][338]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.28-16.28.52:057][828]LogSlate: Window 'Delete Assets' being destroyed
+[2019.07.28-16.29.06:813][445]LogLinker: Warning: Can't find file '/Game/Weapons/M_Weapon01'
+[2019.07.28-16.29.06:814][445]LogLinker: Warning: Can't find file for asset '/Game/Weapons/M_Weapon01' while loading ../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Art/Weapons/Rifle/MI_Rifle01.uasset.
+[2019.07.28-16.29.06:814][445]LoadErrors: Error: /Game/Art/Weapons/Rifle/MI_Rifle01 : Can't find file for asset. /Game/Weapons/M_Weapon01
+[2019.07.28-16.29.06:814][445]LogLinker: Warning: Can't find file '/Game/Weapons/M_Weapon01'
+[2019.07.28-16.29.06:814][445]LogLinker: Warning: Can't find file for asset '/Game/Weapons/M_Weapon01' while loading ../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Art/Weapons/Rifle/MI_Rifle01.uasset.
+[2019.07.28-16.29.06:814][445]LogLinker: Warning: Can't find file '/Game/Weapons/MagGun_01_N'
+[2019.07.28-16.29.06:814][445]LogLinker: Warning: Can't find file for asset '/Game/Weapons/MagGun_01_N' while loading ../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Art/Weapons/Rifle/MI_Rifle01.uasset.
+[2019.07.28-16.29.06:814][445]LoadErrors: Error: /Game/Art/Weapons/Rifle/MI_Rifle01 : Can't find file for asset. /Game/Weapons/MagGun_01_N
+[2019.07.28-16.29.06:815][445]LogLinker: Warning: Can't find file '/Game/Weapons/MagGun_01_N'
+[2019.07.28-16.29.06:815][445]LogLinker: Warning: Can't find file for asset '/Game/Weapons/MagGun_01_N' while loading ../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Art/Weapons/Rifle/MI_Rifle01.uasset.
+[2019.07.28-16.29.06:815][445]LogLinker: Warning: Can't find file '/Game/Weapons/M_Weapon01'
+[2019.07.28-16.29.06:815][445]LoadErrors: Failed to load /Game/Weapons/M_Weapon01.M_Weapon01 Referenced by MI_Rifle01
+[2019.07.28-16.29.06:815][445]LogLinker: Warning: Can't find file for asset '/Game/Weapons/M_Weapon01' while loading NULL.
+[2019.07.28-16.29.06:815][445]LogLinker: Warning: Can't find file '/Game/Weapons/MagGun_01_N'
+[2019.07.28-16.29.06:816][445]LoadErrors: Failed to load /Game/Weapons/MagGun_01_N.MagGun_01_N Referenced by MI_Rifle01
+[2019.07.28-16.29.06:816][445]LogLinker: Warning: Can't find file for asset '/Game/Weapons/MagGun_01_N' while loading NULL.
+[2019.07.28-16.29.06:823][445]LogSkeletalMesh: Building Skeletal Mesh SK_Rifle...
+[2019.07.28-16.29.06:854][445]LogSkeletalMesh: Built Skeletal Mesh [0.03s] /Game/Art/Weapons/Rifle/SK_Rifle.SK_Rifle
+[2019.07.28-16.29.11:551][980]LogLinker: Warning: Can't find file '/Game/Weapons/M_Weapon01'
+[2019.07.28-16.29.11:552][980]LogLinker: Warning: Can't find file for asset '/Game/Weapons/M_Weapon01' while loading ../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Art/Weapons/Rifle/MI_Rifle02.uasset.
+[2019.07.28-16.29.11:552][980]LoadErrors: Error: /Game/Art/Weapons/Rifle/MI_Rifle02 : Can't find file for asset. /Game/Weapons/M_Weapon01
+[2019.07.28-16.29.11:552][980]LogLinker: Warning: Can't find file '/Game/Weapons/M_Weapon01'
+[2019.07.28-16.29.11:552][980]LogLinker: Warning: Can't find file for asset '/Game/Weapons/M_Weapon01' while loading ../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Art/Weapons/Rifle/MI_Rifle02.uasset.
+[2019.07.28-16.29.11:552][980]LogLinker: Warning: Can't find file '/Game/Weapons/MagGun_02_N'
+[2019.07.28-16.29.11:552][980]LogLinker: Warning: Can't find file for asset '/Game/Weapons/MagGun_02_N' while loading ../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Art/Weapons/Rifle/MI_Rifle02.uasset.
+[2019.07.28-16.29.11:552][980]LoadErrors: Error: /Game/Art/Weapons/Rifle/MI_Rifle02 : Can't find file for asset. /Game/Weapons/MagGun_02_N
+[2019.07.28-16.29.11:553][980]LogLinker: Warning: Can't find file '/Game/Weapons/MagGun_02_N'
+[2019.07.28-16.29.11:553][980]LogLinker: Warning: Can't find file for asset '/Game/Weapons/MagGun_02_N' while loading ../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Art/Weapons/Rifle/MI_Rifle02.uasset.
+[2019.07.28-16.29.11:553][980]LogLinker: Warning: Can't find file '/Game/Weapons/M_Weapon01'
+[2019.07.28-16.29.11:553][980]LoadErrors: Failed to load /Game/Weapons/M_Weapon01.M_Weapon01 Referenced by MI_Rifle02
+[2019.07.28-16.29.11:553][980]LogLinker: Warning: Can't find file for asset '/Game/Weapons/M_Weapon01' while loading NULL.
+[2019.07.28-16.29.11:554][980]LogLinker: Warning: Can't find file '/Game/Weapons/MagGun_02_N'
+[2019.07.28-16.29.11:554][980]LoadErrors: Failed to load /Game/Weapons/MagGun_02_N.MagGun_02_N Referenced by MI_Rifle02
+[2019.07.28-16.29.11:554][980]LogLinker: Warning: Can't find file for asset '/Game/Weapons/MagGun_02_N' while loading NULL.
+[2019.07.28-16.29.11:560][980]LogSkeletalMesh: Building Skeletal Mesh SK_Rifle...
+[2019.07.28-16.29.11:589][980]LogSkeletalMesh: Built Skeletal Mesh [0.03s] /Game/Art/Weapons/Rifle/SK_Rifle.SK_Rifle
+[2019.07.28-16.29.13:054][142]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/SK_RifleCD0C47C146A63BC5A79EFF8909AE0832.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Art/Weapons/Rifle/SK_Rifle.uasset'
+[2019.07.28-16.29.14:488][293]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Art/Weapons/Rifle/MI_Rifle01.MI_Rifle01
+[2019.07.28-16.29.14:695][293]LogRenderer: Reallocating scene render targets to support 1784x1284 Format 10 NumSamples 1 (Frame:1).
+[2019.07.28-16.29.43:882][ 33]LogLinker: Warning: Can't find file '/Game/Weapons/MagGun_01_N'
+[2019.07.28-16.29.43:882][ 33]LogLinker: Warning: Can't find file for asset '/Game/Weapons/MagGun_01_N' while loading ../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Art/Weapons/Rifle/M_Weapon01.uasset.
+[2019.07.28-16.29.43:882][ 33]LoadErrors: Error: /Game/Art/Weapons/Rifle/M_Weapon01 : Can't find file for asset. /Game/Weapons/MagGun_01_N
+[2019.07.28-16.29.43:883][ 33]LogLinker: Warning: Can't find file '/Game/Weapons/MagGun_01_N'
+[2019.07.28-16.29.43:883][ 33]LogLinker: Warning: Can't find file for asset '/Game/Weapons/MagGun_01_N' while loading ../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Art/Weapons/Rifle/M_Weapon01.uasset.
+[2019.07.28-16.29.43:884][ 33]LogLinker: Warning: Can't find file '/Game/Weapons/MagGun_01_N'
+[2019.07.28-16.29.43:884][ 33]LoadErrors: Failed to load /Game/Weapons/MagGun_01_N.MagGun_01_N Referenced by MaterialExpressionTextureSampleParameter2D_1
+[2019.07.28-16.29.43:884][ 33]LogLinker: Warning: Can't find file for asset '/Game/Weapons/MagGun_01_N' while loading NULL.
+[2019.07.28-16.29.43:886][ 33]LogMaterial: Display: Missing cached shader map for material M_Weapon01, compiling. 
+[2019.07.28-16.29.43:887][ 33]LogMaterial: Warning: C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Content\Art\Weapons\Rifle\M_Weapon01.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.07.28-16.29.43:887][ 33]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2019.07.28-16.29.49:388][664]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.28-16.30.31:485][956]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-16.30.31:726][968]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MI_Rifle01, compiling. 
+[2019.07.28-16.30.31:726][968]TextureStreamingBuild: Display: Compiling optional shaders took 0.075 seconds.
+[2019.07.28-16.30.31:777][968]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/MI_Rifle01D5A977094E0A0D8144A7518E721D86AF.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Art/Weapons/Rifle/MI_Rifle01.uasset'
+[2019.07.28-16.30.44:549][462]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-16.31.01:620][415]LogAssetEditorManager: Opening Asset editor for Material /Game/Art/Weapons/Rifle/M_Weapon01.M_Weapon01
+[2019.07.28-16.31.01:623][415]LogMaterial: Display: Missing cached shader map for material M_Weapon01, compiling. 
+[2019.07.28-16.31.01:624][415]LogMaterial: Warning: /Engine/Transient.M_Weapon01 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.07.28-16.31.01:624][415]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2019.07.28-16.31.01:754][415]LogMaterial: Display: Missing cached shader map for material M_Weapon01, compiling. 
+[2019.07.28-16.31.01:755][415]LogMaterial: Warning: /Engine/Transient.M_Weapon01 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.07.28-16.31.01:755][415]LogMaterial: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2019.07.28-16.31.01:802][415]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.07.28-16.31.01:812][415]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2019.07.28-16.31.01:848][415]MaterialEditorStats: Error: [SM5] (Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2019.07.28-16.31.01:854][415]LogSlate: Took 0.000155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.07.28-16.31.12:705][663]LogMaterial: Display: Missing cached shader map for material M_Weapon01, compiling. 
+[2019.07.28-16.31.12:767][663]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2019.07.28-16.31.12:798][663]LogMaterial: Display: Missing cached shader map for material M_Weapon01, compiling. 
+[2019.07.28-16.31.14:077][805]LogMaterialEditor: Applying material M_Weapon01
+[2019.07.28-16.31.14:607][805]LogMaterial: Display: Missing cached shader map for material M_Weapon01, compiling. 
+[2019.07.28-16.31.14:709][805]LogMaterial: Display: Missing cached shader map for material M_Weapon01, compiling. 
+[2019.07.28-16.31.14:745][805]LogMaterial: Display: Missing cached shader map for material M_Weapon01, compiling. 
+[2019.07.28-16.31.14:826][805]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Weapon01, compiling. 
+[2019.07.28-16.32.11:364][805]TextureStreamingBuild: Display: Compiling optional shaders took 56.543 seconds.
+[2019.07.28-16.32.11:474][805]MaterialEditorStats: Base pass shader: 113 instructions
+[2019.07.28-16.32.11:474][805]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 187 instructions
+[2019.07.28-16.32.11:474][805]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.07.28-16.32.11:474][805]MaterialEditorStats: Base pass vertex shader: 88 instructions
+[2019.07.28-16.32.11:474][805]MaterialEditorStats: Texture samplers: 4/16
+[2019.07.28-16.32.11:474][805]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.07.28-16.32.11:475][805]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.07.28-16.32.53:702][728]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-16.32.54:855][861]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Art/Weapons/Rifle/MI_Rifle02.MI_Rifle02
+[2019.07.28-16.33.02:224][689]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MI_Rifle02, compiling. 
+[2019.07.28-16.33.03:034][689]TextureStreamingBuild: Display: Compiling optional shaders took 0.812 seconds.
+[2019.07.28-16.33.03:077][689]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/MI_Rifle02382B9C184FD5995E14BADCA2EBF62DBC.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Art/Weapons/Rifle/MI_Rifle02.uasset'
+[2019.07.28-16.33.03:901][781]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/SK_Rifle_Skeleton176B54B48425B304EC0D5699078B7A205.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Art/Weapons/Rifle/SK_Rifle_Skeleton1.uasset'
+[2019.07.28-16.33.03:944][781]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/M_Weapon01780E7A3743C5EF3C37AA978FC1A35CD1.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Art/Weapons/Rifle/M_Weapon01.uasset'
+[2019.07.28-16.33.26:939][463]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-16.33.45:928][678]LogRenderer: Reallocating scene render targets to support 2676x1928 Format 10 NumSamples 1 (Frame:9).
+[2019.07.28-16.33.58:700][162]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MI_Rifle02, compiling. 
+[2019.07.28-16.33.59:510][162]TextureStreamingBuild: Display: Compiling optional shaders took 0.814 seconds.
+[2019.07.28-16.33.59:547][162]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/MI_Rifle02B3C8078C4CF7FFBEEAFD3281F53E01BC.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Art/Weapons/Rifle/MI_Rifle02.uasset'
+[2019.07.28-16.34.07:931][ 26]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-16.34.17:533][116]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.28-16.34.22:222][665]LogSkeletalMesh: Building Skeletal Mesh SK_Rifle...
+[2019.07.28-16.34.22:252][665]LogSkeletalMesh: Built Skeletal Mesh [0.03s] /Game/Art/Weapons/Rifle/SK_Rifle.SK_Rifle
+[2019.07.28-16.34.24:280][902]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.28-16.34.26:196][ 56]LogSkeletalMesh: Building Skeletal Mesh SK_Rifle...
+[2019.07.28-16.34.26:226][ 56]LogSkeletalMesh: Built Skeletal Mesh [0.03s] /Game/Art/Weapons/Rifle/SK_Rifle.SK_Rifle
+[2019.07.28-16.34.30:870][576]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.28-16.34.34:941][ 51]LogSkeletalMesh: Building Skeletal Mesh SK_Rifle...
+[2019.07.28-16.34.34:970][ 51]LogSkeletalMesh: Built Skeletal Mesh [0.03s] /Game/Art/Weapons/Rifle/SK_Rifle.SK_Rifle
+[2019.07.28-16.34.37:714][349]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.28-16.34.40:790][686]LogSkeletalMesh: Building Skeletal Mesh SK_Rifle...
+[2019.07.28-16.34.40:819][686]LogSkeletalMesh: Built Skeletal Mesh [0.04s] /Game/Art/Weapons/Rifle/SK_Rifle.SK_Rifle
+[2019.07.28-16.34.43:951][ 27]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-16.34.44:153][ 42]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/SK_RifleADF13C4D48BB04108011DE8A4A66D6A4.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Art/Weapons/Rifle/SK_Rifle.uasset'
+[2019.07.28-16.34.44:930][129]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-16.34.50:803][334]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-16.34.51:014][334]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Programming/Character/Base_Character.Base_Character
+[2019.07.28-16.34.51:442][334]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2019.07.28-16.35.04:500][ 61]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Programming/Weapons/BP_Rifle.BP_Rifle
+[2019.07.28-16.35.09:197][573]BlueprintLog: New page: Compile BP_Rifle
+[2019.07.28-16.35.09:449][573]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/BP_RifleC5AFF4D642CE74AF93049486CF8DEF06.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Weapons/BP_Rifle.uasset'
+[2019.07.28-16.35.11:090][754]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.07.28-16.35.11:106][754]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.28-16.35.11:119][754]PIE: New page: PIE session: FirstMap (Jul 28, 2019, 8:35:11 PM)
+[2019.07.28-16.35.11:119][754]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
+[2019.07.28-16.35.11:123][754]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002997s)
+[2019.07.28-16.35.11:123][754]LogAIModule: Creating AISystem for world FirstMap
+[2019.07.28-16.35.11:124][754]LogPlayLevel: PIE: World Init took: (0.000923s)
+[2019.07.28-16.35.11:124][754]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.004221s)
+[2019.07.28-16.35.11:156][754]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.28-16.35.11:161][754]LogInit: FAudioDevice initialized.
+[2019.07.28-16.35.11:169][754]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.28-16.35.11:276][754]LogLoad: Game class is 'GameModeBase'
+[2019.07.28-16.35.11:278][754]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.07.28-18.35.11
+[2019.07.28-16.35.11:278][754]LogWorld: Bringing up level for play took: 0.001542
+[2019.07.28-16.35.11:295][754]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2019.07.28-16.35.11:299][754]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap 0.112
+[2019.07.28-16.35.14:575][129]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.28-16.35.14:590][129]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.07.28-16.35.14:628][129]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.28-16.35.14:727][131]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.07.28-16.35.30:962][930]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin
+[2019.07.28-16.35.30:979][930]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.28-16.35.30:987][930]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.07.28-16.35.32:820][ 86]LogAssetEditorManager: Opening Asset editor for Skeleton /Game/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton
+[2019.07.28-16.35.32:829][ 86]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.28-16.35.32:839][ 86]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.07.28-16.35.48:772][802]LogLinker: Warning: Can't find file '/Game/Weapons/MI_Launcher01'
+[2019.07.28-16.35.48:772][802]LogLinker: Warning: Can't find file for asset '/Game/Weapons/MI_Launcher01' while loading ../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Art/Weapons/Rifle/Launcher.uasset.
+[2019.07.28-16.35.48:772][802]LoadErrors: Error: /Game/Art/Weapons/Rifle/Launcher : Can't find file for asset. /Game/Weapons/MI_Launcher01
+[2019.07.28-16.35.48:772][802]LogLinker: Warning: Can't find file '/Game/Weapons/MI_Launcher02'
+[2019.07.28-16.35.48:772][802]LogLinker: Warning: Can't find file for asset '/Game/Weapons/MI_Launcher02' while loading ../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Art/Weapons/Rifle/Launcher.uasset.
+[2019.07.28-16.35.48:772][802]LoadErrors: Error: /Game/Art/Weapons/Rifle/Launcher : Can't find file for asset. /Game/Weapons/MI_Launcher02
+[2019.07.28-16.35.48:772][802]LogLinker: Warning: Can't find file '/Game/Weapons/Launcher_Skeleton'
+[2019.07.28-16.35.48:773][802]LogLinker: Warning: Can't find file for asset '/Game/Weapons/Launcher_Skeleton' while loading ../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Art/Weapons/Rifle/Launcher.uasset.
+[2019.07.28-16.35.48:773][802]LoadErrors: Error: /Game/Art/Weapons/Rifle/Launcher : Can't find file for asset. /Game/Weapons/Launcher_Skeleton
+[2019.07.28-16.35.48:773][802]LogLinker: Warning: Can't find file '/Game/Weapons/MI_Launcher01'
+[2019.07.28-16.35.48:773][802]LogLinker: Warning: Can't find file for asset '/Game/Weapons/MI_Launcher01' while loading ../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Art/Weapons/Rifle/Launcher.uasset.
+[2019.07.28-16.35.48:773][802]LogLinker: Warning: Can't find file '/Game/Weapons/MI_Launcher02'
+[2019.07.28-16.35.48:773][802]LogLinker: Warning: Can't find file for asset '/Game/Weapons/MI_Launcher02' while loading ../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Art/Weapons/Rifle/Launcher.uasset.
+[2019.07.28-16.35.48:774][802]LogLinker: Warning: Can't find file '/Game/Weapons/Launcher_Skeleton'
+[2019.07.28-16.35.48:774][802]LogLinker: Warning: Can't find file for asset '/Game/Weapons/Launcher_Skeleton' while loading ../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Art/Weapons/Rifle/Launcher.uasset.
+[2019.07.28-16.35.48:775][802]LogLinker: Warning: Can't find file '/Game/Weapons/Launcher_Skeleton'
+[2019.07.28-16.35.48:776][802]LoadErrors: Failed to load /Game/Weapons/Launcher_Skeleton.Launcher_Skeleton Referenced by Launcher
+[2019.07.28-16.35.48:776][802]LogLinker: Warning: Can't find file for asset '/Game/Weapons/Launcher_Skeleton' while loading NULL.
+[2019.07.28-16.35.48:776][802]LogLinker: Warning: Can't find file '/Game/Weapons/MI_Launcher02'
+[2019.07.28-16.35.48:777][802]LoadErrors: Failed to load /Game/Weapons/MI_Launcher02.MI_Launcher02 Referenced by Launcher
+[2019.07.28-16.35.48:777][802]LogLinker: Warning: Can't find file for asset '/Game/Weapons/MI_Launcher02' while loading NULL.
+[2019.07.28-16.35.48:777][802]LogLinker: Warning: Can't find file '/Game/Weapons/MI_Launcher01'
+[2019.07.28-16.35.48:777][802]LoadErrors: Failed to load /Game/Weapons/MI_Launcher01.MI_Launcher01 Referenced by Launcher
+[2019.07.28-16.35.48:778][802]LogLinker: Warning: Can't find file for asset '/Game/Weapons/MI_Launcher01' while loading NULL.
+[2019.07.28-16.35.48:802][802]LogSkeletalMesh: Building Skeletal Mesh Launcher...
+[2019.07.28-16.35.48:835][802]LogSkeletalMesh: Built Skeletal Mesh [0.03s] /Game/Art/Weapons/Rifle/Launcher.Launcher
+[2019.07.28-16.35.48:853][802]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-16.35.52:637][206]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-16.35.56:491][639]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-16.35.57:460][738]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-16.35.58:749][879]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-16.36.01:044][146]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-16.36.11:837][402]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-16.36.13:651][406]LogSlate: Window 'Delete Assets' being destroyed
+[2019.07.28-16.36.13:761][418]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-16.36.22:020][ 99]LogSlate: Window 'Message' being destroyed
+[2019.07.28-16.36.33:489][336]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-16.36.41:873][869]LogSlate: Window 'Message' being destroyed
+[2019.07.28-16.36.53:570][205]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-16.36.56:535][547]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-16.37.02:065][149]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-16.37.13:338][873]Cmd: TRANSACTION UNDO
+[2019.07.28-16.37.13:338][873]LogEditorTransaction: Undo Rotate Bone
+[2019.07.28-16.37.13:531][873]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.28-16.37.13:581][873]LogMaterial: Display: Missing cached shader map for material M_Weapon01, compiling. 
+[2019.07.28-16.37.13:648][873]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.07.28-16.37.14:874][  2]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-16.37.32:343][768]MaterialEditorStats: Base pass shader: 113 instructions
+[2019.07.28-16.37.32:343][768]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 187 instructions
+[2019.07.28-16.37.32:343][768]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.07.28-16.37.32:343][768]MaterialEditorStats: Base pass vertex shader: 88 instructions
+[2019.07.28-16.37.32:343][768]MaterialEditorStats: Texture samplers: 4/16
+[2019.07.28-16.37.32:343][768]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.07.28-16.37.32:343][768]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.07.28-16.37.36:463][915]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-16.38.18:847][  8]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-16.38.18:935][ 15]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/UE4_Mannequin_Skeleton58DD8D744E94389090CE4797EBA15407.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2019.07.28-16.38.21:207][276]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.07.28-16.38.21:224][276]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.28-16.38.21:224][276]PIE: New page: PIE session: FirstMap (Jul 28, 2019, 8:38:21 PM)
+[2019.07.28-16.38.21:224][276]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
+[2019.07.28-16.38.21:227][276]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002450s)
+[2019.07.28-16.38.21:227][276]LogAIModule: Creating AISystem for world FirstMap
+[2019.07.28-16.38.21:228][276]LogPlayLevel: PIE: World Init took: (0.000929s)
+[2019.07.28-16.38.21:228][276]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.003681s)
+[2019.07.28-16.38.21:263][276]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.28-16.38.21:269][276]LogInit: FAudioDevice initialized.
+[2019.07.28-16.38.21:279][276]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.28-16.38.21:375][276]LogLoad: Game class is 'GameModeBase'
+[2019.07.28-16.38.21:376][276]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.07.28-18.38.21
+[2019.07.28-16.38.21:377][276]LogWorld: Bringing up level for play took: 0.001405
+[2019.07.28-16.38.21:395][276]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap 0.208
+[2019.07.28-16.38.24:484][625]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.28-16.38.24:498][625]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.07.28-16.38.24:540][625]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.28-16.38.24:588][626]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.07.28-16.38.26:679][864]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.28-16.38.26:679][864]PIE: New page: SIE session: FirstMap (Jul 28, 2019, 8:38:26 PM)
+[2019.07.28-16.38.26:679][864]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
+[2019.07.28-16.38.26:682][864]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002149s)
+[2019.07.28-16.38.26:682][864]LogAIModule: Creating AISystem for world FirstMap
+[2019.07.28-16.38.26:683][864]LogPlayLevel: PIE: World Init took: (0.000974s)
+[2019.07.28-16.38.26:683][864]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.003825s)
+[2019.07.28-16.38.26:720][864]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.28-16.38.26:725][864]LogInit: FAudioDevice initialized.
+[2019.07.28-16.38.26:756][864]LogLoad: Game class is 'GameModeBase'
+[2019.07.28-16.38.26:757][864]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.07.28-18.38.26
+[2019.07.28-16.38.26:758][864]LogWorld: Bringing up level for play took: 0.001267
+[2019.07.28-16.38.26:771][864]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap -0.415
+[2019.07.28-16.38.30:243][179]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-16.38.36:525][900]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-16.39.15:100][475]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.28-16.39.19:582][737]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-16.39.26:358][160]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-16.39.38:449][958]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.28-16.39.59:508][394]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-16.40.01:370][516]LogEditorViewport: Clicking on Actor (context menu): Base_Character_C (Base_Character)
+[2019.07.28-16.40.01:488][516]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.28-16.40.03:711][594]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.28-16.40.06:660][745]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-16.40.09:620][895]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-16.40.13:816][104]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-16.40.34:855][144]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-16.41.17:465][249]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.28-16.41.26:742][713]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.28-16.41.28:812][809]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-16.42.11:077][937]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.28-16.42.17:856][232]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.28-16.42.19:545][313]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-16.42.22:858][468]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-16.42.33:809][  8]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.28-16.42.38:622][262]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.07.28-16.42.40:976][383]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.28-16.42.46:114][619]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.28-16.43.10:504][187]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.28-16.43.12:180][292]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-16.43.14:929][444]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-16.43.29:599][354]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.28-16.43.30:906][433]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu
+[2019.07.28-16.43.31:598][475]LogEditorViewport: Clicking on Actor (LMB): BP_Rifle_C (BP_Rifle)
+[2019.07.28-16.43.32:108][499]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu
+[2019.07.28-16.43.33:033][556]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu
+[2019.07.28-16.43.38:274][650]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.07.28-16.43.39:494][719]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-16.43.39:609][726]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.28-16.43.39:650][726]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.28-16.43.39:681][726]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.28-16.43.39:702][727]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.07.28-16.43.45:471][ 92]LogSlate: Window 'Save Content' being destroyed
+[2019.07.28-16.43.45:475][ 92]LogPlayLevel: Warning: PIE failed because map save was canceled
+[2019.07.28-16.43.45:475][ 92]PIE: Warning: PIE failed because map save was canceled
+[2019.07.28-16.43.46:832][210]LogSlate: Window 'Message Log' being destroyed
+[2019.07.28-16.43.46:836][210]LogSlate: Window 'Message Log' being destroyed
+[2019.07.28-16.43.50:865][596]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.28-16.43.50:865][596]PIE: New page: PIE session: FirstMap (Jul 28, 2019, 8:43:50 PM)
+[2019.07.28-16.43.50:865][596]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
+[2019.07.28-16.43.50:868][596]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002222s)
+[2019.07.28-16.43.50:869][596]LogAIModule: Creating AISystem for world FirstMap
+[2019.07.28-16.43.50:869][596]LogPlayLevel: PIE: World Init took: (0.000886s)
+[2019.07.28-16.43.50:869][596]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.003464s)
+[2019.07.28-16.43.50:902][596]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.28-16.43.50:908][596]LogInit: FAudioDevice initialized.
+[2019.07.28-16.43.50:916][596]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.28-16.43.51:041][596]LogLoad: Game class is 'GameModeBase'
+[2019.07.28-16.43.51:043][596]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.07.28-18.43.51
+[2019.07.28-16.43.51:043][596]LogWorld: Bringing up level for play took: 0.001589
+[2019.07.28-16.43.51:062][596]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap -0.125
+[2019.07.28-16.44.17:188][477]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-16.44.17:305][478]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.07.28-16.44.17:354][478]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.28-16.44.17:640][479]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.07.28-16.45.00:032][194]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-16.45.00:201][208]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/UE4_Mannequin_SkeletonEAEA7950406AEA845288059A8095835C.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2019.07.28-16.45.01:086][274]LogSlate: Window 'UE4_Mannequin_Skeleton' being destroyed
+[2019.07.28-16.45.03:326][527]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.07.28-16.45.03:343][527]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.28-16.45.03:343][527]PIE: New page: PIE session: FirstMap (Jul 28, 2019, 8:45:03 PM)
+[2019.07.28-16.45.03:344][527]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
+[2019.07.28-16.45.03:346][527]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002239s)
+[2019.07.28-16.45.03:347][527]LogAIModule: Creating AISystem for world FirstMap
+[2019.07.28-16.45.03:347][527]LogPlayLevel: PIE: World Init took: (0.001229s)
+[2019.07.28-16.45.03:347][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.003845s)
+[2019.07.28-16.45.03:382][527]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.28-16.45.03:387][527]LogInit: FAudioDevice initialized.
+[2019.07.28-16.45.03:396][527]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.28-16.45.03:500][527]LogLoad: Game class is 'GameModeBase'
+[2019.07.28-16.45.03:502][527]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.07.28-18.45.03
+[2019.07.28-16.45.03:502][527]LogWorld: Bringing up level for play took: 0.001722
+[2019.07.28-16.45.03:520][527]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap 0.333
+[2019.07.28-16.45.11:132][409]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.28-16.45.11:146][409]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.07.28-16.45.11:179][409]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.28-16.45.11:291][411]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.07.28-16.45.41:733][552]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/FirstMap' took 0.038
+[2019.07.28-16.45.41:744][552]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin] ([1] browsable assets)...
+[2019.07.28-16.45.41:771][552]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin]
+[2019.07.28-16.45.41:771][552]OBJ SavePackage: Finished generating thumbnails for package [/Game/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin]
+[2019.07.28-16.45.41:830][552]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/SK_Mannequin_Auto18FB1B59C49AEEA14436F65B71CB86E29.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Autosaves/Game/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin_Auto1.uasset'
+[2019.07.28-16.45.41:834][552]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Art/Weapons/Rifle/MI_Rifle02] ([1] browsable assets)...
+[2019.07.28-16.45.41:834][552]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Weapons/Rifle/MI_Rifle02]
+[2019.07.28-16.45.41:845][552]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/MI_Rifle02_Auto12C33C29346B5D1FCAA320B83B49BB5A4.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Autosaves/Game/Art/Weapons/Rifle/MI_Rifle02_Auto1.uasset'
+[2019.07.28-16.45.41:848][552]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Art/Weapons/Rifle/MI_Rifle01] ([1] browsable assets)...
+[2019.07.28-16.45.41:848][552]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Weapons/Rifle/MI_Rifle01]
+[2019.07.28-16.45.41:887][552]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MI_Rifle01, compiling. 
+[2019.07.28-16.45.42:713][552]TextureStreamingBuild: Display: Compiling optional shaders took 0.830 seconds.
+[2019.07.28-16.45.42:751][552]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/MI_Rifle01_Auto161734104461191C4FC084B8A10CD9BF6.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Autosaves/Game/Art/Weapons/Rifle/MI_Rifle01_Auto1.uasset'
+[2019.07.28-16.45.42:754][552]LogFileHelpers: Auto-saving content packages took 1.016
+[2019.07.28-16.45.57:161][607]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/SK_MannequinCB44C6E049B44BE369D72EB02C5DD271.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.uasset'
+[2019.07.28-16.45.57:181][607]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/MI_Rifle02AFE1FEAE40A79EBB562001826EC7A6BC.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Art/Weapons/Rifle/MI_Rifle02.uasset'
+[2019.07.28-16.45.57:201][607]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/MI_Rifle01FC17AE394DB4CAD91DAF0F8AE93D0627.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Art/Weapons/Rifle/MI_Rifle01.uasset'
+[2019.07.28-16.46.04:454][ 20]LogSlate: Window 'Message' being destroyed
+[2019.07.28-16.46.04:991][ 20]LogMaterial: Display: Missing cached shader map for material M_Weapon01, compiling. 
+[2019.07.28-16.46.05:084][ 20]LogMaterial: Display: Missing cached shader map for material M_Weapon01, compiling. 
+[2019.07.28-16.46.05:115][ 20]LogMaterial: Display: Missing cached shader map for material M_Weapon01, compiling. 
+[2019.07.28-16.46.05:228][ 20]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Weapon01, compiling. 
+[2019.07.28-16.46.33:343][ 20]TextureStreamingBuild: Display: Compiling optional shaders took 28.119 seconds.
+[2019.07.28-16.46.33:632][ 20]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.07.28-16.46.42:236][ 36]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-16.46.42:263][ 39]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-16.46.42:298][ 42]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-16.46.42:323][ 45]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-16.46.42:348][ 48]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-16.46.42:373][ 51]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-16.46.42:398][ 54]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-16.46.42:423][ 57]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-16.46.42:448][ 60]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-16.46.42:473][ 63]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-16.46.42:498][ 66]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-16.46.42:525][ 69]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-16.46.42:556][ 72]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-16.47.13:420][352]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-16.55.43:014][871]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/FirstMap' took 0.036
+[2019.07.28-16.55.43:017][871]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Weapons/Rifle/M_Weapon01] ([1] browsable assets)...
+[2019.07.28-16.55.43:063][871]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Art/Weapons/Rifle/M_Weapon01.M_Weapon01]
+[2019.07.28-16.55.43:063][871]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Weapons/Rifle/M_Weapon01]
+[2019.07.28-16.55.43:084][871]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/M_Weapon01_Auto20DA9FECF4CF3E72647C2C7832947020B.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Autosaves/Game/Art/Weapons/Rifle/M_Weapon01_Auto2.uasset'
+[2019.07.28-16.55.43:088][871]LogFileHelpers: Auto-saving content packages took 0.070
+[2019.07.28-16.57.16:824][163]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-16.57.17:901][286]Candidate modules for hot reload:
+[2019.07.28-16.57.17:901][286]  Shooter_OW_Style
+[2019.07.28-16.57.17:902][286]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Shooter_OW_Style,4884 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Shooter_OW_Style.uproject" -canskiplink "C:/Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Shooter_OW_Style.uproject" ]
+[2019.07.28-16.57.17:903][286]Warning: Starting HotReload took  0.0s.
+[2019.07.28-16.57.36:164][268]CompilerResultsLog: New page: Compilation - Jul 28, 2019, 8:57:36 PM
+[2019.07.28-16.57.36:165][268]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.28-16.57.36:165][268]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.28-16.57.36:165][268]CompilerResultsLog: Parsing headers for Shooter_OW_StyleEditor
+[2019.07.28-16.57.36:165][268]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Shooter_OW_Style.uproject" "C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\Shooter_OW_StyleEditor\Development\Shooter_OW_StyleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.28-16.57.36:165][268]CompilerResultsLog: Error: C:/Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Source/Shooter_OW_Style/Public/A_BaseWeapon.h(31)  : Error: Function return type: Missing variable type
+[2019.07.28-16.57.36:165][268]CompilerResultsLog: UnrealHeaderTool failed for target 'Shooter_OW_StyleEditor' (platform: Win64, module info: C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\Shooter_OW_StyleEditor\Development\Shooter_OW_StyleEditor.uhtmanifest).
+[2019.07.28-16.57.36:165][268]LogMainFrame: MainFrame: Module compiling took 18.272 seconds
+[2019.07.28-16.57.36:165][268]Warning: HotReload failed, recompile failed
+[2019.07.28-16.57.37:269][395]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-16.57.39:263][474]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-16.57.39:722][476]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-16.57.47:695][873]Candidate modules for hot reload:
+[2019.07.28-16.57.47:695][873]  Shooter_OW_Style
+[2019.07.28-16.57.47:696][873]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Shooter_OW_Style,2630 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Shooter_OW_Style.uproject" -canskiplink "C:/Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Shooter_OW_Style.uproject" ]
+[2019.07.28-16.57.47:696][873]Warning: Starting HotReload took  0.0s.
+[2019.07.28-16.57.53:149][414]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-16.58.27:731][588]CompilerResultsLog: New page: Compilation - Jul 28, 2019, 8:58:27 PM
+[2019.07.28-16.58.27:732][588]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.28-16.58.27:732][588]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.28-16.58.27:732][588]CompilerResultsLog: Parsing headers for Shooter_OW_StyleEditor
+[2019.07.28-16.58.27:733][588]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Shooter_OW_Style.uproject" "C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\Shooter_OW_StyleEditor\Development\Shooter_OW_StyleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.28-16.58.27:733][588]CompilerResultsLog: Reflection code generated for Shooter_OW_StyleEditor in 31,4448611 seconds
+[2019.07.28-16.58.27:733][588]CompilerResultsLog: Distributing 5 actions to XGE
+[2019.07.28-16.58.27:733][588]CompilerResultsLog: --------------------Build System Warning---------------------------------------
+[2019.07.28-16.58.27:733][588]CompilerResultsLog: License is invalid:
+[2019.07.28-16.58.27:733][588]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+[2019.07.28-16.58.27:734][588]CompilerResultsLog:     This build will run in standalone mode.
+[2019.07.28-16.58.27:734][588]CompilerResultsLog: 
+[2019.07.28-16.58.27:734][588]CompilerResultsLog: -------------------------------------------------------------------------------
+[2019.07.28-16.58.27:734][588]CompilerResultsLog: --------------------Project: Default-------------------------------------------
+[2019.07.28-16.58.27:735][588]CompilerResultsLog: A_BaseWeapon.cpp (0:02.48 at +0:00)
+[2019.07.28-16.58.27:735][588]CompilerResultsLog: Error: C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Source\Shooter_OW_Style\Private\A_BaseWeapon.cpp(39) : error C2065: 'MyOwner': identificador no declarado
+[2019.07.28-16.58.27:735][588]CompilerResultsLog: 
+[2019.07.28-16.58.27:735][588]CompilerResultsLog: Error executing C:\Program Files (x86)\FCKING VISUAL STUDIO\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64\cl.exe (tool returned code: 2)
+[2019.07.28-16.58.27:735][588]CompilerResultsLog: A_BaseWeapon.gen.cpp (0:02.17 at +0:02)
+[2019.07.28-16.58.27:736][588]CompilerResultsLog: Shooter_OW_Style.init.gen.cpp (0:00.62 at +0:04)
+[2019.07.28-16.58.27:736][588]CompilerResultsLog: ---------------------- Done ----------------------
+[2019.07.28-16.58.27:736][588]CompilerResultsLog: 
+[2019.07.28-16.58.27:736][588]CompilerResultsLog:     Rebuild All: 0 succeeded, 1 failed, 0 skipped
+[2019.07.28-16.58.27:736][588]CompilerResultsLog: 
+[2019.07.28-16.58.27:736][588]CompilerResultsLog: 1 build system warning(s):
+[2019.07.28-16.58.27:736][588]CompilerResultsLog:    - License is invalid
+[2019.07.28-16.58.27:737][588]CompilerResultsLog: 
+[2019.07.28-16.58.27:737][588]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Binaries\Win64\UE4Editor-Shooter_OW_Style-2630.dll
+[2019.07.28-16.58.27:737][588]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.07.28-16.58.27:737][588]CompilerResultsLog: ERROR: UnrealBuildTool Exception: In C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Source\Shooter_OW_Style\Private\A_BaseWeapon.cpp: #include "..\Public\A_BaseWeapon.h" contains backslashes ('\'), please use forward slashes ('/') instead.
+[2019.07.28-16.58.27:737][588]LogMainFrame: MainFrame: Module compiling took 40.050 seconds
+[2019.07.28-16.58.27:737][588]Warning: HotReload failed, recompile failed
+[2019.07.28-17.00.09:115][891]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.00.09:178][894]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.00.09:215][897]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.00.09:240][900]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.00.09:271][903]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.00.09:299][906]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.00.09:324][909]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.00.09:349][912]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.00.09:375][915]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.00.09:401][918]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.00.09:432][921]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.00.09:457][924]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.00.09:488][927]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.00.09:514][930]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.00.09:538][933]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.00.09:564][936]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.00.09:589][939]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.00.09:615][942]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.00.09:641][945]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.00.09:669][948]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.00.09:698][951]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.00.09:725][954]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.00.09:751][957]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.00.35:237][740]Candidate modules for hot reload:
+[2019.07.28-17.00.35:237][740]  Shooter_OW_Style
+[2019.07.28-17.00.35:238][740]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Shooter_OW_Style,3405 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Shooter_OW_Style.uproject" -canskiplink "C:/Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Shooter_OW_Style.uproject" ]
+[2019.07.28-17.00.35:238][740]Warning: Starting HotReload took  0.0s.
+[2019.07.28-17.00.41:321][817]CompilerResultsLog: New page: Compilation - Jul 28, 2019, 9:00:41 PM
+[2019.07.28-17.00.41:322][817]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.28-17.00.41:322][817]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.28-17.00.41:322][817]CompilerResultsLog: Performing full C++ include scan (no include cache file)
+[2019.07.28-17.00.41:322][817]CompilerResultsLog: ERROR: In C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Source\Shooter_OW_Style\Private\A_BaseWeapon.cpp: #include "..\Public\A_BaseWeapon.h" contains backslashes ('\'), please use forward slashes ('/') instead.
+[2019.07.28-17.00.41:323][817]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.07.28-17.00.41:323][817]LogMainFrame: MainFrame: Module compiling took 6.095 seconds
+[2019.07.28-17.00.41:323][817]Warning: HotReload failed, recompile failed
+[2019.07.28-17.00.51:932][252]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.00.51:959][255]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.00.51:992][258]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.00.52:039][261]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.00.52:067][264]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.00.52:098][267]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.00.52:129][270]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.00.52:161][273]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.00.52:194][276]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.00.52:227][279]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.00.52:252][282]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.00.52:277][285]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.01.12:081][460]Candidate modules for hot reload:
+[2019.07.28-17.01.12:081][460]  Shooter_OW_Style
+[2019.07.28-17.01.12:081][460]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Shooter_OW_Style,1012 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Shooter_OW_Style.uproject" -canskiplink "C:/Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Shooter_OW_Style.uproject" ]
+[2019.07.28-17.01.12:082][460]Warning: Starting HotReload took  0.0s.
+[2019.07.28-17.01.16:610][546]CompilerResultsLog: New page: Compilation - Jul 28, 2019, 9:01:16 PM
+[2019.07.28-17.01.16:611][546]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.28-17.01.16:611][546]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.28-17.01.16:612][546]CompilerResultsLog: Distributing 3 actions to XGE
+[2019.07.28-17.01.16:612][546]CompilerResultsLog: --------------------Build System Warning---------------------------------------
+[2019.07.28-17.01.16:612][546]CompilerResultsLog: License is invalid:
+[2019.07.28-17.01.16:612][546]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+[2019.07.28-17.01.16:612][546]CompilerResultsLog:     This build will run in standalone mode.
+[2019.07.28-17.01.16:612][546]CompilerResultsLog: 
+[2019.07.28-17.01.16:613][546]CompilerResultsLog: -------------------------------------------------------------------------------
+[2019.07.28-17.01.16:613][546]CompilerResultsLog: --------------------Project: Default-------------------------------------------
+[2019.07.28-17.01.16:613][546]CompilerResultsLog: A_BaseWeapon.cpp (0:01.11 at +0:00)
+[2019.07.28-17.01.16:613][546]CompilerResultsLog: UE4Editor-Shooter_OW_Style-1012.dll (0:01.09 at +0:01)
+[2019.07.28-17.01.16:613][546]CompilerResultsLog:    Creando biblioteca C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\UE4Editor-Shooter_OW_Style-1012.suppressed.lib y objeto C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\UE4Editor-Shooter_OW_Style-1012.suppressed.exp
+[2019.07.28-17.01.16:613][546]CompilerResultsLog: UE4Editor-Shooter_OW_Style-1012.lib (0:00.12 at +0:02)
+[2019.07.28-17.01.16:613][546]CompilerResultsLog:    Creando biblioteca C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\UE4Editor-Shooter_OW_Style-1012.lib y objeto C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\UE4Editor-Shooter_OW_Style-1012.exp
+[2019.07.28-17.01.16:614][546]CompilerResultsLog: ---------------------- Done ----------------------
+[2019.07.28-17.01.16:614][546]CompilerResultsLog: 
+[2019.07.28-17.01.16:614][546]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
+[2019.07.28-17.01.16:614][546]CompilerResultsLog: 
+[2019.07.28-17.01.16:614][546]CompilerResultsLog: 1 build system warning(s):
+[2019.07.28-17.01.16:614][546]CompilerResultsLog:    - License is invalid
+[2019.07.28-17.01.16:615][546]CompilerResultsLog: 
+[2019.07.28-17.01.16:615][546]CompilerResultsLog: Total build time: 3,96 seconds (XGE executor: 2,47 seconds)
+[2019.07.28-17.01.16:615][546]LogMainFrame: MainFrame: Module compiling took 4.542 seconds
+[2019.07.28-17.01.16:654][546]LogClass: Could not find existing class A_BaseWeapon in package /Script/Shooter_OW_Style for HotReload, assuming new class
+[2019.07.28-17.01.16:654][546]LogClass: Function ShootFire is new.
+[2019.07.28-17.01.16:669][546]LogHotReload: Re-instancing A_BaseWeapon after hot-reload.
+[2019.07.28-17.01.16:898][546]LogContentBrowser: Native class hierarchy updated for 'Shooter_OW_Style' in 0.0005 seconds. Added 3 classes and 3 folders.
+[2019.07.28-17.01.16:908][546]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.07.28-17.01.17:414][546]LogContentBrowser: Native class hierarchy populated in 0.0628 seconds. Added 2577 classes and 610 folders.
+[2019.07.28-17.01.17:414][546]Display: HotReload took  5.3s.
+[2019.07.28-17.01.25:209][576]LogSlate: Window 'Message Log' being destroyed
+[2019.07.28-17.01.25:211][576]LogSlate: Window 'Message Log' being destroyed
+[2019.07.28-17.01.26:162][684]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.01.26:192][687]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.01.26:225][690]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.01.26:262][693]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.01.26:297][696]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.01.26:358][699]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.01.26:400][702]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.01.26:444][705]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.01.26:477][708]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.01.26:503][711]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.01.26:533][714]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.01.26:560][717]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.01.26:592][720]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.01.26:616][723]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.01.38:616][918]LogEditorViewport: Clicking on Actor (LMB): Base_Character_C (Base_Character)
+[2019.07.28-17.01.39:816][ 10]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-17.01.39:925][ 21]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Programming/Character/Base_Character.Base_Character
+[2019.07.28-17.03.36:668][381]BlueprintLog: New page: Compile Base_Character
+[2019.07.28-17.03.37:191][381]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_Character825FA67F4E4769669DCB33B3B2BFC804.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.07.28-17.04.41:474][972]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_CharacterD4C539BE444EF7A64B1176A1B0257070.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.07.28-17.04.46:767][563]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMap71079FD44594FABDB2C6C290B71EF5A2.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap'
+[2019.07.28-17.04.46:798][563]LogFileHelpers: Saving map 'FirstMap' took 0.159
+[2019.07.28-17.04.46:810][563]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/M_Weapon01A9E96D234E8475A18FB2F899C57AD364.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Art/Weapons/Rifle/M_Weapon01.uasset'
+[2019.07.28-17.04.57:896][823]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.07.28-17.04.57:914][823]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.28-17.04.57:914][823]PIE: New page: PIE session: FirstMap (Jul 28, 2019, 9:04:57 PM)
+[2019.07.28-17.04.57:914][823]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
+[2019.07.28-17.04.57:917][823]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002383s)
+[2019.07.28-17.04.57:918][823]LogAIModule: Creating AISystem for world FirstMap
+[2019.07.28-17.04.57:918][823]LogPlayLevel: PIE: World Init took: (0.001064s)
+[2019.07.28-17.04.57:918][823]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.004019s)
+[2019.07.28-17.04.57:989][823]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.28-17.04.57:995][823]LogInit: FAudioDevice initialized.
+[2019.07.28-17.04.58:003][823]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.28-17.04.58:094][823]LogLoad: Game class is 'GameModeBase'
+[2019.07.28-17.04.58:096][823]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.07.28-19.04.58
+[2019.07.28-17.04.58:096][823]LogWorld: Bringing up level for play took: 0.001468
+[2019.07.28-17.04.58:111][823]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap 0.924
+[2019.07.28-17.05.01:550][198]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.28-17.05.01:565][198]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.07.28-17.05.01:604][198]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.28-17.05.01:669][199]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.07.28-17.05.07:539][854]BlueprintLog: New page: Compile Base_Character
+[2019.07.28-17.05.07:776][854]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_CharacterD5AE6CE44122EA169A087BA41936A68C.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.07.28-17.05.07:975][869]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_Character348786944FE964DB6681A2A1E7182E8B.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.07.28-17.05.10:218][109]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMapEE05C7A841FD9C59FFB2638B3E74B6BD.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap'
+[2019.07.28-17.05.10:244][109]LogFileHelpers: Saving map 'FirstMap' took 0.137
+[2019.07.28-17.05.19:949][226]BlueprintLog: New page: Compile Base_Character
+[2019.07.28-17.05.20:179][226]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_CharacterCD3E57354DC6B0CCE7B4EB8809AE9833.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.07.28-17.05.20:387][247]BlueprintLog: New page: Compile Base_Character
+[2019.07.28-17.05.21:080][301]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_CharacterEB81A33142B9E66835BC3EA49EBEADF6.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.07.28-17.05.27:254][ 32]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.07.28-17.05.27:275][ 32]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.28-17.05.27:275][ 32]PIE: New page: PIE session: FirstMap (Jul 28, 2019, 9:05:27 PM)
+[2019.07.28-17.05.27:275][ 32]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
+[2019.07.28-17.05.27:278][ 32]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002863s)
+[2019.07.28-17.05.27:279][ 32]LogAIModule: Creating AISystem for world FirstMap
+[2019.07.28-17.05.27:279][ 32]LogPlayLevel: PIE: World Init took: (0.000930s)
+[2019.07.28-17.05.27:280][ 32]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.004143s)
+[2019.07.28-17.05.27:312][ 32]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.28-17.05.27:334][ 32]LogInit: FAudioDevice initialized.
+[2019.07.28-17.05.27:345][ 32]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.28-17.05.27:429][ 32]LogLoad: Game class is 'GameModeBase'
+[2019.07.28-17.05.27:430][ 32]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.07.28-19.05.27
+[2019.07.28-17.05.27:431][ 32]LogWorld: Bringing up level for play took: 0.001515
+[2019.07.28-17.05.27:465][ 32]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap 0.278
+[2019.07.28-17.05.34:588][856]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.28-17.05.34:603][856]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.07.28-17.05.34:647][856]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.28-17.05.34:702][857]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2019.07.28-17.05.36:254][ 14]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMapBCB6933E44185E912E293DA1C3A44592.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap'
+[2019.07.28-17.05.36:286][ 14]LogFileHelpers: Saving map 'FirstMap' took 0.142
+[2019.07.28-17.05.36:326][ 17]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.05.36:351][ 20]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.05.36:378][ 23]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.05.36:403][ 26]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.05.36:429][ 29]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.05.36:456][ 32]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.05.36:485][ 35]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.05.36:514][ 38]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.05.36:543][ 41]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.05.36:568][ 44]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.05.36:595][ 47]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.05.36:623][ 50]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.05.36:653][ 53]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.05.36:680][ 56]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.05.36:707][ 59]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.06.15:672][228]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.06.15:699][231]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.06.15:735][234]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.06.15:763][237]LogAnimation: Warning: SkeletalMesh Launcher has no skeleton. This needs to fixed before an animation can be set
+[2019.07.28-17.06.34:697][477]BlueprintLog: New page: Compile Base_Character
+[2019.07.28-17.06.34:936][477]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_Character5C23672B4E1E36C7FDC574B9EFC18675.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.07.28-17.06.35:192][499]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_Character214D347B41ED4A75EB8AD4937E28509E.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.07.28-17.06.36:285][622]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_CharacterFAFDF25643E4D02BAD9982A0D3BEDA41.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.07.28-17.06.49:875][233]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.07.28-17.06.49:896][233]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.28-17.06.49:896][233]PIE: New page: PIE session: FirstMap (Jul 28, 2019, 9:06:49 PM)
+[2019.07.28-17.06.49:896][233]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
+[2019.07.28-17.06.49:899][233]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002669s)
+[2019.07.28-17.06.49:900][233]LogAIModule: Creating AISystem for world FirstMap
+[2019.07.28-17.06.49:900][233]LogPlayLevel: PIE: World Init took: (0.001144s)
+[2019.07.28-17.06.49:900][233]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.004144s)
+[2019.07.28-17.06.49:945][233]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.28-17.06.49:959][233]LogInit: FAudioDevice initialized.
+[2019.07.28-17.06.49:969][233]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.28-17.06.50:053][233]LogLoad: Game class is 'GameModeBase'
+[2019.07.28-17.06.50:054][233]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.07.28-19.06.50
+[2019.07.28-17.06.50:055][233]LogWorld: Bringing up level for play took: 0.001524
+[2019.07.28-17.06.50:069][233]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap 0.882
+[2019.07.28-17.07.08:041][351]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.28-17.07.08:056][351]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.07.28-17.07.08:097][351]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.28-17.07.08:161][352]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2019.07.28-17.09.01:703][295]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMap83DF6D414278C915E9CA1EB268A60EBA.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap'
+[2019.07.28-17.09.01:730][295]LogFileHelpers: Saving map 'FirstMap' took 0.136
+[2019.07.28-17.09.02:870][413]LogSlate: Window 'Shooter_OW_Style - Unreal Editor' being destroyed
+[2019.07.28-17.09.02:871][413]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.07.28-17.09.03:146][414]Cmd: QUIT_EDITOR
+[2019.07.28-17.09.03:720][414]LogExit: Preparing to exit.
+[2019.07.28-17.09.04:316][414]LogExit: Editor shut down
+[2019.07.28-17.09.04:317][414]LogExit: Transaction tracking system shut down
+[2019.07.28-17.09.04:785][414]LogExit: Object subsystem successfully closed.
+[2019.07.28-17.09.04:799][414]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.07.28-17.09.04:803][414]LogD3D11RHI: Shutdown
+[2019.07.28-17.09.04:803][414]LogD3D11RHI: CleanupD3DDevice
+[2019.07.28-17.09.04:805][414]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.07.28-17.09.04:818][414]LogModuleManager: Shutting down and abandoning module Shooter_OW_Style (625)
+[2019.07.28-17.09.04:818][414]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (624)
+[2019.07.28-17.09.04:818][414]LogModuleManager: Shutting down and abandoning module Voice (622)
+[2019.07.28-17.09.04:819][414]LogModuleManager: Shutting down and abandoning module BlueprintGraph (620)
+[2019.07.28-17.09.04:819][414]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (618)
+[2019.07.28-17.09.04:819][414]LogModuleManager: Shutting down and abandoning module PinnedCommandList (616)
+[2019.07.28-17.09.04:819][414]LogModuleManager: Shutting down and abandoning module SkeletonEditor (614)
+[2019.07.28-17.09.04:819][414]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2019.07.28-17.09.04:819][414]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
+[2019.07.28-17.09.04:819][414]LogModuleManager: Shutting down and abandoning module AddContentDialog (608)
+[2019.07.28-17.09.04:820][414]LogModuleManager: Shutting down and abandoning module WidgetCarousel (607)
+[2019.07.28-17.09.04:820][414]LogModuleManager: Shutting down and abandoning module EditorWidgets (604)
+[2019.07.28-17.09.04:820][414]LogModuleManager: Shutting down and abandoning module CollectionManager (602)
+[2019.07.28-17.09.04:820][414]LogModuleManager: Shutting down and abandoning module StatsViewer (600)
+[2019.07.28-17.09.04:820][414]LogModuleManager: Shutting down and abandoning module FoliageEdit (598)
+[2019.07.28-17.09.04:820][414]LogModuleManager: Shutting down and abandoning module LandscapeEditor (596)
+[2019.07.28-17.09.04:821][414]LogModuleManager: Shutting down and abandoning module MeshPaintMode (594)
+[2019.07.28-17.09.04:821][414]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (592)
+[2019.07.28-17.09.04:821][414]LogModuleManager: Shutting down and abandoning module ActorPickerMode (590)
+[2019.07.28-17.09.04:821][414]LogModuleManager: Shutting down and abandoning module GeometryMode (588)
+[2019.07.28-17.09.04:821][414]LogModuleManager: Shutting down and abandoning module TextureAlignMode (586)
+[2019.07.28-17.09.04:821][414]LogModuleManager: Shutting down and abandoning module BspMode (584)
+[2019.07.28-17.09.04:821][414]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (582)
+[2019.07.28-17.09.04:821][414]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (580)
+[2019.07.28-17.09.04:821][414]LogModuleManager: Shutting down and abandoning module AutomationWorker (578)
+[2019.07.28-17.09.04:821][414]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (576)
+[2019.07.28-17.09.04:822][414]LogModuleManager: Shutting down and abandoning module SequenceRecorder (575)
+[2019.07.28-17.09.04:822][414]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (572)
+[2019.07.28-17.09.04:822][414]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (570)
+[2019.07.28-17.09.04:822][414]LogModuleManager: Shutting down and abandoning module PlacementMode (569)
+[2019.07.28-17.09.04:822][414]LogModuleManager: Shutting down and abandoning module MaterialEditor (568)
+[2019.07.28-17.09.04:822][414]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (564)
+[2019.07.28-17.09.04:822][414]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (562)
+[2019.07.28-17.09.04:822][414]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (560)
+[2019.07.28-17.09.04:822][414]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (558)
+[2019.07.28-17.09.04:822][414]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (556)
+[2019.07.28-17.09.04:822][414]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (554)
+[2019.07.28-17.09.04:823][414]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (552)
+[2019.07.28-17.09.04:823][414]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (550)
+[2019.07.28-17.09.04:823][414]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (548)
+[2019.07.28-17.09.04:823][414]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (546)
+[2019.07.28-17.09.04:824][414]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (544)
+[2019.07.28-17.09.04:824][414]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (542)
+[2019.07.28-17.09.04:824][414]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (540)
+[2019.07.28-17.09.04:824][414]LogModuleManager: Shutting down and abandoning module CharacterAI (538)
+[2019.07.28-17.09.04:824][414]LogModuleManager: Shutting down and abandoning module SmartSnapping (536)
+[2019.07.28-17.09.04:824][414]LogModuleManager: Shutting down and abandoning module SessionServices (534)
+[2019.07.28-17.09.04:824][414]LogModuleManager: Shutting down and abandoning module ViewportSnapping (532)
+[2019.07.28-17.09.04:824][414]LogModuleManager: Shutting down and abandoning module ViewportInteraction (530)
+[2019.07.28-17.09.04:824][414]LogModuleManager: Shutting down and abandoning module ClothPainter (528)
+[2019.07.28-17.09.04:824][414]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (527)
+[2019.07.28-17.09.04:824][414]LogModuleManager: Shutting down and abandoning module LogVisualizer (524)
+[2019.07.28-17.09.04:825][414]LogModuleManager: Shutting down and abandoning module IntroTutorials (522)
+[2019.07.28-17.09.04:825][414]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (521)
+[2019.07.28-17.09.04:825][414]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (518)
+[2019.07.28-17.09.04:825][414]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (516)
+[2019.07.28-17.09.04:825][414]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (514)
+[2019.07.28-17.09.04:825][414]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (512)
+[2019.07.28-17.09.04:825][414]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (511)
+[2019.07.28-17.09.05:660][414]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (508)
+[2019.07.28-17.09.05:660][414]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (506)
+[2019.07.28-17.09.05:660][414]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (504)
+[2019.07.28-17.09.05:660][414]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (502)
+[2019.07.28-17.09.05:660][414]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
+[2019.07.28-17.09.05:660][414]LogModuleManager: Shutting down and abandoning module MergeActors (498)
+[2019.07.28-17.09.05:660][414]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
+[2019.07.28-17.09.05:660][414]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
+[2019.07.28-17.09.05:661][414]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
+[2019.07.28-17.09.05:661][414]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
+[2019.07.28-17.09.05:661][414]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
+[2019.07.28-17.09.05:661][414]LogModuleManager: Shutting down and abandoning module XmlParser (486)
+[2019.07.28-17.09.05:661][414]LogModuleManager: Shutting down and abandoning module Blutility (484)
+[2019.07.28-17.09.05:661][414]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
+[2019.07.28-17.09.05:661][414]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
+[2019.07.28-17.09.05:661][414]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
+[2019.07.28-17.09.05:662][414]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
+[2019.07.28-17.09.05:662][414]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
+[2019.07.28-17.09.05:662][414]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
+[2019.07.28-17.09.05:662][414]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
+[2019.07.28-17.09.05:662][414]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
+[2019.07.28-17.09.05:662][414]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
+[2019.07.28-17.09.05:717][414]LogModuleManager: Shutting down and abandoning module AutomationController (464)
+[2019.07.28-17.09.05:717][414]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
+[2019.07.28-17.09.05:717][414]LogModuleManager: Shutting down and abandoning module Layers (460)
+[2019.07.28-17.09.05:717][414]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
+[2019.07.28-17.09.05:717][414]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
+[2019.07.28-17.09.05:717][414]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
+[2019.07.28-17.09.05:718][414]LogModuleManager: Shutting down and abandoning module Persona (452)
+[2019.07.28-17.09.05:718][414]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
+[2019.07.28-17.09.05:718][414]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
+[2019.07.28-17.09.05:718][414]LogModuleManager: Shutting down and abandoning module Kismet (446)
+[2019.07.28-17.09.05:722][414]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
+[2019.07.28-17.09.05:722][414]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
+[2019.07.28-17.09.05:722][414]LogModuleManager: Shutting down and abandoning module Toolbox (440)
+[2019.07.28-17.09.05:722][414]LogModuleManager: Shutting down and abandoning module DesktopPlatform (439)
+[2019.07.28-17.09.05:722][414]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.07.28-17.09.05:722][414]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.07.28-17.09.05:723][414]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.07.28-17.09.05:723][414]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.07.28-17.09.05:723][414]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.07.28-17.09.05:723][414]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.07.28-17.09.05:723][414]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.07.28-17.09.05:723][414]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.07.28-17.09.05:723][414]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.07.28-17.09.05:723][414]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.07.28-17.09.05:723][414]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.07.28-17.09.05:724][414]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.07.28-17.09.05:724][414]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.07.28-17.09.05:724][414]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.07.28-17.09.05:724][414]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.07.28-17.09.05:724][414]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.07.28-17.09.05:724][414]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.07.28-17.09.05:724][414]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2019.07.28-17.09.05:899][414]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2019.07.28-17.09.05:899][414]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2019.07.28-17.09.05:900][414]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2019.07.28-17.09.05:900][414]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2019.07.28-17.09.05:900][414]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2019.07.28-17.09.05:900][414]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2019.07.28-17.09.05:900][414]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2019.07.28-17.09.05:900][414]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2019.07.28-17.09.05:900][414]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2019.07.28-17.09.05:900][414]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2019.07.28-17.09.05:900][414]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2019.07.28-17.09.05:900][414]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2019.07.28-17.09.05:900][414]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2019.07.28-17.09.05:901][414]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2019.07.28-17.09.05:901][414]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (372)
+[2019.07.28-17.09.05:901][414]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2019.07.28-17.09.05:901][414]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2019.07.28-17.09.05:901][414]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2019.07.28-17.09.05:910][414]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2019.07.28-17.09.05:910][414]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2019.07.28-17.09.05:910][414]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2019.07.28-17.09.05:910][414]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2019.07.28-17.09.05:910][414]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2019.07.28-17.09.05:910][414]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2019.07.28-17.09.05:911][414]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2019.07.28-17.09.05:911][414]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2019.07.28-17.09.05:911][414]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2019.07.28-17.09.05:911][414]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2019.07.28-17.09.05:911][414]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
+[2019.07.28-17.09.05:911][414]LogModuleManager: Shutting down and abandoning module DatasmithContent (342)
+[2019.07.28-17.09.05:913][414]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2019.07.28-17.09.05:913][414]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2019.07.28-17.09.05:914][414]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2019.07.28-17.09.05:914][414]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2019.07.28-17.09.05:914][414]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2019.07.28-17.09.05:915][414]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.07.28-17.09.05:916][414]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.07.28-17.09.05:916][414]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.07.28-17.09.05:916][414]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.07.28-17.09.05:917][414]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.07.28-17.09.05:917][414]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.07.28-17.09.05:917][414]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.07.28-17.09.05:918][414]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.07.28-17.09.05:918][414]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.07.28-17.09.05:918][414]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.07.28-17.09.05:918][414]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
+[2019.07.28-17.09.05:918][414]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
+[2019.07.28-17.09.05:918][414]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
+[2019.07.28-17.09.05:918][414]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
+[2019.07.28-17.09.05:918][414]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
+[2019.07.28-17.09.05:918][414]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.07.28-17.09.05:918][414]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.07.28-17.09.05:919][414]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.07.28-17.09.05:919][414]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.07.28-17.09.05:919][414]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.07.28-17.09.05:919][414]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.07.28-17.09.05:919][414]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.07.28-17.09.05:919][414]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.07.28-17.09.05:919][414]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.07.28-17.09.06:021][414]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.07.28-17.09.06:122][414]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.07.28-17.09.06:122][414]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.07.28-17.09.06:122][414]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.07.28-17.09.06:122][414]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.07.28-17.09.06:122][414]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.07.28-17.09.06:122][414]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.07.28-17.09.06:122][414]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.07.28-17.09.06:123][414]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.07.28-17.09.06:123][414]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.07.28-17.09.06:123][414]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.07.28-17.09.06:124][414]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.07.28-17.09.06:124][414]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.07.28-17.09.06:126][414]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.07.28-17.09.06:126][414]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.07.28-17.09.06:126][414]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.07.28-17.09.06:126][414]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.07.28-17.09.06:126][414]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.07.28-17.09.06:126][414]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.07.28-17.09.06:127][414]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.07.28-17.09.06:134][414]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.07.28-17.09.06:135][414]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.07.28-17.09.06:135][414]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.07.28-17.09.06:135][414]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.07.28-17.09.06:135][414]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.07.28-17.09.06:135][414]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.07.28-17.09.06:135][414]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.07.28-17.09.06:135][414]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.07.28-17.09.06:135][414]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.07.28-17.09.06:135][414]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.07.28-17.09.06:135][414]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.07.28-17.09.06:135][414]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.07.28-17.09.06:135][414]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.07.28-17.09.06:136][414]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.07.28-17.09.06:136][414]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.07.28-17.09.06:136][414]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.07.28-17.09.06:136][414]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.07.28-17.09.06:136][414]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.07.28-17.09.06:136][414]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.07.28-17.09.06:136][414]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.07.28-17.09.06:138][414]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.07.28-17.09.06:138][414]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.07.28-17.09.06:138][414]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.07.28-17.09.06:138][414]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.07.28-17.09.06:138][414]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.07.28-17.09.06:138][414]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.07.28-17.09.06:138][414]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.07.28-17.09.06:138][414]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.07.28-17.09.06:138][414]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.07.28-17.09.06:138][414]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.07.28-17.09.06:138][414]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.07.28-17.09.06:138][414]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.07.28-17.09.06:138][414]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.07.28-17.09.06:138][414]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.07.28-17.09.06:138][414]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.07.28-17.09.06:139][414]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.07.28-17.09.06:139][414]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.07.28-17.09.06:139][414]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.07.28-17.09.06:219][414]LogDerivedDataCache: Shutdown
+[2019.07.28-17.09.06:220][414]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.07.28-17.09.06:220][414]LogXGEController: Cleaning working directory: C:/Users/Joan Abad/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.07.28-17.09.06:221][414]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.07.28-17.09.06:221][414]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.07.28-17.09.06:221][414]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.07.28-17.09.06:221][414]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.07.28-17.09.06:221][414]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.07.28-17.09.06:221][414]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.07.28-17.09.06:221][414]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.07.28-17.09.06:221][414]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.07.28-17.09.06:221][414]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.07.28-17.09.06:222][414]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.07.28-17.09.06:289][414]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.07.28-17.09.06:289][414]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.07.28-17.09.06:289][414]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.07.28-17.09.06:289][414]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.07.28-17.09.06:290][414]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.07.28-17.09.06:290][414]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.07.28-17.09.06:290][414]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.07.28-17.09.06:290][414]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.07.28-17.09.06:291][414]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.07.28-17.09.06:292][414]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.07.28-17.09.06:292][414]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.07.28-17.09.06:293][414]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.07.28-17.09.06:294][414]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.07.28-17.09.06:294][414]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.07.28-17.09.06:295][414]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.07.28-17.09.06:295][414]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.07.28-17.09.06:301][414]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.07.28-17.09.06:301][414]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.07.28-17.09.06:301][414]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.07.28-17.09.06:302][414]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.07.28-17.09.06:302][414]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.07.28-17.09.06:302][414]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.07.28-17.09.06:302][414]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.07.28-17.09.06:302][414]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.07.28-17.09.06:302][414]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.07.28-17.09.06:302][414]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.07.28-17.09.06:302][414]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.07.28-17.09.06:302][414]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.07.28-17.09.06:302][414]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.07.28-17.09.06:302][414]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.07.28-17.09.06:302][414]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.07.28-17.09.06:303][414]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.07.28-17.09.06:303][414]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.07.28-17.09.06:303][414]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.07.28-17.09.06:303][414]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.07.28-17.09.06:304][414]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.07.28-17.09.06:338][414]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.07.28-17.09.06:338][414]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.07.28-17.09.06:338][414]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC72DF6F1-4BAA-D8F5-0262-EF99F129A572%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=ef0cb73c40ee232067bf2f9418bfd32e%7Cedd99b47fa48427186a74866ceca2384%7C85907bce-fbd9-4385-9f0f-76ca26d18a0d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.07.28-17.09.06:400][414]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.07.28-17.09.06:401][414]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.07.28-17.09.06:401][414]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.07.28-17.09.06:402][414]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.07.28-17.09.06:402][414]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.07.28-17.09.06:402][414]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.07.28-17.09.06:402][414]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.07.28-17.09.06:402][414]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.07.28-17.09.06:402][414]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.07.28-17.09.06:402][414]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.07.28-17.09.06:402][414]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.07.28-17.09.06:402][414]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.07.28-17.09.06:402][414]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.07.28-17.09.06:403][414]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.07.28-17.09.06:403][414]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.07.28-17.09.06:403][414]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.07.28-17.09.06:404][414]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.07.28-17.09.06:404][414]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.07.28-17.09.06:404][414]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.07.28-17.09.06:405][414]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.07.28-17.09.06:405][414]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.07.28-17.09.06:405][414]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.07.28-17.09.06:405][414]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.07.28-17.09.06:405][414]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.07.28-17.09.06:406][414]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.07.28-17.09.06:406][414]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.07.28-17.09.06:406][414]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.07.28-17.09.06:406][414]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.07.28-17.09.06:406][414]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.07.28-17.09.06:406][414]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.07.28-17.09.06:425][414]LogExit: Exiting.
+[2019.07.28-17.09.06:435][414]Log file closed, 07/28/19 19:09:06

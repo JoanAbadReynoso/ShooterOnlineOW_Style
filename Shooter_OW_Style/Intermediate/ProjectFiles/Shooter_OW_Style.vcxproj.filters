@@ -54,9 +54,15 @@
     <ClInclude Include="..\..\Source\Shooter_OW_Style\Public\C_BaseCharacter.h">
       <Filter>Source\Shooter_OW_Style\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\Shooter_OW_Style\Public\A_BaseWeapon.h">
+      <Filter>Source\Shooter_OW_Style\Public</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\Shooter_OW_Style\Private\C_BaseCharacter.cpp">
+      <Filter>Source\Shooter_OW_Style\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Shooter_OW_Style\Private\A_BaseWeapon.cpp">
       <Filter>Source\Shooter_OW_Style\Private</Filter>
     </ClCompile>
   </ItemGroup>
