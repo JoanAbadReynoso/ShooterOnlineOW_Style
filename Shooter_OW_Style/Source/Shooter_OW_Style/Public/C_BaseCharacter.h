@@ -26,6 +26,15 @@ protected:
 	
 	void MoveRight(float Speed);
 
+	void BeginCrouch();
+
+	void EndCrouch();
+
+	void JumpFunction();
+	
+	void EndJump();
+
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	UCameraComponent* CameraComp;
 
@@ -39,6 +48,6 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	
+	bool jumping = false;
 	
 };

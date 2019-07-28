@@ -1,0 +1,599 @@
+﻿Log file open, 07/28/19 16:46:39
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Shooter_OW_Style
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.262681
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.143s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 8.1 (), CPU: Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.07.28-14.46.39:408][  0]LogInit: Selected Device Profile: [Windows]
+[2019.07.28-14.46.39:408][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.07.28-14.46.39:417][  0]LogHAL: Display: Platform has ~ 16 GB [17137950720 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.07.28-14.46.39:417][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.07.28-14.46.39:417][  0]LogInit: Going up to parent DeviceProfile []
+[2019.07.28-14.46.39:417][  0]LogInit: Computer: JOANPC
+[2019.07.28-14.46.39:417][  0]LogInit: User: JoanAbad
+[2019.07.28-14.46.39:418][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.07.28-14.46.39:418][  0]LogInit: High frequency timer resolution =3.421872 MHz
+[2019.07.28-14.46.39:418][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.07.28-14.46.39:418][  0]LogMemory: Platform Memory Stats for Windows
+[2019.07.28-14.46.39:419][  0]LogMemory: Process Physical Memory: 99.23 MB used, 99.23 MB peak
+[2019.07.28-14.46.39:419][  0]LogMemory: Process Virtual Memory: 84.17 MB used, 84.17 MB peak
+[2019.07.28-14.46.39:419][  0]LogMemory: Physical Memory: 8097.15 MB used,  8246.87 MB free, 16344.02 MB total
+[2019.07.28-14.46.39:419][  0]LogMemory: Virtual Memory: 474.45 MB used,  8246.87 MB free, 134217728.00 MB total
+[2019.07.28-14.46.39:505][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.07.28-14.46.39:505][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.07.28-14.46.39:879][  0]LogStreaming: Display: Took  0.375s to InitEngineTextLocalization.
+[2019.07.28-14.46.39:880][  0]LogInit: Setting process to per monitor DPI aware
+[2019.07.28-14.46.39:917][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.07.28-14.46.39:917][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.07.28-14.46.40:072][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.07.28-14.46.40:072][  0]LogD3D11RHI: D3D11 adapters:
+[2019.07.28-14.46.40:140][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.07.28-14.46.40:140][  0]LogD3D11RHI:       8046/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.07.28-14.46.40:143][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.07.28-14.46.40:143][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.07.28-14.46.40:143][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.07.28-14.46.40:148][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.07.28-14.46.40:148][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2019.07.28-14.46.40:148][  0]LogWindows: EnumDisplayDevices:
+[2019.07.28-14.46.40:148][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2019.07.28-14.46.40:149][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2019.07.28-14.46.40:149][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.07.28-14.46.40:149][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.07.28-14.46.40:149][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.07.28-14.46.40:149][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.07.28-14.46.40:149][  0]LogD3D11RHI:   Driver Version: 431.60 (internal:26.21.14.3160, unified:431.60)
+[2019.07.28-14.46.40:149][  0]LogD3D11RHI:      Driver Date: 7-17-2019
+[2019.07.28-14.46.40:149][  0]LogRHI: Texture pool is 5632 MB (70% of 8046 MB)
+[2019.07.28-14.46.40:173][  0]LogD3D11RHI: Async texture creation enabled
+[2019.07.28-14.46.40:193][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.07.28-14.46.40:238][  0]LogShaderCompilers: Guid format shader working directory is -40 characters bigger than the processId version (../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Intermediate/Shaders/WorkingDirectory/12404/).
+[2019.07.28-14.46.40:238][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Joan Abad/AppData/Local/Temp/UnrealShaderWorkingDir/07BEA5B74C7E93CC552F6F85AD81F432/'.
+[2019.07.28-14.46.40:460][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.07.28-14.46.40:475][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.07.28-14.46.40:489][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.07.28-14.46.40:503][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.07.28-14.46.40:516][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.07.28-14.46.40:529][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.07.28-14.46.40:542][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.07.28-14.46.40:557][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.07.28-14.46.40:563][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.07.28-14.46.40:638][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-14.46.40:638][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-14.46.40:639][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-14.46.40:639][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-14.46.40:639][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-14.46.40:639][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-14.46.40:639][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-14.46.40:639][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-14.46.40:639][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-14.46.40:639][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-14.46.40:639][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-14.46.40:639][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-14.46.40:639][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-14.46.40:639][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-14.46.40:639][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-14.46.40:639][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-14.46.40:639][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-14.46.40:639][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.07.28-14.46.40:641][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.07.28-14.46.40:707][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.07.28-14.46.40:707][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.07.28-14.46.40:730][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.07.28-14.46.40:731][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.07.28-14.46.40:743][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.07.28-14.46.40:757][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.07.28-14.46.40:778][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.07.28-14.46.40:793][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.07.28-14.46.40:808][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.07.28-14.46.40:808][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.07.28-14.46.40:909][  0]LogXGEController: Cleaning working directory: C:/Users/Joan Abad/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.07.28-14.46.40:923][  0]LogShaderCompilers: Display: Using XGE Shader Compiler (Interception Interface).
+[2019.07.28-14.46.41:649][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.07.28-14.46.41:730][  0]LogDerivedDataCache: Loaded boot cache 0.08s 71MB C:/Users/Joan Abad/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.07.28-14.46.41:731][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Joan Abad/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.07.28-14.46.41:731][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.07.28-14.46.41:731][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.07.28-14.46.41:731][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.07.28-14.46.41:731][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.07.28-14.46.41:746][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.07.28-14.46.41:759][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Joan Abad/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.07.28-14.46.41:759][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.07.28-14.46.41:759][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.07.28-14.46.41:780][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.07.28-14.46.41:782][  0]LogSlate: Using FreeType 2.6.0
+[2019.07.28-14.46.41:782][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.07.28-14.46.41:859][  0]LogAssetRegistry: FAssetRegistry took 0.0282 seconds to start up
+[2019.07.28-14.46.42:153][  0]LogInit: Selected Device Profile: [Windows]
+[2019.07.28-14.46.42:295][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.07.28-14.46.42:305][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.07.28-14.46.42:305][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.07.28-14.46.42:305][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.07.28-14.46.42:305][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.07.28-14.46.42:323][  0]LogNetVersion: Shooter_OW_Style 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1206910907)
+[2019.07.28-14.46.42:791][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.071448 seconds
+[2019.07.28-14.46.42:798][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.07.28-14.46.42:799][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.07.28-14.46.42:799][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.07.28-14.46.43:740][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.07.28-14.46.43:759][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.07.28-14.46.43:952][  0]SourceControl: Source control is disabled
+[2019.07.28-14.46.43:952][  0]SourceControl: Source control is disabled
+[2019.07.28-14.46.43:956][  0]SourceControl: Source control is disabled
+[2019.07.28-14.46.43:958][  0]SourceControl: Source control is disabled
+[2019.07.28-14.46.44:177][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.07.28-14.46.44:260][  0]LogOcInput: OculusInput pre-init called
+[2019.07.28-14.46.44:329][  0]LogEngine: Initializing Engine...
+[2019.07.28-14.46.44:330][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.07.28-14.46.44:332][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.07.28-14.46.44:333][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.07.28-14.46.44:333][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.07.28-14.46.44:333][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.07.28-14.46.44:573][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.07.28-14.46.44:586][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.07.28-14.46.44:594][  0]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.28-14.46.44:601][  0]LogInit: FAudioDevice initialized.
+[2019.07.28-14.46.44:601][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.07.28-14.46.44:707][  0]LogDerivedDataCache: Saved boot cache 0.11s 71MB C:/Users/Joan Abad/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.07.28-14.46.44:714][  0]LogInit: Texture streaming: Enabled
+[2019.07.28-14.46.44:739][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.07.28-14.46.44:750][  0]LogInit: Transaction tracking system initialized
+[2019.07.28-14.46.44:779][  0]BlueprintLog: New page: Editor Load
+[2019.07.28-14.46.44:923][  0]LocalizationService: Localization service is disabled
+[2019.07.28-14.46.45:272][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2019.07.28-14.46.45:272][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2019.07.28-14.46.45:272][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2019.07.28-14.46.45:460][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.07.28-14.46.45:460][  0]LogCook: Display: Mobile HDR setting 1
+[2019.07.28-14.46.45:460][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.07.28-14.46.45:460][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.07.28-14.46.45:460][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.07.28-14.46.45:460][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/' took 0.01s
+[2019.07.28-14.46.45:461][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.07.28-14.46.45:461][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.07.28-14.46.45:632][  0]SourceControl: Source control is disabled
+[2019.07.28-14.46.45:632][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.07.28-14.46.45:632][  0]LightingResults: New page: Lighting Build
+[2019.07.28-14.46.45:634][  0]MapCheck: New page: Map Check
+[2019.07.28-14.46.45:635][  0]LightingResults: New page: Lighting Build
+[2019.07.28-14.46.45:824][  0]LogAIModule: Creating AISystem for world FirstMap
+[2019.07.28-14.46.45:830][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.07.28-14.46.45:856][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.07.28-14.46.45:894][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 38.492ms to complete.
+[2019.07.28-14.46.45:895][  0]LogFileHelpers: Loading map 'FirstMap' took 0.263
+[2019.07.28-14.46.45:999][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.28-14.46.46:006][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.28-14.46.46:014][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.28-14.46.46:022][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.28-14.46.46:030][  0]LogCollectionManager: Loaded 0 collections in 0.001722 seconds
+[2019.07.28-14.46.46:088][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Collections/' took 0.02s
+[2019.07.28-14.46.46:088][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Developers/JoanAbad/Collections/' took 0.01s
+[2019.07.28-14.46.46:088][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Collections/' took 0.01s
+[2019.07.28-14.46.46:088][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.07.28-14.46.46:097][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2574 classes and 606 folders.
+[2019.07.28-14.46.46:105][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.07.28-14.46.46:131][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.07.28-14.46.46:138][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.07.28-14.46.47:214][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.07.28-14.46.47:241][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ShooterOWStyle
+[2019.07.28-14.46.47:242][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.07.28-14.46.47:242][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2019.07.28-14.46.47:242][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2019.07.28-14.46.47:242][  0]LogTemp: BranchPath = JOANPC/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = JOANPC/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2019.07.28-14.46.47:242][  0]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.07.28-14.46.47:243][  0]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.07.28-14.46.47:249][  0]LogSlate: Took 0.000354 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.07.28-14.46.47:344][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Joan Abad\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.07.28-14.46.47:345][  0]LogRenderer: Reallocating scene render targets to support 1716x884 Format 10 NumSamples 1 (Frame:1).
+[2019.07.28-14.46.47:519][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.07.28-14.46.47:519][  0]LogLoad: (Engine Initialization) Total time: 9.45 seconds
+[2019.07.28-14.46.47:519][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.07.28-14.46.47:557][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.07.28-14.46.47:604][  1]LogAssetRegistry: Asset discovery search completed in 5.7696 seconds
+[2019.07.28-14.46.47:606][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.07.28-14.46.47:607][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000133 seconds (updated 0 objects)
+[2019.07.28-14.46.55:298][912]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-14.46.55:390][922]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.07.28-14.46.55:398][922]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Programming/Character/Base_Character.Base_Character
+[2019.07.28-14.46.55:846][922]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
+[2019.07.28-14.47.00:735][379]LogSlate: Window 'Base_Character' being destroyed
+[2019.07.28-14.47.00:795][379]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Programming/Character/Base_Character.Base_Character
+[2019.07.28-14.47.01:098][379]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.07.28-14.47.01:559][420]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.07.28-14.47.05:689][733]LogTexture: Display: Building textures: UE4_Mannequin_MAT_MASKA (AutoDXT, 1024X1024)
+[2019.07.28-14.47.05:689][733]LogTexture: Display: Building textures: UE4_Mannequin_occlusion_Mobile (DXT1, 512X512)
+[2019.07.28-14.47.05:689][733]LogTexture: Display: Building textures: UE4_Mannequin__normals (BC5, 2048X2048)
+[2019.07.28-14.47.05:689][733]LogTexture: Display: Building textures: T_ML_Aluminum01_N (BC5, 512X512)
+[2019.07.28-14.47.05:689][733]LogTexture: Display: Building textures: UE4Man_Logo_N (BC5, 512X512)
+[2019.07.28-14.47.05:689][733]LogTexture: Display: Building textures: T_ML_Aluminum01 (DXT1, 512X512)
+[2019.07.28-14.47.05:689][733]LogTexture: Display: Building textures: T_ML_Rubber_Blue_01_D (DXT1, 512X512)
+[2019.07.28-14.47.05:920][733]LogTexture: Display: Building textures: T_ML_Rubber_Blue_01_N (BC5, 512X512)
+[2019.07.28-14.47.05:920][733]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2019.07.28-14.47.06:174][733]LogMaterial: Display: Missing cached shader map for material M_UE4Man_Body, compiling. 
+[2019.07.28-14.47.06:268][733]LogSkeletalMesh: Building Skeletal Mesh SK_Mannequin...
+[2019.07.28-14.47.06:437][733]LogSkeletalMesh: Built Skeletal Mesh [0.20s] /Game/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin
+[2019.07.28-14.47.06:831][733]LogRenderer: Reallocating scene render targets to support 1716x984 Format 10 NumSamples 1 (Frame:1).
+[2019.07.28-14.47.23:695][130]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-14.47.30:310][649]BlueprintLog: New page: Compile Base_Character
+[2019.07.28-14.47.30:981][694]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_CharacterFCEB698443632F869E91DCB7A27090AC.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.07.28-14.47.35:972][141]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-14.47.42:720][686]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-14.47.42:812][695]BlueprintLog: New page: Compile Base_Character
+[2019.07.28-14.47.43:400][734]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_Character889E4FFD43C65156BAEC9B82AD3D618A.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.07.28-14.47.44:106][794]LogSlate: Window 'Base_Character' being destroyed
+[2019.07.28-14.47.44:115][795]LogRenderer: Reallocating scene render targets to support 2572x1324 Format 10 NumSamples 1 (Frame:4509).
+[2019.07.28-14.47.46:861][115]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.07.28-14.47.46:878][115]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.28-14.47.46:892][115]PIE: New page: PIE session: FirstMap (Jul 28, 2019, 6:47:46 PM)
+[2019.07.28-14.47.46:893][115]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
+[2019.07.28-14.47.46:896][115]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003211s)
+[2019.07.28-14.47.46:897][115]LogAIModule: Creating AISystem for world FirstMap
+[2019.07.28-14.47.46:897][115]LogPlayLevel: PIE: World Init took: (0.001043s)
+[2019.07.28-14.47.46:897][115]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.004635s)
+[2019.07.28-14.47.46:930][115]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.28-14.47.46:938][115]LogInit: FAudioDevice initialized.
+[2019.07.28-14.47.46:947][115]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.28-14.47.47:052][115]LogLoad: Game class is 'GameModeBase'
+[2019.07.28-14.47.47:054][115]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.07.28-16.47.47
+[2019.07.28-14.47.47:055][115]LogWorld: Bringing up level for play took: 0.001339
+[2019.07.28-14.47.47:073][115]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2019.07.28-14.47.47:075][115]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap -0.111
+[2019.07.28-14.47.52:307][726]Set new viewmode: Unlit
+[2019.07.28-14.47.53:400][857]Set new viewmode: Lit
+[2019.07.28-14.47.53:875][914]Set new viewmode: Lit_DetailLighting
+[2019.07.28-14.48.05:465][294]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.28-14.48.05:478][294]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.07.28-14.48.05:512][294]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.28-14.48.05:578][295]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.07.28-14.48.20:053][776]LogEditorActor: Deleted Actor: SkyLight
+[2019.07.28-14.48.20:082][776]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2019.07.28-14.48.24:252][267]Cmd: TRANSACTION UNDO
+[2019.07.28-14.48.24:252][267]LogEditorTransaction: Undo Delete selection
+[2019.07.28-14.48.40:362][ 62]MapCheck: New page: Map Check
+[2019.07.28-14.48.40:390][ 62]LightingResults: New page: Lighting Build - Jul 28, 2019, 6:48:40 PM
+[2019.07.28-14.48.40:451][ 62]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.07.28-14.48.40:488][ 62]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.07.28-14.48.40:499][ 62]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.07.28-14.48.41:009][ 62]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.07.28-14.48.41:009][ 62]LogSwarmInterface: [TryOpenConnection] Local Process ID is 12404
+[2019.07.28-14.48.43:164][ 62]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.07.28-14.48.43:164][ 62]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.07.28-14.48.43:164][ 62]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.07.28-14.48.43:164][ 62]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.07.28-14.48.43:164][ 62]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.07.28-14.48.43:164][ 62]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.07.28-14.48.43:327][ 62]LogEditorBuildUtils: Build time 0:02
+[2019.07.28-14.48.44:681][143]Job is a success!
+[2019.07.28-14.48.44:744][144]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.007s
+[2019.07.28-14.48.44:744][144]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.07.28-14.48.44:744][144]LogVolumetricLightmapImport:      BrickData 105x5x5 = 0.1Mb
+[2019.07.28-14.48.44:744][144]LogVolumetricLightmapImport:      Bricks at Level
+[2019.07.28-14.48.44:744][144]LogVolumetricLightmapImport:          0: 4.8% covering 100.0% of volume
+[2019.07.28-14.48.44:744][144]LogVolumetricLightmapImport:          1: 19.0% covering 6.3% of volume
+[2019.07.28-14.48.44:745][144]LogVolumetricLightmapImport:          2: 76.2% covering 0.4% of volume
+[2019.07.28-14.48.44:921][144]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
+[2019.07.28-14.48.44:921][144]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
+[2019.07.28-14.48.44:921][144]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2019.07.28-14.48.44:921][144]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2019.07.28-14.48.44:921][144]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 128X128)
+[2019.07.28-14.48.44:921][144]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2019.07.28-14.48.44:960][144]Lightmass on JOANPC: 1.04 sec total, 116 ms importing, 4 ms setup, 202 ms photons, 694 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 2.74 sec total, 252 ms processing.
+[2019.07.28-14.48.45:025][144]LogStaticLightingSystem: Illumination: 4.60 sec (158 ms encoding lightmaps, 9 ms encoding shadowmaps)
+[2019.07.28-14.48.45:026][144]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2019.07.28-14.48.45:026][144]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2019.07.28-14.48.50:178][144]DumpUnbuiltLightIteractions
+[2019.07.28-14.48.50:178][144]Lights with unbuilt interactions: 0
+[2019.07.28-14.48.50:178][144]
+[2019.07.28-14.48.50:178][144]Primitives with unbuilt interactions: 0
+[2019.07.28-14.48.50:309][145]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.07.28-14.48.50:310][145]MapCheck: New page: FirstMap - Jul 28, 2019, 6:48:50 PM
+[2019.07.28-14.48.50:364][145]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 54.326ms to complete.
+[2019.07.28-14.49.11:476][867]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.07.28-14.49.11:487][867]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.28-14.49.11:487][867]PIE: New page: PIE session: FirstMap (Jul 28, 2019, 6:49:11 PM)
+[2019.07.28-14.49.11:488][867]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
+[2019.07.28-14.49.11:490][867]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002286s)
+[2019.07.28-14.49.11:491][867]LogAIModule: Creating AISystem for world FirstMap
+[2019.07.28-14.49.11:491][867]LogPlayLevel: PIE: World Init took: (0.001299s)
+[2019.07.28-14.49.11:492][867]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.003956s)
+[2019.07.28-14.49.11:523][867]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.28-14.49.11:530][867]LogInit: FAudioDevice initialized.
+[2019.07.28-14.49.11:539][867]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.28-14.49.11:630][867]LogLoad: Game class is 'GameModeBase'
+[2019.07.28-14.49.11:632][867]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.07.28-16.49.11
+[2019.07.28-14.49.11:632][867]LogWorld: Bringing up level for play took: 0.001099
+[2019.07.28-14.49.11:647][867]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap 0.461
+[2019.07.28-14.49.24:962][446]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.28-14.49.24:974][446]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.07.28-14.49.25:009][446]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.28-14.49.25:105][448]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.07.28-14.49.26:568][623]LogEditorViewport: Clicking on Actor (LMB): Base_Character_C (Base_Character)
+[2019.07.28-14.49.32:158][233]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.07.28-14.49.32:250][244]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.07.28-14.49.32:262][244]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.28-14.49.32:262][244]PIE: New page: PIE session: FirstMap (Jul 28, 2019, 6:49:32 PM)
+[2019.07.28-14.49.32:262][244]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
+[2019.07.28-14.49.32:265][244]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002827s)
+[2019.07.28-14.49.32:266][244]LogAIModule: Creating AISystem for world FirstMap
+[2019.07.28-14.49.32:266][244]LogPlayLevel: PIE: World Init took: (0.000914s)
+[2019.07.28-14.49.32:266][244]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.004011s)
+[2019.07.28-14.49.32:332][244]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.28-14.49.32:337][244]LogInit: FAudioDevice initialized.
+[2019.07.28-14.49.32:346][244]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.28-14.49.32:447][244]LogLoad: Game class is 'GameModeBase'
+[2019.07.28-14.49.32:449][244]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.07.28-16.49.32
+[2019.07.28-14.49.32:449][244]LogWorld: Bringing up level for play took: 0.001204
+[2019.07.28-14.49.32:466][244]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap -0.721
+[2019.07.28-14.49.39:337][ 50]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.28-14.49.39:350][ 50]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.07.28-14.49.39:386][ 50]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.28-14.49.39:484][ 52]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.07.28-14.49.47:909][293]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMap18C3DC6142DF461A67B34B86AC5FBF7F.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap'
+[2019.07.28-14.49.47:934][293]LogFileHelpers: Saving map 'FirstMap' took 0.137
+[2019.07.28-14.49.47:952][293]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMap_BuiltData9C78605C416C1F039CA59DAA3A187AA3.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap_BuiltData.uasset'
+[2019.07.28-14.49.58:643][545]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_Character46C61064446EDB514B12E9AB5B1DACD1.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.07.28-14.56.02:610][531]Candidate modules for hot reload:
+[2019.07.28-14.56.02:611][531]  Shooter_OW_Style
+[2019.07.28-14.56.02:611][531]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Shooter_OW_Style,8985 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Shooter_OW_Style.uproject" -canskiplink "C:/Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Shooter_OW_Style.uproject" ]
+[2019.07.28-14.56.02:612][531]Warning: Starting HotReload took  0.1s.
+[2019.07.28-14.56.07:917][125]CompilerResultsLog: New page: Compilation - Jul 28, 2019, 6:56:07 PM
+[2019.07.28-14.56.07:918][125]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.28-14.56.07:918][125]CompilerResultsLog: Creating makefile for hot reloading Shooter_OW_StyleEditor (ini files are newer than UBTMakefile)
+[2019.07.28-14.56.07:918][125]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.28-14.56.07:918][125]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\FCKING VISUAL STUDIO\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.07.28-14.56.07:918][125]CompilerResultsLog: ERROR: In C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Source\Shooter_OW_Style\Private\C_BaseCharacter.cpp: #include "..\Public\C_BaseCharacter.h" contains backslashes ('\'), please use forward slashes ('/') instead.
+[2019.07.28-14.56.07:918][125]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.07.28-14.56.07:918][125]LogMainFrame: MainFrame: Module compiling took 5.319 seconds
+[2019.07.28-14.56.07:918][125]Warning: HotReload failed, recompile failed
+[2019.07.28-14.56.39:543][400]Candidate modules for hot reload:
+[2019.07.28-14.56.39:543][400]  Shooter_OW_Style
+[2019.07.28-14.56.39:544][400]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Shooter_OW_Style,76 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Shooter_OW_Style.uproject" -canskiplink "C:/Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Shooter_OW_Style.uproject" ]
+[2019.07.28-14.56.39:545][400]Warning: Starting HotReload took  0.0s.
+[2019.07.28-14.57.00:999][836]CompilerResultsLog: New page: Compilation - Jul 28, 2019, 6:57:00 PM
+[2019.07.28-14.57.00:999][836]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.28-14.57.01:000][836]CompilerResultsLog: Creating makefile for hot reloading Shooter_OW_StyleEditor (ini files are newer than UBTMakefile)
+[2019.07.28-14.57.01:000][836]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.28-14.57.01:000][836]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\FCKING VISUAL STUDIO\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.07.28-14.57.01:000][836]CompilerResultsLog: Parsing headers for Shooter_OW_StyleEditor
+[2019.07.28-14.57.01:000][836]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Shooter_OW_Style.uproject" "C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\Shooter_OW_StyleEditor\Development\Shooter_OW_StyleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.07.28-14.57.01:000][836]CompilerResultsLog: Reflection code generated for Shooter_OW_StyleEditor in 13,2044807 seconds
+[2019.07.28-14.57.01:000][836]CompilerResultsLog: Distributing 4 actions to XGE
+[2019.07.28-14.57.01:000][836]CompilerResultsLog: --------------------Build System Warning---------------------------------------
+[2019.07.28-14.57.01:000][836]CompilerResultsLog: License is invalid:
+[2019.07.28-14.57.01:000][836]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+[2019.07.28-14.57.01:000][836]CompilerResultsLog:     This build will run in standalone mode.
+[2019.07.28-14.57.01:000][836]CompilerResultsLog: 
+[2019.07.28-14.57.01:000][836]CompilerResultsLog: -------------------------------------------------------------------------------
+[2019.07.28-14.57.01:000][836]CompilerResultsLog: --------------------Project: Default-------------------------------------------
+[2019.07.28-14.57.01:000][836]CompilerResultsLog: C_BaseCharacter.cpp (0:01.26 at +0:00)
+[2019.07.28-14.57.01:000][836]CompilerResultsLog: Error: c:\users\joan abad\documents\github\shooteronlineow_style\shooter_ow_style\source\shooter_ow_style\private\c_basecharacter.cpp(52)  : error C4717: 'AC_BaseCharacter::EndCrouch': recursiva para todas las rutas de acceso de control; la funci?n provocar? el desbordamiento de la pila en tiempo de ejecuci?n
+[2019.07.28-14.57.01:000][836]CompilerResultsLog: 
+[2019.07.28-14.57.01:000][836]CompilerResultsLog: Error executing C:\Program Files (x86)\FCKING VISUAL STUDIO\VC\Tools\MSVC\14.16.27023\bin\HostX64\x64\cl.exe (tool returned code: 2)
+[2019.07.28-14.57.01:000][836]CompilerResultsLog: C_BaseCharacter.gen.cpp (0:01.11 at +0:01)
+[2019.07.28-14.57.01:001][836]CompilerResultsLog: ---------------------- Done ----------------------
+[2019.07.28-14.57.01:001][836]CompilerResultsLog: 
+[2019.07.28-14.57.01:001][836]CompilerResultsLog:     Rebuild All: 0 succeeded, 1 failed, 0 skipped
+[2019.07.28-14.57.01:001][836]CompilerResultsLog: 
+[2019.07.28-14.57.01:001][836]CompilerResultsLog: 1 build system warning(s):
+[2019.07.28-14.57.01:001][836]CompilerResultsLog:    - License is invalid
+[2019.07.28-14.57.01:001][836]CompilerResultsLog: 
+[2019.07.28-14.57.01:001][836]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Binaries\Win64\UE4Editor-Shooter_OW_Style-76.dll
+[2019.07.28-14.57.01:001][836]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.07.28-14.57.01:001][836]CompilerResultsLog: Total build time: 21,16 seconds (XGE executor: 0,00 seconds)
+[2019.07.28-14.57.01:001][836]LogMainFrame: MainFrame: Module compiling took 21.465 seconds
+[2019.07.28-14.57.01:001][836]Warning: HotReload failed, recompile failed
+[2019.07.28-14.57.44:238][567]Candidate modules for hot reload:
+[2019.07.28-14.57.44:238][567]  Shooter_OW_Style
+[2019.07.28-14.57.44:238][567]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Shooter_OW_Style,7739 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Shooter_OW_Style.uproject" -canskiplink "C:/Users/Joan Abad/Documents/Github/ShooterOnlineOW_Style/Shooter_OW_Style/Shooter_OW_Style.uproject" ]
+[2019.07.28-14.57.44:239][567]Warning: Starting HotReload took  0.1s.
+[2019.07.28-14.57.50:091][ 45]CompilerResultsLog: New page: Compilation - Jul 28, 2019, 6:57:50 PM
+[2019.07.28-14.57.50:091][ 45]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.07.28-14.57.50:092][ 45]CompilerResultsLog: Compiling game modules for hot reload
+[2019.07.28-14.57.50:093][ 45]CompilerResultsLog: Distributing 3 actions to XGE
+[2019.07.28-14.57.50:093][ 45]CompilerResultsLog: --------------------Build System Warning---------------------------------------
+[2019.07.28-14.57.50:094][ 45]CompilerResultsLog: License is invalid:
+[2019.07.28-14.57.50:094][ 45]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+[2019.07.28-14.57.50:094][ 45]CompilerResultsLog:     This build will run in standalone mode.
+[2019.07.28-14.57.50:094][ 45]CompilerResultsLog: 
+[2019.07.28-14.57.50:094][ 45]CompilerResultsLog: -------------------------------------------------------------------------------
+[2019.07.28-14.57.50:094][ 45]CompilerResultsLog: --------------------Project: Default-------------------------------------------
+[2019.07.28-14.57.50:095][ 45]CompilerResultsLog: C_BaseCharacter.cpp (0:01.70 at +0:00)
+[2019.07.28-14.57.50:095][ 45]CompilerResultsLog: UE4Editor-Shooter_OW_Style-7739.dll (0:01.60 at +0:01)
+[2019.07.28-14.57.50:095][ 45]CompilerResultsLog:    Creando biblioteca C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\UE4Editor-Shooter_OW_Style-7739.suppressed.lib y objeto C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\UE4Editor-Shooter_OW_Style-7739.suppressed.exp
+[2019.07.28-14.57.50:095][ 45]CompilerResultsLog: UE4Editor-Shooter_OW_Style-7739.lib (0:00.12 at +0:03)
+[2019.07.28-14.57.50:095][ 45]CompilerResultsLog:    Creando biblioteca C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\UE4Editor-Shooter_OW_Style-7739.lib y objeto C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\UE4Editor-Shooter_OW_Style-7739.exp
+[2019.07.28-14.57.50:095][ 45]CompilerResultsLog: ---------------------- Done ----------------------
+[2019.07.28-14.57.50:095][ 45]CompilerResultsLog: 
+[2019.07.28-14.57.50:095][ 45]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
+[2019.07.28-14.57.50:096][ 45]CompilerResultsLog: 
+[2019.07.28-14.57.50:096][ 45]CompilerResultsLog: 1 build system warning(s):
+[2019.07.28-14.57.50:096][ 45]CompilerResultsLog:    - License is invalid
+[2019.07.28-14.57.50:096][ 45]CompilerResultsLog: 
+[2019.07.28-14.57.50:096][ 45]CompilerResultsLog: Total build time: 5,33 seconds (XGE executor: 3,63 seconds)
+[2019.07.28-14.57.50:096][ 45]LogMainFrame: MainFrame: Module compiling took 5.867 seconds
+[2019.07.28-14.57.50:145][ 45]LogHotReload: Re-instancing C_BaseCharacter after hot-reload.
+[2019.07.28-14.57.50:399][ 45]LogContentBrowser: Native class hierarchy updated for 'Shooter_OW_Style' in 0.0004 seconds. Added 2 classes and 3 folders.
+[2019.07.28-14.57.50:404][ 45]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.07.28-14.57.50:797][ 45]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2575 classes and 608 folders.
+[2019.07.28-14.57.50:797][ 45]Display: HotReload took  6.6s.
+[2019.07.28-14.57.55:370][122]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.07.28-14.57.55:384][122]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.07.28-14.57.55:385][122]PIE: New page: PIE session: FirstMap (Jul 28, 2019, 6:57:55 PM)
+[2019.07.28-14.57.55:385][122]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
+[2019.07.28-14.57.55:388][122]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002717s)
+[2019.07.28-14.57.55:389][122]LogAIModule: Creating AISystem for world FirstMap
+[2019.07.28-14.57.55:390][122]LogPlayLevel: PIE: World Init took: (0.001439s)
+[2019.07.28-14.57.55:390][122]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.004635s)
+[2019.07.28-14.57.55:440][122]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.07.28-14.57.55:445][122]LogInit: FAudioDevice initialized.
+[2019.07.28-14.57.55:454][122]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.28-14.57.55:544][122]LogLoad: Game class is 'GameModeBase'
+[2019.07.28-14.57.55:546][122]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.07.28-16.57.55
+[2019.07.28-14.57.55:547][122]LogWorld: Bringing up level for play took: 0.001210
+[2019.07.28-14.57.55:563][122]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap 0.377
+[2019.07.28-14.57.57:761][373]LogCharacter: Base_Character_2 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.07.28-14.57.58:496][458]LogCharacter: Base_Character_2 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.07.28-14.57.58:865][502]LogCharacter: Base_Character_2 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.07.28-14.57.59:165][538]LogCharacter: Base_Character_2 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.07.28-14.57.59:515][580]LogCharacter: Base_Character_2 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.07.28-14.57.59:931][629]LogCharacter: Base_Character_2 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.07.28-14.58.00:575][701]LogCharacter: Base_Character_2 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.07.28-14.58.00:873][735]LogCharacter: Base_Character_2 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.07.28-14.58.01:030][753]LogCharacter: Base_Character_2 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.07.28-14.58.01:496][808]LogCharacter: Base_Character_2 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.07.28-14.58.01:756][838]LogCharacter: Base_Character_2 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.07.28-14.58.01:990][866]LogCharacter: Base_Character_2 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.07.28-14.58.02:123][882]LogCharacter: Base_Character_2 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
+[2019.07.28-14.58.02:560][933]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.07.28-14.58.02:573][933]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.07.28-14.58.02:612][933]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.07.28-14.58.02:660][934]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.07.28-14.59.43:122][ 50]LogSlate: Window 'Shooter_OW_Style - Unreal Editor' being destroyed
+[2019.07.28-14.59.43:123][ 50]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.07.28-14.59.43:394][ 51]Cmd: QUIT_EDITOR
+[2019.07.28-14.59.43:845][ 51]LogExit: Preparing to exit.
+[2019.07.28-14.59.44:964][ 51]LogExit: Editor shut down
+[2019.07.28-14.59.44:964][ 51]LogExit: Transaction tracking system shut down

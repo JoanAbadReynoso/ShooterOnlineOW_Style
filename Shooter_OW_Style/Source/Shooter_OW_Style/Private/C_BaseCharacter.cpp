@@ -3,6 +3,8 @@
 #include "C_BaseCharacter.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "../Public/C_BaseCharacter.h"
+#include "GameFramework/PawnMovementComponent.h"
 
 // Sets default values
 AC_BaseCharacter::AC_BaseCharacter()
@@ -14,21 +16,16 @@ AC_BaseCharacter::AC_BaseCharacter()
 	SpringArmComp->bUsePawnControlRotation = true;
 	SpringArmComp->SetupAttachment(RootComponent);
 	
+	GetMovementComponent()->GetNavAgentPropertiesRef().bCanCrouch = true;
 	
 	CameraComp = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	CameraComp->SetupAttachment(SpringArmComp);
-
-
-
 }
 
 // Called when the game starts or when spawned
 void AC_BaseCharacter::BeginPlay()
 {
-	Super::BeginPlay();
-
-	
-	
+	Super::BeginPlay();	
 }
 
 void AC_BaseCharacter::MoveForward(float Speed)
@@ -39,6 +36,27 @@ void AC_BaseCharacter::MoveForward(float Speed)
 void AC_BaseCharacter::MoveRight(float Speed)
 {
 	AddMovementInput(GetActorRightVector() * Speed);
+}
+
+void AC_BaseCharacter::BeginCrouch()
+{
+	Crouch();
+}
+
+void AC_BaseCharacter::EndCrouch()
+{
+	UnCrouch();
+}
+
+void AC_BaseCharacter::JumpFunction()
+{
+	Jump();
+	jumping = true;
+}
+
+void AC_BaseCharacter::EndJump()
+{
+	StopJumping();
 }
 
 // Called every frame
@@ -53,12 +71,25 @@ void AC_BaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+	//MOVEMENT
+		
 	PlayerInputComponent->BindAxis("MoveForward", this, &AC_BaseCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AC_BaseCharacter::MoveRight);
 
+	// MOUSE/CAMERA
 
 	PlayerInputComponent->BindAxis("LookUp", this, &AC_BaseCharacter::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("Turn", this, &AC_BaseCharacter::AddControllerYawInput);
+	
+	//CROUCH
+
+	PlayerInputComponent->BindAction("Crouch", IE_Pressed, this, &AC_BaseCharacter::BeginCrouch);
+	PlayerInputComponent->BindAction("Crouch", IE_Released, this, &AC_BaseCharacter::EndCrouch);
+
+	//JUMP
+
+	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AC_BaseCharacter::Jump);
+	PlayerInputComponent->BindAction("Jump", IE_Released, this, &AC_BaseCharacter::EndJump);
 
 }
 
