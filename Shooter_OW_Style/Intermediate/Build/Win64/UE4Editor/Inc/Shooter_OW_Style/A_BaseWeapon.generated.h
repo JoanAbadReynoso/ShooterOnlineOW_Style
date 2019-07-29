@@ -13,7 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SHOOTER_OW_STYLE_A_BaseWeapon_generated_h
 
-#define Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_18_RPC_WRAPPERS \
+#define Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_20_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execShootFire) \
 	{ \
@@ -24,7 +24,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execShootFire) \
 	{ \
@@ -35,7 +35,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_18_INCLASS_NO_PURE_DECLS \
+#define Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_20_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAA_BaseWeapon(); \
 	friend struct Z_Construct_UClass_AA_BaseWeapon_Statics; \
@@ -44,7 +44,7 @@ public: \
 	DECLARE_SERIALIZER(AA_BaseWeapon)
 
 
-#define Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_18_INCLASS \
+#define Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_20_INCLASS \
 private: \
 	static void StaticRegisterNativesAA_BaseWeapon(); \
 	friend struct Z_Construct_UClass_AA_BaseWeapon_Statics; \
@@ -53,7 +53,7 @@ public: \
 	DECLARE_SERIALIZER(AA_BaseWeapon)
 
 
-#define Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_18_STANDARD_CONSTRUCTORS \
+#define Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_20_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AA_BaseWeapon(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AA_BaseWeapon) \
@@ -66,7 +66,7 @@ private: \
 public:
 
 
-#define Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_18_ENHANCED_CONSTRUCTORS \
+#define Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_20_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AA_BaseWeapon(AA_BaseWeapon&&); \
@@ -77,29 +77,35 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AA_BaseWeapon); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AA_BaseWeapon)
 
 
-#define Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_18_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__SM_Weapon() { return STRUCT_OFFSET(AA_BaseWeapon, SM_Weapon); }
+#define Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_20_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__SM_Weapon() { return STRUCT_OFFSET(AA_BaseWeapon, SM_Weapon); } \
+	FORCEINLINE static uint32 __PPO__DamageType() { return STRUCT_OFFSET(AA_BaseWeapon, DamageType); } \
+	FORCEINLINE static uint32 __PPO__MuzzleSocketName() { return STRUCT_OFFSET(AA_BaseWeapon, MuzzleSocketName); } \
+	FORCEINLINE static uint32 __PPO__TracerTargetName() { return STRUCT_OFFSET(AA_BaseWeapon, TracerTargetName); } \
+	FORCEINLINE static uint32 __PPO__PS_Muzzle() { return STRUCT_OFFSET(AA_BaseWeapon, PS_Muzzle); } \
+	FORCEINLINE static uint32 __PPO__PS_ImpactActor() { return STRUCT_OFFSET(AA_BaseWeapon, PS_ImpactActor); } \
+	FORCEINLINE static uint32 __PPO__PS_TracerEffect() { return STRUCT_OFFSET(AA_BaseWeapon, PS_TracerEffect); }
 
 
-#define Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_15_PROLOG
-#define Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_18_GENERATED_BODY_LEGACY \
+#define Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_17_PROLOG
+#define Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_20_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_18_PRIVATE_PROPERTY_OFFSET \
-	Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_18_RPC_WRAPPERS \
-	Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_18_INCLASS \
-	Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_18_STANDARD_CONSTRUCTORS \
+	Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_20_PRIVATE_PROPERTY_OFFSET \
+	Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_20_RPC_WRAPPERS \
+	Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_20_INCLASS \
+	Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_20_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_18_GENERATED_BODY \
+#define Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_20_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_18_PRIVATE_PROPERTY_OFFSET \
-	Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
-	Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_18_INCLASS_NO_PURE_DECLS \
-	Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_18_ENHANCED_CONSTRUCTORS \
+	Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_20_PRIVATE_PROPERTY_OFFSET \
+	Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+	Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_20_INCLASS_NO_PURE_DECLS \
+	Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_20_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

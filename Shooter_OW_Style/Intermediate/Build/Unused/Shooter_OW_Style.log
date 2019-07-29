@@ -1,8 +1,8 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
   Parsing headers for Shooter_OW_StyleEditor
     Running UnrealHeaderTool "C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Shooter_OW_Style.uproject" "C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\Shooter_OW_StyleEditor\Development\Shooter_OW_StyleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for Shooter_OW_StyleEditor in 41,9549796 seconds
-  Distributing 4 actions to XGE
+  Reflection code generated for Shooter_OW_StyleEditor in 55,749626 seconds
+  Distributing 5 actions to XGE
   --------------------Build System Warning---------------------------------------
   License is invalid:
       License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
@@ -10,11 +10,12 @@
   
   -------------------------------------------------------------------------------
   --------------------Project: Default-------------------------------------------
-  A_BaseWeapon.cpp (1:17.87 at +0:00)
-  C_BaseCharacter.cpp (1:11.87 at +1:18)
-  UE4Editor-Shooter_OW_Style.dll (0:20.06 at +2:30)
+  A_BaseWeapon.cpp (2:49.86 at +0:00)
+  A_BaseWeapon.gen.cpp (0:09.90 at +2:50)
+  Shooter_OW_Style.init.gen.cpp (0:01.04 at +3:00)
+  UE4Editor-Shooter_OW_Style.dll (0:04.64 at +3:01)
      Creando biblioteca C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\UE4Editor-Shooter_OW_Style.suppressed.lib y objeto C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\UE4Editor-Shooter_OW_Style.suppressed.exp
-  UE4Editor-Shooter_OW_Style.lib (0:01.54 at +2:50)
+  UE4Editor-Shooter_OW_Style.lib (0:00.29 at +3:06)
      Creando biblioteca C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\UE4Editor-Shooter_OW_Style.lib y objeto C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\UE4Editor-Shooter_OW_Style.exp
   ---------------------- Done ----------------------
   
@@ -24,4 +25,4 @@
      - License is invalid
   
   Deploying Shooter_OW_StyleEditor Win64 Development...
-  Total build time: 238,73 seconds (XGE executor: 174,51 seconds)
+  Total build time: 292,85 seconds (XGE executor: 188,96 seconds)
