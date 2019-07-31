@@ -48,6 +48,12 @@ protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Weapon")
 	UParticleSystem* PS_TracerEffect;
 
+	void PlayFireEffects(FVector TraceEnd);
+
+	UPROPERTY(EditDefaultsOnly, Category = "Weapon")
+	TSubclassOf<UCameraShake> FireCameraShake;
+
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;

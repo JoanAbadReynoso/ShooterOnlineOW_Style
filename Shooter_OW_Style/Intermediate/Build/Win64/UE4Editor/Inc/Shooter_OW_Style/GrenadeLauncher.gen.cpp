@@ -84,7 +84,7 @@ void EmptyLinkFunctionForGeneratedCodeGrenadeLauncher() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGrenadeLauncher, 2856795698);
+	IMPLEMENT_CLASS(AGrenadeLauncher, 916798043);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AGrenadeLauncher(Z_Construct_UClass_AGrenadeLauncher, &AGrenadeLauncher::StaticClass, TEXT("/Script/Shooter_OW_Style"), TEXT("AGrenadeLauncher"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AGrenadeLauncher);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

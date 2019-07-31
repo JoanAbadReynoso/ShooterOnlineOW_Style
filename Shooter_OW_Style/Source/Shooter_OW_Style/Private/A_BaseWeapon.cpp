@@ -76,26 +76,41 @@ void AA_BaseWeapon::ShootFire()
 			DrawDebugLine(GetWorld(), EyeLocation, TraceEnd, FColor::Red, false, 1.0f, 0, 1.0f);
 		}
 		
-
-		//IF Particle System no es null - Se hace para que no crashee
-		if(PS_Muzzle)
-		{
-			UGameplayStatics::SpawnEmitterAttached(PS_Muzzle,SM_Weapon, MuzzleSocketName);
-		}
-		FVector MuzzleLocation = SM_Weapon->GetSocketLocation(MuzzleSocketName);
-
-		//IF Particle System no es null - Se hace para que no crashee
-		if (PS_TracerEffect)
-		{
-			UParticleSystemComponent* TracerComp = UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), PS_TracerEffect, MuzzleLocation);
-			if (TracerComp)
-			{
-				TracerComp->SetVectorParameter(TracerTargetName, TracerEndPoint);
-			}
-
-		}
+		PlayFireEffects(TracerEndPoint);
+		
 	}
 	
+}
+
+void AA_BaseWeapon::PlayFireEffects(FVector TraceEnd)
+{
+	//IF Particle System no es null - Se hace para que no crashee
+	if (PS_Muzzle)
+	{
+		UGameplayStatics::SpawnEmitterAttached(PS_Muzzle, SM_Weapon, MuzzleSocketName);
+	}
+	FVector MuzzleLocation = SM_Weapon->GetSocketLocation(MuzzleSocketName);
+
+	//IF Particle System no es null - Se hace para que no crashee
+	if (PS_TracerEffect)
+	{
+		UParticleSystemComponent* TracerComp = UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), PS_TracerEffect, MuzzleLocation);
+		if (TracerComp)
+		{
+			TracerComp->SetVectorParameter(TracerTargetName, TraceEnd);
+		}
+
+	}
+
+	APawn* MyOwner = Cast<APawn>(GetOwner());
+	if (MyOwner)
+	{
+		APlayerController* PC = Cast <APlayerController>(MyOwner->GetController());
+		if (PC)
+		{
+			PC->ClientPlayCameraShake(FireCameraShake);
+		}
+	}
 }
 
 // Called every frame

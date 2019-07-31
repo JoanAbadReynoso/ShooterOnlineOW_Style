@@ -84,7 +84,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AA_BaseWeapon); \
 	FORCEINLINE static uint32 __PPO__TracerTargetName() { return STRUCT_OFFSET(AA_BaseWeapon, TracerTargetName); } \
 	FORCEINLINE static uint32 __PPO__PS_Muzzle() { return STRUCT_OFFSET(AA_BaseWeapon, PS_Muzzle); } \
 	FORCEINLINE static uint32 __PPO__PS_ImpactActor() { return STRUCT_OFFSET(AA_BaseWeapon, PS_ImpactActor); } \
-	FORCEINLINE static uint32 __PPO__PS_TracerEffect() { return STRUCT_OFFSET(AA_BaseWeapon, PS_TracerEffect); }
+	FORCEINLINE static uint32 __PPO__PS_TracerEffect() { return STRUCT_OFFSET(AA_BaseWeapon, PS_TracerEffect); } \
+	FORCEINLINE static uint32 __PPO__FireCameraShake() { return STRUCT_OFFSET(AA_BaseWeapon, FireCameraShake); }
 
 
 #define Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_17_PROLOG

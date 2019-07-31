@@ -4,10 +4,12 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "A_BaseWeapon.h"
 #include "C_BaseCharacter.generated.h"
 
 class UCameraComponent;
 class USpringArmComponent;
+class AA_BaseWeapon;
 
 UCLASS()
 class SHOOTER_OW_STYLE_API AC_BaseCharacter : public ACharacter
@@ -49,7 +51,16 @@ protected:
 
 	void EndZoom();
 
+	UPROPERTY(EditDefaultsOnly, Category = "Player")
+	TSubclassOf<AA_BaseWeapon> StarterWeapon;
 
+	AA_BaseWeapon* CurrentWeapon;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Player")
+	FName WeaponAttachSocketName;
+
+	void Fire();
+	
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	UCameraComponent* CameraComp;
 

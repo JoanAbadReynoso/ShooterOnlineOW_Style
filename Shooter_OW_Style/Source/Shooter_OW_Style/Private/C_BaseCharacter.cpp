@@ -5,6 +5,7 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "../Public/C_BaseCharacter.h"
 #include "GameFramework/PawnMovementComponent.h"
+#include "A_BaseWeapon.h"
 
 // Sets default values
 AC_BaseCharacter::AC_BaseCharacter()
@@ -21,6 +22,8 @@ AC_BaseCharacter::AC_BaseCharacter()
 	CameraComp = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	CameraComp->SetupAttachment(SpringArmComp);
 
+	WeaponAttachSocketName = "WeaponSocket";
+
 	ZoomedFOV = 65.0f;
 	ZoomInterpSpeed = 20;
 }
@@ -31,6 +34,17 @@ void AC_BaseCharacter::BeginPlay()
 	Super::BeginPlay();	
 
 	DefaultFOV = CameraComp->FieldOfView;
+
+	FActorSpawnParameters SpawnParams; 
+	SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+
+	CurrentWeapon = GetWorld()->SpawnActor<AA_BaseWeapon>(StarterWeapon, FVector::ZeroVector, FRotator::ZeroRotator, SpawnParams);
+
+	if (CurrentWeapon)
+	{
+		CurrentWeapon->SetOwner(this);
+		CurrentWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, WeaponAttachSocketName);
+	}
 }
 
 void AC_BaseCharacter::MoveForward(float Speed)
@@ -72,6 +86,14 @@ void AC_BaseCharacter::BeginZoom()
 void AC_BaseCharacter::EndZoom()
 {
 	bWantsToZoom = false;
+}
+
+void AC_BaseCharacter::Fire()
+{
+	if (CurrentWeapon)
+	{
+		CurrentWeapon->ShootFire();
+	}
 }
 
 // Called every frame
@@ -116,6 +138,10 @@ void AC_BaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 
 	PlayerInputComponent->BindAction("Zoom",IE_Pressed, this, &AC_BaseCharacter::BeginZoom);
 	PlayerInputComponent->BindAction("Zoom", IE_Released, this, &AC_BaseCharacter::EndZoom);
+
+	//Shoot
+
+	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AC_BaseCharacter::Fire);
 
 }
 
