@@ -24,7 +24,7 @@
 /wd4838
 /we4668
 /I .
-/I "C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Source\Shooter_OW_Style\Private"
+/I "C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Source\Shooter_OW_Style\Private"
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
 /I Runtime\Engine\Classes
@@ -402,22 +402,22 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I "C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Inc\Shooter_OW_Style"
-/I "C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Source"
-/I "C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Source\Shooter_OW_Style\Public"
-/I "C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Source\Shooter_OW_Style"
+/I "C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Inc\Shooter_OW_Style"
+/I "C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Source"
+/I "C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Source\Shooter_OW_Style\Public"
+/I "C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Source\Shooter_OW_Style"
 /I "C:\Program Files (x86)\FCKING VISUAL STUDIO\VC\Tools\MSVC\14.16.27023\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/FI"C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\Shooter_OW_StyleEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\Shooter_OW_StyleEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\Shooter_OW_StyleEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Source\Shooter_OW_Style\Shooter_OW_Style.cpp"
-/FI"C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\Definitions.Shooter_OW_Style.h"
-/Fo"C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\Shooter_OW_Style.cpp.obj"
+/FI"C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\Shooter_OW_StyleEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\Shooter_OW_StyleEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\Shooter_OW_StyleEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Source\Shooter_OW_Style\Shooter_OW_Style.cpp"
+/FI"C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\Definitions.Shooter_OW_Style.h"
+/Fo"C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\Shooter_OW_Style.cpp.obj"
 /TP
 /GR-
 /W4

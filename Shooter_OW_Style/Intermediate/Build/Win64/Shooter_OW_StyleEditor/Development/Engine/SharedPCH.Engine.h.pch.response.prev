@@ -185,11 +185,11 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/I "C:\Users\Joan Abad\Documents\Shooter_OW_Style\Intermediate\Build\Win64\Shooter_OW_StyleEditor\Development\Engine"
-/Yc"C:\Users\Joan Abad\Documents\Shooter_OW_Style\Intermediate\Build\Win64\Shooter_OW_StyleEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\Joan Abad\Documents\Shooter_OW_Style\Intermediate\Build\Win64\Shooter_OW_StyleEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\Joan Abad\Documents\Shooter_OW_Style\Intermediate\Build\Win64\Shooter_OW_StyleEditor\Development\Engine\SharedPCH.Engine.cpp"
-/Fo"C:\Users\Joan Abad\Documents\Shooter_OW_Style\Intermediate\Build\Win64\Shooter_OW_StyleEditor\Development\Engine\SharedPCH.Engine.h.obj"
+/I "C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\Shooter_OW_StyleEditor\Development\Engine"
+/Yc"C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\Shooter_OW_StyleEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\Shooter_OW_StyleEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\Shooter_OW_StyleEditor\Development\Engine\SharedPCH.Engine.cpp"
+/Fo"C:\Users\Joan Abad\Documents\Github\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\Shooter_OW_StyleEditor\Development\Engine\SharedPCH.Engine.h.obj"
 /TP
 /GR-
 /W4

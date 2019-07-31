@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Shooter_OW_Style.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{C83322B0-FD82-4BC2-87E6-08F294DC7635}</UniqueIdentifier>
+      <UniqueIdentifier>{83CBCA3A-6546-491E-9C27-EE4361622F62}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Shooter_OW_Style.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{AAFC526E-8EFE-4484-981C-D42EF3337C28}</UniqueIdentifier>
+      <UniqueIdentifier>{6E3C5B3A-1C6E-4E8A-A1B9-4CABAB46B396}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +23,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\Shooter_OW_Style">
-      <UniqueIdentifier>{FC1A44E6-2314-42B5-826D-C9EEBF3FDDB2}</UniqueIdentifier>
+      <UniqueIdentifier>{80552B2E-DD6D-40FD-B433-EE542D16940F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Shooter_OW_Style\Shooter_OW_Style.Build.cs">
       <Filter>Source\Shooter_OW_Style</Filter>
@@ -41,28 +44,32 @@
     <ClInclude Include="..\..\Source\Shooter_OW_Style\Shooter_OW_StyleGameModeBase.h">
       <Filter>Source\Shooter_OW_Style</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Filter Include="Source\Shooter_OW_Style\Public">
-      <UniqueIdentifier>{337201f6-3236-410c-90c8-f0b3f34a053f}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source\Shooter_OW_Style\Private">
-      <UniqueIdentifier>{0f8ef44b-515a-46aa-bad8-a7d66a029664}</UniqueIdentifier>
+      <UniqueIdentifier>{CA9E30E1-6548-475D-969D-5EFE8C37CD47}</UniqueIdentifier>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\Shooter_OW_Style\Public\C_BaseCharacter.h">
-      <Filter>Source\Shooter_OW_Style\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Shooter_OW_Style\Public\A_BaseWeapon.h">
-      <Filter>Source\Shooter_OW_Style\Public</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
+    <ClCompile Include="..\..\Source\Shooter_OW_Style\Private\A_BaseWeapon.cpp">
+      <Filter>Source\Shooter_OW_Style\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Shooter_OW_Style\Private\C_BaseCharacter.cpp">
       <Filter>Source\Shooter_OW_Style\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\Shooter_OW_Style\Private\A_BaseWeapon.cpp">
+    <Filter Include="Source\Shooter_OW_Style\Public">
+      <UniqueIdentifier>{DC71FE09-4CDE-409F-B916-0B159806E9BE}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Shooter_OW_Style\Public\A_BaseWeapon.h">
+      <Filter>Source\Shooter_OW_Style\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Shooter_OW_Style\Public\C_BaseCharacter.h">
+      <Filter>Source\Shooter_OW_Style\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Shooter_OW_Style\Public\GrenadeLauncher.h">
+      <Filter>Source\Shooter_OW_Style\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Shooter_OW_Style\Private\GrenadeLauncher.cpp">
       <Filter>Source\Shooter_OW_Style\Private</Filter>
     </ClCompile>
   </ItemGroup>
