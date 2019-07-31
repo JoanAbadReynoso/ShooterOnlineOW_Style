@@ -7,6 +7,10 @@
 #include "Particles/ParticleSystem.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Particles/ParticleSystemComponent.h"
+
+int32 DebugWeaponDrawing = 0;
+FAutoConsoleVariableRef CVARDDebugWeaponDrawing(TEXT("COOP.DebugWeapons"), DebugWeaponDrawing, TEXT("Draw Debug Lines for Weapons"), ECVF_Cheat);
+
 // Sets default values
 AA_BaseWeapon::AA_BaseWeapon()
 {
@@ -67,7 +71,11 @@ void AA_BaseWeapon::ShootFire()
 			TracerEndPoint = Hit.ImpactPoint;
 		}
 
-		//DrawDebugLine(GetWorld(), EyeLocation, TraceEnd, FColor::Red, false, 1.0f, 0, 1.0f);
+		if (DebugWeaponDrawing > 0)
+		{
+			DrawDebugLine(GetWorld(), EyeLocation, TraceEnd, FColor::Red, false, 1.0f, 0, 1.0f);
+		}
+		
 
 		//IF Particle System no es null - Se hace para que no crashee
 		if(PS_Muzzle)

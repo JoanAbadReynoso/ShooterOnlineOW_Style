@@ -19,7 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeShooter_OW_Style_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/Shooter_OW_Style",
 				PKG_CompiledIn | 0x00000000,
-				0x1087DF77,
+				0x2A8BB2ED,
 				0x774445B7,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)

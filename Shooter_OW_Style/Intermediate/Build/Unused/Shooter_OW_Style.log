@@ -1,4 +1,6 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for Shooter_OW_StyleEditor (ini files are newer than UBTMakefile)
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\FCKING VISUAL STUDIO\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Distributing 3 actions to XGE
   --------------------Build System Warning---------------------------------------
   License is invalid:
@@ -7,10 +9,10 @@
   
   -------------------------------------------------------------------------------
   --------------------Project: Default-------------------------------------------
-  GrenadeLauncher.cpp (0:00.59 at +0:00)
-  UE4Editor-Shooter_OW_Style.dll (0:01.03 at +0:00)
+  A_BaseWeapon.cpp (0:01.79 at +0:00)
+  UE4Editor-Shooter_OW_Style.dll (0:01.28 at +0:01)
      Creando biblioteca C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\UE4Editor-Shooter_OW_Style.suppressed.lib y objeto C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\UE4Editor-Shooter_OW_Style.suppressed.exp
-  UE4Editor-Shooter_OW_Style.lib (0:00.10 at +0:01)
+  UE4Editor-Shooter_OW_Style.lib (0:00.17 at +0:03)
      Creando biblioteca C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\UE4Editor-Shooter_OW_Style.lib y objeto C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\UE4Editor-Shooter_OW_Style.exp
   ---------------------- Done ----------------------
   
@@ -20,4 +22,4 @@
      - License is invalid
   
   Deploying Shooter_OW_StyleEditor Win64 Development...
-  Total build time: 2,90 seconds (XGE executor: 1,89 seconds)
+  Total build time: 7,89 seconds (XGE executor: 3,39 seconds)

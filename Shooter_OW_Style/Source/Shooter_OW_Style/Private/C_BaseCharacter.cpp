@@ -20,12 +20,17 @@ AC_BaseCharacter::AC_BaseCharacter()
 	
 	CameraComp = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	CameraComp->SetupAttachment(SpringArmComp);
+
+	ZoomedFOV = 65.0f;
+	ZoomInterpSpeed = 20;
 }
 
 // Called when the game starts or when spawned
 void AC_BaseCharacter::BeginPlay()
 {
 	Super::BeginPlay();	
+
+	DefaultFOV = CameraComp->FieldOfView;
 }
 
 void AC_BaseCharacter::MoveForward(float Speed)
@@ -59,10 +64,26 @@ void AC_BaseCharacter::EndJump()
 	StopJumping();
 }
 
+void AC_BaseCharacter::BeginZoom()
+{
+	bWantsToZoom = true;
+}
+
+void AC_BaseCharacter::EndZoom()
+{
+	bWantsToZoom = false;
+}
+
 // Called every frame
 void AC_BaseCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	float TargetFov = bWantsToZoom ? ZoomedFOV : DefaultFOV;
+
+	float NewFov = FMath::FInterpTo(CameraComp->FieldOfView, TargetFov, DeltaTime, ZoomInterpSpeed);
+
+	CameraComp->SetFieldOfView(NewFov);
 
 }
 
@@ -90,6 +111,11 @@ void AC_BaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AC_BaseCharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &AC_BaseCharacter::EndJump);
+
+	//Zoom
+
+	PlayerInputComponent->BindAction("Zoom",IE_Pressed, this, &AC_BaseCharacter::BeginZoom);
+	PlayerInputComponent->BindAction("Zoom", IE_Released, this, &AC_BaseCharacter::EndZoom);
 
 }
 

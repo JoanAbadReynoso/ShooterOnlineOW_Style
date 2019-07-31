@@ -41,6 +41,14 @@ void EmptyLinkFunctionForGeneratedCodeC_BaseCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CameraComp_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CameraComp;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ZoomInterpSpeed_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ZoomInterpSpeed;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ZoomedFOV_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ZoomedFOV;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -72,9 +80,27 @@ void EmptyLinkFunctionForGeneratedCodeC_BaseCharacter() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AC_BaseCharacter_Statics::NewProp_CameraComp = { UE4CodeGen_Private::EPropertyClass::Object, "CameraComp", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00200800000a001d, 1, nullptr, STRUCT_OFFSET(AC_BaseCharacter, CameraComp), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AC_BaseCharacter_Statics::NewProp_CameraComp_MetaData, ARRAY_COUNT(Z_Construct_UClass_AC_BaseCharacter_Statics::NewProp_CameraComp_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC_BaseCharacter_Statics::NewProp_ZoomInterpSpeed_MetaData[] = {
+		{ "Category", "Player" },
+		{ "ClampMax", "100" },
+		{ "ClampMin", "0.100000" },
+		{ "ModuleRelativePath", "Public/C_BaseCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AC_BaseCharacter_Statics::NewProp_ZoomInterpSpeed = { UE4CodeGen_Private::EPropertyClass::Float, "ZoomInterpSpeed", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000010001, 1, nullptr, STRUCT_OFFSET(AC_BaseCharacter, ZoomInterpSpeed), METADATA_PARAMS(Z_Construct_UClass_AC_BaseCharacter_Statics::NewProp_ZoomInterpSpeed_MetaData, ARRAY_COUNT(Z_Construct_UClass_AC_BaseCharacter_Statics::NewProp_ZoomInterpSpeed_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC_BaseCharacter_Statics::NewProp_ZoomedFOV_MetaData[] = {
+		{ "Category", "Player" },
+		{ "ModuleRelativePath", "Public/C_BaseCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AC_BaseCharacter_Statics::NewProp_ZoomedFOV = { UE4CodeGen_Private::EPropertyClass::Float, "ZoomedFOV", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000010001, 1, nullptr, STRUCT_OFFSET(AC_BaseCharacter, ZoomedFOV), METADATA_PARAMS(Z_Construct_UClass_AC_BaseCharacter_Statics::NewProp_ZoomedFOV_MetaData, ARRAY_COUNT(Z_Construct_UClass_AC_BaseCharacter_Statics::NewProp_ZoomedFOV_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AC_BaseCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_BaseCharacter_Statics::NewProp_SpringArmComp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_BaseCharacter_Statics::NewProp_CameraComp,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_BaseCharacter_Statics::NewProp_ZoomInterpSpeed,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_BaseCharacter_Statics::NewProp_ZoomedFOV,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AC_BaseCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AC_BaseCharacter>::IsAbstract,
@@ -99,7 +125,7 @@ void EmptyLinkFunctionForGeneratedCodeC_BaseCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AC_BaseCharacter, 617056567);
+	IMPLEMENT_CLASS(AC_BaseCharacter, 687951463);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AC_BaseCharacter(Z_Construct_UClass_AC_BaseCharacter, &AC_BaseCharacter::StaticClass, TEXT("/Script/Shooter_OW_Style"), TEXT("AC_BaseCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AC_BaseCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

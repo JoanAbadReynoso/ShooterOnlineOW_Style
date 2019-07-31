@@ -58,6 +58,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC_BaseCharacter); \
 
 
 #define Shooter_OW_Style_Source_Shooter_OW_Style_Public_C_BaseCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__ZoomedFOV() { return STRUCT_OFFSET(AC_BaseCharacter, ZoomedFOV); } \
+	FORCEINLINE static uint32 __PPO__ZoomInterpSpeed() { return STRUCT_OFFSET(AC_BaseCharacter, ZoomInterpSpeed); } \
 	FORCEINLINE static uint32 __PPO__CameraComp() { return STRUCT_OFFSET(AC_BaseCharacter, CameraComp); } \
 	FORCEINLINE static uint32 __PPO__SpringArmComp() { return STRUCT_OFFSET(AC_BaseCharacter, SpringArmComp); }
 
