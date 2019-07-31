@@ -56,12 +56,25 @@ protected:
 	UPROPERTY(EditDefaultsOnly, Category = "Weapon")
 	TSubclassOf<UCameraShake> FireCameraShake;
 
+	UPROPERTY(EditDefaultsOnly, Category = "Weapon")
+	float baseDamage;
 
+	virtual void ShootFire();
+
+	FTimerHandle TimeHandler_TimeBetweenShots;
+
+	float LastFireTime;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Weapon")
+	float RateOfFire;
+
+	float TimeBetweenShots;
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	UFUNCTION(BlueprintCallable, Category = "Weapon")
-	virtual void ShootFire();
-	
+	void StartFire();
+
+	void EndFire();
+		
 };

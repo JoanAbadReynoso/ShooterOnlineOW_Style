@@ -1,12 +1,30 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
   Creating makefile for Shooter_OW_StyleEditor (no existing makefile)
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\FCKING VISUAL STUDIO\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Deleting old hot reload file: "C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Binaries\Win64\UE4Editor-Shooter_OW_Style-2765.dll".
-  Deleting old hot reload file: "C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Binaries\Win64\UE4Editor-Shooter_OW_Style-2765.pdb".
-  Deleting old hot reload file: "C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Binaries\Win64\UE4Editor-Shooter_OW_Style-8093.dll".
-  Deleting old hot reload file: "C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Binaries\Win64\UE4Editor-Shooter_OW_Style-8093.pdb".
-  Deleting old hot reload file: "C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Binaries\Win64\UE4Editor-Shooter_OW_Style-9052.dll".
-  Deleting old hot reload file: "C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Binaries\Win64\UE4Editor-Shooter_OW_Style-9052.pdb".
+  Deleting old hot reload file: "C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Binaries\Win64\UE4Editor-Shooter_OW_Style-1899.dll".
+  Deleting old hot reload file: "C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Binaries\Win64\UE4Editor-Shooter_OW_Style-1899.pdb".
+  Deleting old hot reload file: "C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Binaries\Win64\UE4Editor-Shooter_OW_Style-2958.dll".
+  Deleting old hot reload file: "C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Binaries\Win64\UE4Editor-Shooter_OW_Style-2958.pdb".
+  Deleting old hot reload file: "C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Binaries\Win64\UE4Editor-Shooter_OW_Style-3479.dll".
+  Deleting old hot reload file: "C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Binaries\Win64\UE4Editor-Shooter_OW_Style-3479.pdb".
+  Deleting old hot reload file: "C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Binaries\Win64\UE4Editor-Shooter_OW_Style-410.dll".
+  Deleting old hot reload file: "C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Binaries\Win64\UE4Editor-Shooter_OW_Style-410.pdb".
+  Deleting old hot reload file: "C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Binaries\Win64\UE4Editor-Shooter_OW_Style-4291.dll".
+  Deleting old hot reload file: "C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Binaries\Win64\UE4Editor-Shooter_OW_Style-4291.pdb".
+  Deleting old hot reload file: "C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Binaries\Win64\UE4Editor-Shooter_OW_Style-520.dll".
+  Deleting old hot reload file: "C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Binaries\Win64\UE4Editor-Shooter_OW_Style-520.pdb".
+  Deleting old hot reload file: "C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Binaries\Win64\UE4Editor-Shooter_OW_Style-5801.dll".
+  Deleting old hot reload file: "C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Binaries\Win64\UE4Editor-Shooter_OW_Style-5801.pdb".
+  Deleting old hot reload file: "C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Binaries\Win64\UE4Editor-Shooter_OW_Style-6633.dll".
+  Deleting old hot reload file: "C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Binaries\Win64\UE4Editor-Shooter_OW_Style-6633.pdb".
+  Deleting old hot reload file: "C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Binaries\Win64\UE4Editor-Shooter_OW_Style-686.dll".
+  Deleting old hot reload file: "C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Binaries\Win64\UE4Editor-Shooter_OW_Style-686.pdb".
+  Deleting old hot reload file: "C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Binaries\Win64\UE4Editor-Shooter_OW_Style-7001.dll".
+  Deleting old hot reload file: "C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Binaries\Win64\UE4Editor-Shooter_OW_Style-7001.pdb".
+  Deleting old hot reload file: "C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Binaries\Win64\UE4Editor-Shooter_OW_Style-818.dll".
+  Deleting old hot reload file: "C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Binaries\Win64\UE4Editor-Shooter_OW_Style-818.pdb".
+  Deleting old hot reload file: "C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Binaries\Win64\UE4Editor-Shooter_OW_Style-9974.dll".
+  Deleting old hot reload file: "C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Binaries\Win64\UE4Editor-Shooter_OW_Style-9974.pdb".
   Distributing 2 actions to XGE
   --------------------Build System Warning---------------------------------------
   License is invalid:
@@ -15,9 +33,9 @@
   
   -------------------------------------------------------------------------------
   --------------------Project: Default-------------------------------------------
-  UE4Editor-Shooter_OW_Style.dll (0:01.18 at +0:00)
+  UE4Editor-Shooter_OW_Style.dll (0:01.01 at +0:00)
      Creando biblioteca C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\UE4Editor-Shooter_OW_Style.suppressed.lib y objeto C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\UE4Editor-Shooter_OW_Style.suppressed.exp
-  UE4Editor-Shooter_OW_Style.lib (0:00.14 at +0:01)
+  UE4Editor-Shooter_OW_Style.lib (0:00.10 at +0:01)
      Creando biblioteca C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\UE4Editor-Shooter_OW_Style.lib y objeto C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\UE4Editor-Shooter_OW_Style.exp
   ---------------------- Done ----------------------
   
@@ -27,4 +45,4 @@
      - License is invalid
   
   Deploying Shooter_OW_StyleEditor Win64 Development...
-  Total build time: 5,40 seconds (XGE executor: 1,47 seconds)
+  Total build time: 5,18 seconds (XGE executor: 1,26 seconds)

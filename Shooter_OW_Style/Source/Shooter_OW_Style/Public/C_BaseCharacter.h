@@ -60,6 +60,8 @@ protected:
 	FName WeaponAttachSocketName;
 
 	void Fire();
+
+	void StopFire();
 	
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	UCameraComponent* CameraComp;

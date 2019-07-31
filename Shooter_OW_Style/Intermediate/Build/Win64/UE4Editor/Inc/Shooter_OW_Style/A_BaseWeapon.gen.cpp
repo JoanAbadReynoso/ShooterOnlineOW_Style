@@ -17,7 +17,6 @@ void EmptyLinkFunctionForGeneratedCodeA_BaseWeapon() {}
 	SHOOTER_OW_STYLE_API UClass* Z_Construct_UClass_AA_BaseWeapon();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_Shooter_OW_Style();
-	SHOOTER_OW_STYLE_API UFunction* Z_Construct_UFunction_AA_BaseWeapon_ShootFire();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraShake_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UParticleSystem_NoRegister();
@@ -26,34 +25,6 @@ void EmptyLinkFunctionForGeneratedCodeA_BaseWeapon() {}
 // End Cross Module References
 	void AA_BaseWeapon::StaticRegisterNativesAA_BaseWeapon()
 	{
-		UClass* Class = AA_BaseWeapon::StaticClass();
-		static const FNameNativePtrPair Funcs[] = {
-			{ "ShootFire", &AA_BaseWeapon::execShootFire },
-		};
-		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
-	}
-	struct Z_Construct_UFunction_AA_BaseWeapon_ShootFire_Statics
-	{
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AA_BaseWeapon_ShootFire_Statics::Function_MetaDataParams[] = {
-		{ "Category", "Weapon" },
-		{ "ModuleRelativePath", "Public/A_BaseWeapon.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AA_BaseWeapon_ShootFire_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AA_BaseWeapon, "ShootFire", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020400, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AA_BaseWeapon_ShootFire_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AA_BaseWeapon_ShootFire_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AA_BaseWeapon_ShootFire()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AA_BaseWeapon_ShootFire_Statics::FuncParams);
-		}
-		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AA_BaseWeapon_NoRegister()
 	{
@@ -62,10 +33,17 @@ void EmptyLinkFunctionForGeneratedCodeA_BaseWeapon() {}
 	struct Z_Construct_UClass_AA_BaseWeapon_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
-		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RateOfFire_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_RateOfFire;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_baseDamage_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_baseDamage;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FireCameraShake_MetaData[];
 #endif
@@ -110,15 +88,26 @@ void EmptyLinkFunctionForGeneratedCodeA_BaseWeapon() {}
 		(UObject* (*)())Z_Construct_UClass_AActor,
 		(UObject* (*)())Z_Construct_UPackage__Script_Shooter_OW_Style,
 	};
-	const FClassFunctionLinkInfo Z_Construct_UClass_AA_BaseWeapon_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AA_BaseWeapon_ShootFire, "ShootFire" }, // 2709455643
-	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AA_BaseWeapon_Statics::Class_MetaDataParams[] = {
 		{ "IncludePath", "A_BaseWeapon.h" },
 		{ "ModuleRelativePath", "Public/A_BaseWeapon.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AA_BaseWeapon_Statics::NewProp_RateOfFire_MetaData[] = {
+		{ "Category", "Weapon" },
+		{ "ModuleRelativePath", "Public/A_BaseWeapon.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AA_BaseWeapon_Statics::NewProp_RateOfFire = { UE4CodeGen_Private::EPropertyClass::Float, "RateOfFire", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000010001, 1, nullptr, STRUCT_OFFSET(AA_BaseWeapon, RateOfFire), METADATA_PARAMS(Z_Construct_UClass_AA_BaseWeapon_Statics::NewProp_RateOfFire_MetaData, ARRAY_COUNT(Z_Construct_UClass_AA_BaseWeapon_Statics::NewProp_RateOfFire_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AA_BaseWeapon_Statics::NewProp_baseDamage_MetaData[] = {
+		{ "Category", "Weapon" },
+		{ "ModuleRelativePath", "Public/A_BaseWeapon.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AA_BaseWeapon_Statics::NewProp_baseDamage = { UE4CodeGen_Private::EPropertyClass::Float, "baseDamage", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000010001, 1, nullptr, STRUCT_OFFSET(AA_BaseWeapon, baseDamage), METADATA_PARAMS(Z_Construct_UClass_AA_BaseWeapon_Statics::NewProp_baseDamage_MetaData, ARRAY_COUNT(Z_Construct_UClass_AA_BaseWeapon_Statics::NewProp_baseDamage_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AA_BaseWeapon_Statics::NewProp_FireCameraShake_MetaData[] = {
 		{ "Category", "Weapon" },
@@ -184,6 +173,8 @@ void EmptyLinkFunctionForGeneratedCodeA_BaseWeapon() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AA_BaseWeapon_Statics::NewProp_SM_Weapon = { UE4CodeGen_Private::EPropertyClass::Object, "SM_Weapon", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00200800000a001d, 1, nullptr, STRUCT_OFFSET(AA_BaseWeapon, SM_Weapon), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AA_BaseWeapon_Statics::NewProp_SM_Weapon_MetaData, ARRAY_COUNT(Z_Construct_UClass_AA_BaseWeapon_Statics::NewProp_SM_Weapon_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AA_BaseWeapon_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AA_BaseWeapon_Statics::NewProp_RateOfFire,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AA_BaseWeapon_Statics::NewProp_baseDamage,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AA_BaseWeapon_Statics::NewProp_FireCameraShake,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AA_BaseWeapon_Statics::NewProp_PS_TracerEffect,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AA_BaseWeapon_Statics::NewProp_PS_DefaultActor,
@@ -201,7 +192,7 @@ void EmptyLinkFunctionForGeneratedCodeA_BaseWeapon() {}
 		&AA_BaseWeapon::StaticClass,
 		DependentSingletons, ARRAY_COUNT(DependentSingletons),
 		0x009000A0u,
-		FuncInfo, ARRAY_COUNT(FuncInfo),
+		nullptr, 0,
 		Z_Construct_UClass_AA_BaseWeapon_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_AA_BaseWeapon_Statics::PropPointers),
 		nullptr,
 		&StaticCppClassTypeInfo,
@@ -217,7 +208,7 @@ void EmptyLinkFunctionForGeneratedCodeA_BaseWeapon() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AA_BaseWeapon, 334089095);
+	IMPLEMENT_CLASS(AA_BaseWeapon, 2045605294);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AA_BaseWeapon(Z_Construct_UClass_AA_BaseWeapon, &AA_BaseWeapon::StaticClass, TEXT("/Script/Shooter_OW_Style"), TEXT("AA_BaseWeapon"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AA_BaseWeapon);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -6,6 +6,8 @@
 #include "../Public/C_BaseCharacter.h"
 #include "GameFramework/PawnMovementComponent.h"
 #include "A_BaseWeapon.h"
+#include "Shooter_OW_Style.h"
+#include "Components/CapsuleComponent.h"
 
 // Sets default values
 AC_BaseCharacter::AC_BaseCharacter()
@@ -18,6 +20,8 @@ AC_BaseCharacter::AC_BaseCharacter()
 	SpringArmComp->SetupAttachment(RootComponent);
 	
 	GetMovementComponent()->GetNavAgentPropertiesRef().bCanCrouch = true;
+
+	GetCapsuleComponent()->SetCollisionResponseToChannel(COLLISION_WEAPON, ECR_Ignore);
 	
 	CameraComp = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	CameraComp->SetupAttachment(SpringArmComp);
@@ -92,7 +96,15 @@ void AC_BaseCharacter::Fire()
 {
 	if (CurrentWeapon)
 	{
-		CurrentWeapon->ShootFire();
+		CurrentWeapon->StartFire();
+	}
+}
+
+void AC_BaseCharacter::StopFire()
+{
+	if (CurrentWeapon)
+	{
+		CurrentWeapon->EndFire();
 	}
 }
 
@@ -142,6 +154,8 @@ void AC_BaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 	//Shoot
 
 	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AC_BaseCharacter::Fire);
+	PlayerInputComponent->BindAction("Fire", IE_Released, this, &AC_BaseCharacter::StopFire);
+
 
 }
 

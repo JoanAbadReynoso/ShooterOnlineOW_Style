@@ -9,6 +9,8 @@
 #include "Particles/ParticleSystemComponent.h"
 #include "PhysicalMaterials/PhysicalMaterial.h"
 #include "Shooter_OW_Style.h"
+#include "TimerManager.h"
+#include "Math/UnrealMathUtility.h"
 
 int32 DebugWeaponDrawing = 0;
 FAutoConsoleVariableRef CVARDDebugWeaponDrawing(TEXT("COOP.DebugWeapons"), DebugWeaponDrawing, TEXT("Draw Debug Lines for Weapons"), ECVF_Cheat);
@@ -24,12 +26,18 @@ AA_BaseWeapon::AA_BaseWeapon()
 
 	MuzzleSocketName = "MuzzleSocket";
 	TracerTargetName = "Target";
+
+	baseDamage = 20.0f;
+
+	RateOfFire = 600;
 }
 
 // Called when the game starts or when spawned
 void AA_BaseWeapon::BeginPlay()
 {
 	Super::BeginPlay();
+
+	TimeBetweenShots = 60 / RateOfFire;
 }
 
 void AA_BaseWeapon::ShootFire()
@@ -59,14 +67,21 @@ void AA_BaseWeapon::ShootFire()
 		FHitResult Hit;
 		
 		//IF WE HIT SOMETHING
-		if (GetWorld()->LineTraceSingleByChannel(Hit, EyeLocation, TraceEnd, ECC_Visibility, QueryParams))
+		if (GetWorld()->LineTraceSingleByChannel(Hit, EyeLocation, TraceEnd, COLLISION_WEAPON, QueryParams))
 		{
 			//DO DAMAGE
 			AActor* HitActor = Hit.GetActor();
 
-			UGameplayStatics::ApplyPointDamage(HitActor,20.0f,ShotDirection, Hit, MyPlayer->GetInstigatorController(),this, DamageType);
-						
 			EPhysicalSurface SurfaceType = UPhysicalMaterial::DetermineSurfaceType(Hit.PhysMaterial.Get());
+
+			float ActualDamage = baseDamage;
+
+			if (SurfaceType == SURFACE_FLESHVULNERABLE)
+			{
+				ActualDamage *= 4.0f;
+			}
+
+			UGameplayStatics::ApplyPointDamage(HitActor, ActualDamage, ShotDirection, Hit, MyPlayer->GetInstigatorController(), this, DamageType);
 
 			UParticleSystem* SelectedEffect = nullptr;
 			switch (SurfaceType)
@@ -96,6 +111,8 @@ void AA_BaseWeapon::ShootFire()
 		}
 		
 		PlayFireEffects(TracerEndPoint);
+
+		LastFireTime = GetWorld()->TimeSeconds;
 		
 	}
 	
@@ -136,5 +153,18 @@ void AA_BaseWeapon::PlayFireEffects(FVector TraceEnd)
 void AA_BaseWeapon::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+}
+
+void AA_BaseWeapon::StartFire()
+{
+	float firstDelay = FMath::Max(LastFireTime + TimeBetweenShots - GetWorld()->TimeSeconds,0.0f);
+
+	GetWorldTimerManager().SetTimer(TimeHandler_TimeBetweenShots, this, &AA_BaseWeapon::ShootFire, TimeBetweenShots, true, firstDelay);
+}
+
+void AA_BaseWeapon::EndFire()
+{
+	GetWorldTimerManager().ClearTimer(TimeHandler_TimeBetweenShots);
+	
 }
 

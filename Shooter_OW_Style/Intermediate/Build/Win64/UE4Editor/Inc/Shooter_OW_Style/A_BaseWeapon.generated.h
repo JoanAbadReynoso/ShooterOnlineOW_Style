@@ -13,28 +13,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SHOOTER_OW_STYLE_A_BaseWeapon_generated_h
 
-#define Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_20_RPC_WRAPPERS \
- \
-	DECLARE_FUNCTION(execShootFire) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->ShootFire(); \
-		P_NATIVE_END; \
-	}
-
-
-#define Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
- \
-	DECLARE_FUNCTION(execShootFire) \
-	{ \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->ShootFire(); \
-		P_NATIVE_END; \
-	}
-
-
+#define Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_20_RPC_WRAPPERS
+#define Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_20_RPC_WRAPPERS_NO_PURE_DECLS
 #define Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_20_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAA_BaseWeapon(); \
@@ -86,7 +66,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AA_BaseWeapon); \
 	FORCEINLINE static uint32 __PPO__PS_ImpactActor() { return STRUCT_OFFSET(AA_BaseWeapon, PS_ImpactActor); } \
 	FORCEINLINE static uint32 __PPO__PS_DefaultActor() { return STRUCT_OFFSET(AA_BaseWeapon, PS_DefaultActor); } \
 	FORCEINLINE static uint32 __PPO__PS_TracerEffect() { return STRUCT_OFFSET(AA_BaseWeapon, PS_TracerEffect); } \
-	FORCEINLINE static uint32 __PPO__FireCameraShake() { return STRUCT_OFFSET(AA_BaseWeapon, FireCameraShake); }
+	FORCEINLINE static uint32 __PPO__FireCameraShake() { return STRUCT_OFFSET(AA_BaseWeapon, FireCameraShake); } \
+	FORCEINLINE static uint32 __PPO__baseDamage() { return STRUCT_OFFSET(AA_BaseWeapon, baseDamage); } \
+	FORCEINLINE static uint32 __PPO__RateOfFire() { return STRUCT_OFFSET(AA_BaseWeapon, RateOfFire); }
 
 
 #define Shooter_OW_Style_Source_Shooter_OW_Style_Public_A_BaseWeapon_h_17_PROLOG
