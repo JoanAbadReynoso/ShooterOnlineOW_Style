@@ -8,6 +8,7 @@
 #include "A_BaseWeapon.h"
 #include "Shooter_OW_Style.h"
 #include "Components/CapsuleComponent.h"
+#include "HealthComponent.h"
 
 // Sets default values
 AC_BaseCharacter::AC_BaseCharacter()
@@ -26,8 +27,11 @@ AC_BaseCharacter::AC_BaseCharacter()
 	CameraComp = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	CameraComp->SetupAttachment(SpringArmComp);
 
+	HealthComp = CreateDefaultSubobject<UHealthComponent>(TEXT("HealthComp"));
+
 	WeaponAttachSocketName = "WeaponSocket";
 
+	
 	ZoomedFOV = 65.0f;
 	ZoomInterpSpeed = 20;
 }
@@ -49,6 +53,7 @@ void AC_BaseCharacter::BeginPlay()
 		CurrentWeapon->SetOwner(this);
 		CurrentWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, WeaponAttachSocketName);
 	}
+	HealthComp->OnHealthChanged.AddDynamic(this, &AC_BaseCharacter::OnHealthChanged);
 }
 
 void AC_BaseCharacter::MoveForward(float Speed)
@@ -105,6 +110,20 @@ void AC_BaseCharacter::StopFire()
 	if (CurrentWeapon)
 	{
 		CurrentWeapon->EndFire();
+	}
+}
+
+void AC_BaseCharacter::OnHealthChanged(UHealthComponent* OwningHealthComponent, float Health, float HealthDelta, const UDamageType *DamageType, AController * InstigatedBy, AActor * DamageCauser)
+{
+	if (Health <= 0.0f && !bDied)
+	{
+		bDied = true;
+		GetMovementComponent()->StopMovementImmediately();
+		GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
+
+		DetachFromControllerPendingDestroy();
+
+		SetLifeSpan(10.0f);
 	}
 }
 

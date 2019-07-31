@@ -10,6 +10,7 @@
 class UCameraComponent;
 class USpringArmComponent;
 class AA_BaseWeapon;
+class UHealthComponent;
 
 UCLASS()
 class SHOOTER_OW_STYLE_API AC_BaseCharacter : public ACharacter
@@ -63,11 +64,20 @@ protected:
 
 	void StopFire();
 	
+	UFUNCTION()
+	void OnHealthChanged(UHealthComponent* OwningHealthComponent, float Health, float HealthDelta, const class UDamageType* DamageType ,AController* InstigatedBy, AActor* DamageCauser);
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Player")
+	bool bDied;
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	UCameraComponent* CameraComp;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
 	USpringArmComponent* SpringArmComp;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+	UHealthComponent* HealthComp;
 
 public:	
 	// Called every frame

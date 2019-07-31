@@ -11,17 +11,21 @@
 #endif
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeShooter_OW_Style_init() {}
+	SHOOTER_OW_STYLE_API UFunction* Z_Construct_UDelegateFunction_Shooter_OW_Style_OnHealthChangedSignature__DelegateSignature();
 	UPackage* Z_Construct_UPackage__Script_Shooter_OW_Style()
 	{
 		static UPackage* ReturnPackage = nullptr;
 		if (!ReturnPackage)
 		{
+			static UObject* (*const SingletonFuncArray[])() = {
+				(UObject* (*)())Z_Construct_UDelegateFunction_Shooter_OW_Style_OnHealthChangedSignature__DelegateSignature,
+			};
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/Shooter_OW_Style",
 				PKG_CompiledIn | 0x00000000,
-				0x17431881,
-				0x1ED06EAE,
-				nullptr, 0,
+				0xF865B07A,
+				0x878366F1,
+				SingletonFuncArray, ARRAY_COUNT(SingletonFuncArray),
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

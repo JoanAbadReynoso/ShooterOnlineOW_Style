@@ -70,12 +70,18 @@
     <ClInclude Include="..\..\Source\Shooter_OW_Style\Public\HealthComponent.h">
       <Filter>Source\Shooter_OW_Style\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\Shooter_OW_Style\Public\ExplosiveBarrel.h">
+      <Filter>Source\Shooter_OW_Style\Public</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\Shooter_OW_Style\Private\GrenadeLauncher.cpp">
       <Filter>Source\Shooter_OW_Style\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Shooter_OW_Style\Private\HealthComponent.cpp">
+      <Filter>Source\Shooter_OW_Style\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Shooter_OW_Style\Private\ExplosiveBarrel.cpp">
       <Filter>Source\Shooter_OW_Style\Private</Filter>
     </ClCompile>
   </ItemGroup>

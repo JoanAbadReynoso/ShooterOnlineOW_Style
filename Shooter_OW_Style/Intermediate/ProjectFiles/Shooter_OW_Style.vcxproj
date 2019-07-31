@@ -571,9 +571,11 @@
     <None Include="..\..\Config\DefaultGame.ini" />
     <None Include="..\..\Config\DefaultInput.ini" />
     <None Include="..\..\Source\Shooter_OW_Style\Shooter_OW_Style.Build.cs" />
+    <ClCompile Include="..\..\Source\Shooter_OW_Style\Private\ExplosiveBarrel.cpp" />
     <ClCompile Include="..\..\Source\Shooter_OW_Style\Private\GrenadeLauncher.cpp" />
     <ClCompile Include="..\..\Source\Shooter_OW_Style\Private\HealthComponent.cpp" />
     <ClCompile Include="..\..\Source\Shooter_OW_Style\Shooter_OW_Style.cpp" />
+    <ClInclude Include="..\..\Source\Shooter_OW_Style\Public\ExplosiveBarrel.h" />
     <ClInclude Include="..\..\Source\Shooter_OW_Style\Public\GrenadeLauncher.h" />
     <ClInclude Include="..\..\Source\Shooter_OW_Style\Public\HealthComponent.h" />
     <ClInclude Include="..\..\Source\Shooter_OW_Style\Shooter_OW_Style.h" />
