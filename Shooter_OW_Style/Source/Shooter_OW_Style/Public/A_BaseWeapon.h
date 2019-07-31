@@ -46,6 +46,9 @@ protected:
 	UParticleSystem* PS_ImpactActor;
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Weapon")
+	UParticleSystem* PS_DefaultActor;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Weapon")
 	UParticleSystem* PS_TracerEffect;
 
 	void PlayFireEffects(FVector TraceEnd);
