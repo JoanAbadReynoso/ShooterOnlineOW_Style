@@ -1,0 +1,789 @@
+﻿Log file open, 08/02/19 08:53:11
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Shooter_OW_Style
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.250159
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.098s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 8.1 (), CPU: Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.08.02-06.53.11:461][  0]LogInit: Selected Device Profile: [Windows]
+[2019.08.02-06.53.11:461][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.08.02-06.53.11:468][  0]LogHAL: Display: Platform has ~ 16 GB [17137950720 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.08.02-06.53.11:468][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.08.02-06.53.11:468][  0]LogInit: Going up to parent DeviceProfile []
+[2019.08.02-06.53.11:468][  0]LogInit: Computer: JOANPC
+[2019.08.02-06.53.11:468][  0]LogInit: User: JoanAbad
+[2019.08.02-06.53.11:469][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.08.02-06.53.11:469][  0]LogInit: High frequency timer resolution =3.421870 MHz
+[2019.08.02-06.53.11:469][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.08.02-06.53.11:469][  0]LogMemory: Platform Memory Stats for Windows
+[2019.08.02-06.53.11:469][  0]LogMemory: Process Physical Memory: 100.83 MB used, 100.83 MB peak
+[2019.08.02-06.53.11:469][  0]LogMemory: Process Virtual Memory: 94.66 MB used, 94.66 MB peak
+[2019.08.02-06.53.11:469][  0]LogMemory: Physical Memory: 8115.15 MB used,  8228.87 MB free, 16344.02 MB total
+[2019.08.02-06.53.11:469][  0]LogMemory: Virtual Memory: 484.88 MB used,  8228.87 MB free, 134217728.00 MB total
+[2019.08.02-06.53.11:560][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.08.02-06.53.11:560][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.08.02-06.53.11:921][  0]LogStreaming: Display: Took  0.361s to InitEngineTextLocalization.
+[2019.08.02-06.53.11:921][  0]LogInit: Setting process to per monitor DPI aware
+[2019.08.02-06.53.11:975][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.08.02-06.53.11:975][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.08.02-06.53.12:113][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.08.02-06.53.12:113][  0]LogD3D11RHI: D3D11 adapters:
+[2019.08.02-06.53.12:181][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.08.02-06.53.12:181][  0]LogD3D11RHI:       8046/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.08.02-06.53.12:187][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.08.02-06.53.12:187][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.08.02-06.53.12:187][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.08.02-06.53.12:193][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.08.02-06.53.12:193][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2019.08.02-06.53.12:193][  0]LogWindows: EnumDisplayDevices:
+[2019.08.02-06.53.12:193][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2019.08.02-06.53.12:193][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2019.08.02-06.53.12:193][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.08.02-06.53.12:193][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.08.02-06.53.12:193][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.08.02-06.53.12:194][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.08.02-06.53.12:194][  0]LogD3D11RHI:   Driver Version: 431.60 (internal:26.21.14.3160, unified:431.60)
+[2019.08.02-06.53.12:194][  0]LogD3D11RHI:      Driver Date: 7-17-2019
+[2019.08.02-06.53.12:194][  0]LogRHI: Texture pool is 5632 MB (70% of 8046 MB)
+[2019.08.02-06.53.12:223][  0]LogD3D11RHI: Async texture creation enabled
+[2019.08.02-06.53.12:244][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.08.02-06.53.12:288][  0]LogShaderCompilers: Guid format shader working directory is -44 characters bigger than the processId version (../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Intermediate/Shaders/WorkingDirectory/11556/).
+[2019.08.02-06.53.12:289][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Joan Abad/AppData/Local/Temp/UnrealShaderWorkingDir/04AFF0C9465D69992B564DB70F3DD0FF/'.
+[2019.08.02-06.53.12:491][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.08.02-06.53.12:506][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.08.02-06.53.12:520][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.08.02-06.53.12:534][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.08.02-06.53.12:550][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.08.02-06.53.12:564][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.08.02-06.53.12:584][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.08.02-06.53.12:598][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.08.02-06.53.12:605][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.08.02-06.53.12:683][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.02-06.53.12:683][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.02-06.53.12:683][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.02-06.53.12:683][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.02-06.53.12:683][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.02-06.53.12:683][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.02-06.53.12:683][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.02-06.53.12:683][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.02-06.53.12:683][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.02-06.53.12:683][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.02-06.53.12:683][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.02-06.53.12:683][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.02-06.53.12:683][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.02-06.53.12:683][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.02-06.53.12:683][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.02-06.53.12:684][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.02-06.53.12:684][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.02-06.53.12:684][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.02-06.53.12:688][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.08.02-06.53.12:761][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.08.02-06.53.12:761][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.08.02-06.53.12:787][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.08.02-06.53.12:788][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.08.02-06.53.12:801][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.08.02-06.53.12:815][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.08.02-06.53.12:828][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.08.02-06.53.12:842][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.08.02-06.53.12:851][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.08.02-06.53.12:851][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.08.02-06.53.12:947][  0]LogXGEController: Cleaning working directory: C:/Users/Joan Abad/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.08.02-06.53.12:971][  0]LogShaderCompilers: Display: Using XGE Shader Compiler (Interception Interface).
+[2019.08.02-06.53.13:685][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.08.02-06.53.13:766][  0]LogDerivedDataCache: Loaded boot cache 0.08s 71MB C:/Users/Joan Abad/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.08.02-06.53.13:767][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Joan Abad/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.08.02-06.53.13:767][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.08.02-06.53.13:767][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.08.02-06.53.13:767][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.08.02-06.53.13:767][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.08.02-06.53.13:783][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.08.02-06.53.13:795][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Joan Abad/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.08.02-06.53.13:795][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.08.02-06.53.13:795][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.08.02-06.53.13:816][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.08.02-06.53.13:818][  0]LogSlate: Using FreeType 2.6.0
+[2019.08.02-06.53.13:818][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.08.02-06.53.13:892][  0]LogAssetRegistry: FAssetRegistry took 0.0281 seconds to start up
+[2019.08.02-06.53.14:184][  0]LogInit: Selected Device Profile: [Windows]
+[2019.08.02-06.53.14:329][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.08.02-06.53.14:333][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.08.02-06.53.14:333][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.08.02-06.53.14:333][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.08.02-06.53.14:333][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.08.02-06.53.14:351][  0]LogNetVersion: Shooter_OW_Style 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1206910907)
+[2019.08.02-06.53.14:797][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.043494 seconds
+[2019.08.02-06.53.14:803][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.08.02-06.53.14:803][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.08.02-06.53.14:803][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.08.02-06.53.15:625][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.08.02-06.53.15:642][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.08.02-06.53.15:832][  0]SourceControl: Source control is disabled
+[2019.08.02-06.53.15:833][  0]SourceControl: Source control is disabled
+[2019.08.02-06.53.15:847][  0]SourceControl: Source control is disabled
+[2019.08.02-06.53.15:850][  0]SourceControl: Source control is disabled
+[2019.08.02-06.53.16:104][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.08.02-06.53.16:197][  0]LogOcInput: OculusInput pre-init called
+[2019.08.02-06.53.16:254][  0]LogEngine: Initializing Engine...
+[2019.08.02-06.53.16:254][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.08.02-06.53.16:256][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.08.02-06.53.16:256][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.08.02-06.53.16:256][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.08.02-06.53.16:256][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.08.02-06.53.16:474][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.08.02-06.53.16:491][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.08.02-06.53.16:516][  0]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.08.02-06.53.16:526][  0]LogInit: FAudioDevice initialized.
+[2019.08.02-06.53.16:527][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.08.02-06.53.16:942][  0]LogDerivedDataCache: Saved boot cache 0.42s 71MB C:/Users/Joan Abad/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.08.02-06.53.16:946][  0]LogInit: Texture streaming: Enabled
+[2019.08.02-06.53.16:969][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.08.02-06.53.16:980][  0]LogInit: Transaction tracking system initialized
+[2019.08.02-06.53.17:012][  0]BlueprintLog: New page: Editor Load
+[2019.08.02-06.53.17:124][  0]LocalizationService: Localization service is disabled
+[2019.08.02-06.53.17:383][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2019.08.02-06.53.17:384][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2019.08.02-06.53.17:384][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2019.08.02-06.53.17:557][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.08.02-06.53.17:557][  0]LogCook: Display: Mobile HDR setting 1
+[2019.08.02-06.53.17:557][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.08.02-06.53.17:558][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.08.02-06.53.17:558][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.08.02-06.53.17:558][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.08.02-06.53.17:558][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.08.02-06.53.17:742][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/' took 0.01s
+[2019.08.02-06.53.17:742][  0]SourceControl: Source control is disabled
+[2019.08.02-06.53.17:742][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.08.02-06.53.17:742][  0]LightingResults: New page: Lighting Build
+[2019.08.02-06.53.17:745][  0]MapCheck: New page: Map Check
+[2019.08.02-06.53.17:745][  0]LightingResults: New page: Lighting Build
+[2019.08.02-06.53.18:290][  0]LogAIModule: Creating AISystem for world FirstMap
+[2019.08.02-06.53.18:301][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.08.02-06.53.18:326][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.08.02-06.53.18:376][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 48.246ms to complete.
+[2019.08.02-06.53.18:376][  0]LogFileHelpers: Loading map 'FirstMap' took 0.634
+[2019.08.02-06.53.18:493][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.02-06.53.18:500][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.02-06.53.18:508][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.02-06.53.18:515][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.02-06.53.18:524][  0]LogCollectionManager: Loaded 0 collections in 0.001909 seconds
+[2019.08.02-06.53.18:575][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Collections/' took 0.01s
+[2019.08.02-06.53.18:575][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Developers/JoanAbad/Collections/' took 0.01s
+[2019.08.02-06.53.18:575][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Collections/' took 0.01s
+[2019.08.02-06.53.18:575][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.08.02-06.53.18:585][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2580 classes and 606 folders.
+[2019.08.02-06.53.18:593][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.08.02-06.53.18:619][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.08.02-06.53.18:629][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.08.02-06.53.18:700][  0]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.08.02-06.53.18:702][  0]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.08.02-06.53.18:708][  0]LogSlate: Took 0.000400 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.08.02-06.53.18:787][  0]LogRenderer: Reallocating scene render targets to support 1716x884 Format 10 NumSamples 1 (Frame:1).
+[2019.08.02-06.53.18:939][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.08.02-06.53.18:939][  0]LogLoad: (Engine Initialization) Total time: 8.71 seconds
+[2019.08.02-06.53.18:940][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.08.02-06.53.18:971][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.08.02-06.53.19:021][  1]LogActor: Warning: BP_Claymore_C /Engine/Transient.World_0:PersistentLevel.BP_Claymore_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.08.02-06.53.19:032][  1]LogAssetRegistry: Asset discovery search completed in 5.1653 seconds
+[2019.08.02-06.53.19:034][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.08.02-06.53.19:034][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000108 seconds (updated 0 objects)
+[2019.08.02-06.53.21:131][243]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.02-06.53.21:297][263]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.08.02-06.53.21:315][263]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.02-06.53.21:328][263]PIE: New page: PIE session: FirstMap (Aug 2, 2019, 10:53:21 AM)
+[2019.08.02-06.53.21:328][263]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
+[2019.08.02-06.53.21:332][263]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003820s)
+[2019.08.02-06.53.21:333][263]LogAIModule: Creating AISystem for world FirstMap
+[2019.08.02-06.53.21:334][263]LogPlayLevel: PIE: World Init took: (0.001011s)
+[2019.08.02-06.53.21:334][263]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.005222s)
+[2019.08.02-06.53.21:360][263]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.08.02-06.53.21:365][263]LogInit: FAudioDevice initialized.
+[2019.08.02-06.53.21:373][263]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.02-06.53.21:476][263]LogLoad: Game class is 'GameModeBase'
+[2019.08.02-06.53.21:480][263]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.02-08.53.21
+[2019.08.02-06.53.21:482][263]LogWorld: Bringing up level for play took: 0.003509
+[2019.08.02-06.53.21:499][263]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2019.08.02-06.53.21:505][263]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap -0.682
+[2019.08.02-06.53.28:426][ 77]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.02-06.53.28:445][ 77]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.08.02-06.53.28:475][ 77]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.02-06.53.28:558][ 79]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.08.02-06.53.51:377][627]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.08.02-06.53.54:014][627]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.08.02-06.54.04:582][874]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Programming/Actors/Claymore/BP_Claymoree.BP_Claymoree
+[2019.08.02-06.54.05:005][874]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2019.08.02-06.54.05:927][874]LogRenderer: Reallocating scene render targets to support 1716x984 Format 10 NumSamples 1 (Frame:1).
+[2019.08.02-06.54.07:876][ 64]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.08.02-06.54.18:957][ 65]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.02-06.54.19:056][ 76]BlueprintLog: New page: Compile BP_Claymoree
+[2019.08.02-06.54.19:338][ 76]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/BP_Claymoree35A2CC3B4CA39779A495E88741F682A3.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Claymore/BP_Claymoree.uasset'
+[2019.08.02-06.54.19:699][ 80]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/BP_Claymoree42C4AFA749BFEB761A75B4B3BF4D2EBE.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Claymore/BP_Claymoree.uasset'
+[2019.08.02-06.54.20:227][118]LogSlate: Window 'BP_Claymoree' being destroyed
+[2019.08.02-06.54.21:221][207]LogSlate: Window 'BP_Claymoree' being destroyed
+[2019.08.02-06.54.21:228][208]LogRenderer: Reallocating scene render targets to support 2572x1324 Format 10 NumSamples 1 (Frame:2419).
+[2019.08.02-06.54.29:093][ 81]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.02-06.54.32:346][466]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.02-06.54.33:567][607]BlueprintLog: New page: Compile BP_Claymoree
+[2019.08.02-06.54.33:709][607]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.02-06.54.33:768][607]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/BP_ClaymoreeFD143FCA4F54A8B670BF999A5D7DB350.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Claymore/BP_Claymoree.uasset'
+[2019.08.02-06.54.34:105][640]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.02-06.54.34:281][655]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/BP_Claymoree3B2580ED435D326A34F4B8BF53D836DC.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Claymore/BP_Claymoree.uasset'
+[2019.08.02-06.54.34:478][678]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.02-06.54.34:594][687]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/BP_Claymoree11026F0A49505EEDD80591ACF613A972.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Claymore/BP_Claymoree.uasset'
+[2019.08.02-06.54.42:181][583]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.02-06.54.42:272][594]BlueprintLog: New page: Compile BP_Claymoree
+[2019.08.02-06.54.42:468][594]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/BP_ClaymoreeA4FF8C4E4FEE63E6521A52AD2404F3EE.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Claymore/BP_Claymoree.uasset'
+[2019.08.02-06.54.42:720][618]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.02-06.54.42:865][630]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/BP_Claymoree5147EBCD4513EDD99DA4F8B1A2F054BE.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Claymore/BP_Claymoree.uasset'
+[2019.08.02-06.54.43:755][731]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.02-06.54.48:859][298]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.02-06.54.56:500][157]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.02-06.55.07:414][345]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.02-06.55.31:590][860]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.02-06.55.47:330][661]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.02-06.55.47:448][675]BlueprintLog: New page: Compile BP_Claymoree
+[2019.08.02-06.55.47:665][675]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/BP_Claymoree3E1757A943F08D57984DB99E6EAAF51F.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Claymore/BP_Claymoree.uasset'
+[2019.08.02-06.55.48:102][714]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/BP_Claymoree62F1CFBD4759E41D0F9D26BC67F8CAED.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Claymore/BP_Claymoree.uasset'
+[2019.08.02-06.55.52:884][267]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.02-06.56.10:203][270]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.02-06.56.10:328][285]BlueprintLog: New page: Compile BP_Claymoree
+[2019.08.02-06.56.10:526][285]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/BP_ClaymoreeAB116D524A0647A15E0D9A931644BF63.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Claymore/BP_Claymoree.uasset'
+[2019.08.02-06.56.10:773][303]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/BP_ClaymoreeAE015F1948D083A9E30EB69217DC33FA.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Claymore/BP_Claymoree.uasset'
+[2019.08.02-06.56.13:991][671]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/BP_Claymoree12716BE141E564CB5F0EE3AD1F360190.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Claymore/BP_Claymoree.uasset'
+[2019.08.02-06.56.14:354][714]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.08.02-06.56.44:464][194]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/BP_Claymoree65C1EADE48332C85103BCF9C5CFD7E81.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Claymore/BP_Claymoree.uasset'
+[2019.08.02-06.56.46:097][385]BlueprintLog: New page: Compile BP_Claymoree
+[2019.08.02-06.56.46:104][385]LogBlueprint: Error: [Compiler BP_Claymoree] The current value (0, 0, 0) of the ' Origin ' pin is invalid: 'Origin' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2019.08.02-06.56.46:264][385]LogBlueprint: Warning: [Compiler BP_Claymoree] [0216.03] Compile of BP_Claymoree failed. 1 Fatal Issue(s) 0 Warning(s) [in 165 ms] (/Game/Programming/Actors/Claymore/BP_Claymoree.BP_Claymoree)
+[2019.08.02-06.56.46:662][422]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/BP_ClaymoreeF16204C8421CEF14C9D91B830A270544.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Claymore/BP_Claymoree.uasset'
+[2019.08.02-06.56.48:744][653]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.08.02-06.56.54:295][292]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/BP_Claymoree2FE26D7042DEE45526C2EB8829EC9B92.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Claymore/BP_Claymoree.uasset'
+[2019.08.02-06.56.58:649][799]BlueprintLog: New page: Compile BP_Claymoree
+[2019.08.02-06.56.58:656][799]LogBlueprint: Error: [Compiler BP_Claymoree] The current value (0, 0, 0) of the ' Origin ' pin is invalid: 'Origin' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2019.08.02-06.56.58:786][799]LogBlueprint: Warning: [Compiler BP_Claymoree] [0228.55] Compile of BP_Claymoree failed. 1 Fatal Issue(s) 0 Warning(s) [in 137 ms] (/Game/Programming/Actors/Claymore/BP_Claymoree.BP_Claymoree)
+[2019.08.02-06.57.27:960][216]BlueprintLog: New page: Compile BP_Claymoree
+[2019.08.02-06.57.28:173][216]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/BP_Claymoree62F8B19541C541C8765ADCA3210B6FD7.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Claymore/BP_Claymoree.uasset'
+[2019.08.02-06.57.28:599][259]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/BP_Claymoree2B57A1FF41A87AD22D2670941ADB2B7F.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Claymore/BP_Claymoree.uasset'
+[2019.08.02-06.57.48:686][580]BlueprintLog: New page: Compile BP_Claymoree
+[2019.08.02-06.57.48:911][580]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/BP_Claymoree521746CB4E7F6F43E22D57B8EA3DAFF5.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Claymore/BP_Claymoree.uasset'
+[2019.08.02-06.57.49:570][648]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/BP_Claymoree717E975946ABA80B745CA0BA4EDD3923.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Claymore/BP_Claymoree.uasset'
+[2019.08.02-06.57.58:283][364]LogSlate: Window 'Color Picker' being destroyed
+[2019.08.02-06.57.59:421][488]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/BP_ClaymoreeBBB9069C4E4021C0BD25B6B2383BF8E2.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Claymore/BP_Claymoree.uasset'
+[2019.08.02-06.58.00:020][559]BlueprintLog: New page: Compile BP_Claymoree
+[2019.08.02-06.58.00:458][583]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/BP_Claymoree01C14EDC40A7BBCB948D7EB00F0B4A7F.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Claymore/BP_Claymoree.uasset'
+[2019.08.02-06.58.24:834][441]BlueprintLog: New page: Compile BP_Claymoree
+[2019.08.02-06.58.25:065][441]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/BP_Claymoree4CD893584417FF3B67F55E9929E4D9A8.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Claymore/BP_Claymoree.uasset'
+[2019.08.02-06.58.25:392][470]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/BP_Claymoree6E92A93243531309220D62A88AD6C0A9.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Claymore/BP_Claymoree.uasset'
+[2019.08.02-06.58.26:274][573]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.08.02-06.58.26:295][573]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.02-06.58.26:295][573]PIE: New page: PIE session: FirstMap (Aug 2, 2019, 10:58:26 AM)
+[2019.08.02-06.58.26:295][573]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
+[2019.08.02-06.58.26:299][573]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003804s)
+[2019.08.02-06.58.26:300][573]LogAIModule: Creating AISystem for world FirstMap
+[2019.08.02-06.58.26:300][573]LogPlayLevel: PIE: World Init took: (0.001122s)
+[2019.08.02-06.58.26:300][573]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.005262s)
+[2019.08.02-06.58.26:332][573]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.08.02-06.58.26:338][573]LogInit: FAudioDevice initialized.
+[2019.08.02-06.58.26:346][573]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.02-06.58.26:433][573]LogLoad: Game class is 'GameModeBase'
+[2019.08.02-06.58.26:436][573]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.02-08.58.26
+[2019.08.02-06.58.26:437][573]LogWorld: Bringing up level for play took: 0.002922
+[2019.08.02-06.58.26:453][573]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap 0.267
+[2019.08.02-06.58.28:203][774]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.02-06.58.28:222][774]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.08.02-06.58.28:257][774]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.02-06.58.28:304][775]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.08.02-06.58.33:691][377]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/BP_Claymoree2F41EE1B4FF20A86BF37E2946AD44F6B.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Claymore/BP_Claymoree.uasset'
+[2019.08.02-06.58.40:615][123]BlueprintLog: New page: Compile BP_Claymoree
+[2019.08.02-06.58.40:853][123]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/BP_Claymoree21A0846D48738DB7CFAE73B93B00A153.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Claymore/BP_Claymoree.uasset'
+[2019.08.02-06.58.41:012][132]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/BP_Claymoree691BC50943947EE51A05D585781097A4.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Claymore/BP_Claymoree.uasset'
+[2019.08.02-06.58.42:598][317]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.08.02-06.58.42:620][317]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.02-06.58.42:620][317]PIE: New page: PIE session: FirstMap (Aug 2, 2019, 10:58:42 AM)
+[2019.08.02-06.58.42:620][317]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
+[2019.08.02-06.58.42:624][317]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003643s)
+[2019.08.02-06.58.42:625][317]LogAIModule: Creating AISystem for world FirstMap
+[2019.08.02-06.58.42:625][317]LogPlayLevel: PIE: World Init took: (0.001121s)
+[2019.08.02-06.58.42:625][317]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.005091s)
+[2019.08.02-06.58.42:656][317]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.08.02-06.58.42:661][317]LogInit: FAudioDevice initialized.
+[2019.08.02-06.58.42:670][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.02-06.58.42:757][317]LogLoad: Game class is 'GameModeBase'
+[2019.08.02-06.58.42:760][317]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.02-08.58.42
+[2019.08.02-06.58.42:761][317]LogWorld: Bringing up level for play took: 0.002757
+[2019.08.02-06.58.42:777][317]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap 0.59
+[2019.08.02-06.58.43:879][440]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.02-06.58.43:899][440]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.08.02-06.58.43:936][440]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.02-06.58.43:986][441]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.08.02-06.58.45:489][611]LogEditorViewport: Clicking on Actor (LMB): BP_Claymore_C (BP_Claymore)
+[2019.08.02-06.58.45:748][630]Cmd: DELETE
+[2019.08.02-06.58.45:748][630]Cmd: ACTOR DELETE
+[2019.08.02-06.58.45:751][630]LogEditorActor: Deleted Actor: BP_Claymore_C
+[2019.08.02-06.58.45:779][630]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2019.08.02-06.58.46:233][679]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.02-06.58.47:054][765]LogEditorViewport: Clicking on Actor (LMB): BP_Claymoree_C (BP_Claymoree)
+[2019.08.02-06.58.55:844][797]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2019.08.02-06.58.55:907][797]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.02-06.58.56:858][901]LogEditorViewport: Clicking on Actor (LMB): BP_Claymoree_C (BP_Claymoree)
+[2019.08.02-06.58.59:712][200]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.02-06.59.05:923][810]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.02-06.59.19:747][147]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.02-06.59.19:928][156]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMap92EE6D68429A6C7EEC16C8BE9335BC14.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap'
+[2019.08.02-06.59.19:990][156]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMap_BuiltDataF811A1724058F245055A3B88C777EBAC.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap_BuiltData.uasset'
+[2019.08.02-06.59.20:502][203]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.02-06.59.20:544][208]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.08.02-06.59.20:568][208]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.08.02-06.59.20:573][208]LogPlayLevel: [PlayLevel] Compiling BP_Claymoree before play...
+[2019.08.02-06.59.20:783][208]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/BP_Claymoree5E9804CB4C102E2FDAA912AAD12991EA.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Claymore/BP_Claymoree.uasset'
+[2019.08.02-06.59.20:842][208]LogPlayLevel: PlayLevel: Blueprint regeneration took 273 ms (1 blueprints)
+[2019.08.02-06.59.20:842][208]PIE: New page: PIE session: FirstMap (Aug 2, 2019, 10:59:20 AM)
+[2019.08.02-06.59.20:842][208]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
+[2019.08.02-06.59.20:845][208]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003070s)
+[2019.08.02-06.59.20:849][208]LogAIModule: Creating AISystem for world FirstMap
+[2019.08.02-06.59.20:849][208]LogPlayLevel: PIE: World Init took: (0.003431s)
+[2019.08.02-06.59.20:849][208]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.006944s)
+[2019.08.02-06.59.20:880][208]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.08.02-06.59.20:887][208]LogInit: FAudioDevice initialized.
+[2019.08.02-06.59.20:893][208]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.02-06.59.20:895][208]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.02-06.59.21:027][208]LogLoad: Game class is 'GameModeBase'
+[2019.08.02-06.59.21:030][208]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.02-08.59.21
+[2019.08.02-06.59.21:031][208]LogWorld: Bringing up level for play took: 0.003200
+[2019.08.02-06.59.21:050][208]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap 0.863
+[2019.08.02-06.59.22:330][302]LogRenderer: Reallocating scene render targets to support 2572x1380 Format 10 NumSamples 1 (Frame:96).
+[2019.08.02-06.59.32:680][316]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.02-06.59.32:701][316]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.08.02-06.59.32:733][316]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.02-06.59.32:783][317]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.08.02-06.59.35:050][567]LogEditorViewport: Clicking on Actor (LMB): BP_Claymoree_C (BP_Claymoree)
+[2019.08.02-06.59.37:259][779]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.02-07.00.23:654][609]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/BP_ClaymoreeE2927DA443326DC6473940A92F2D421D.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Claymore/BP_Claymoree.uasset'
+[2019.08.02-07.00.26:978][922]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.02-07.00.42:327][348]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMap07745646467583C7564CDC99DA2240E6.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap'
+[2019.08.02-07.00.42:363][348]LogFileHelpers: Saving map 'FirstMap' took 0.169
+[2019.08.02-07.00.42:425][348]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/BP_Claymoree7274DB484BE09DFA7F200BB99DDD40D6.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Claymore/BP_Claymoree.uasset'
+[2019.08.02-07.00.44:672][538]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.02-07.00.44:750][546]BlueprintLog: New page: Compile BP_Claymoree
+[2019.08.02-07.00.46:728][705]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.08.02-07.00.46:750][705]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.02-07.00.46:751][705]PIE: New page: PIE session: FirstMap (Aug 2, 2019, 11:00:46 AM)
+[2019.08.02-07.00.46:751][705]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
+[2019.08.02-07.00.46:754][705]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003050s)
+[2019.08.02-07.00.46:756][705]LogAIModule: Creating AISystem for world FirstMap
+[2019.08.02-07.00.46:758][705]LogPlayLevel: PIE: World Init took: (0.002937s)
+[2019.08.02-07.00.46:758][705]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.007446s)
+[2019.08.02-07.00.46:796][705]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.08.02-07.00.46:801][705]LogInit: FAudioDevice initialized.
+[2019.08.02-07.00.46:809][705]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.02-07.00.46:937][705]LogLoad: Game class is 'GameModeBase'
+[2019.08.02-07.00.46:940][705]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.02-09.00.46
+[2019.08.02-07.00.46:941][705]LogWorld: Bringing up level for play took: 0.003303
+[2019.08.02-07.00.46:959][705]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap 0.772
+[2019.08.02-07.00.51:627][115]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.02-07.00.51:646][115]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.08.02-07.00.51:705][115]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.02-07.00.51:782][116]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.08.02-07.00.52:393][175]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.02-07.01.02:076][555]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.08.02-07.01.02:095][555]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.02-07.01.02:096][555]PIE: New page: PIE session: FirstMap (Aug 2, 2019, 11:01:02 AM)
+[2019.08.02-07.01.02:096][555]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
+[2019.08.02-07.01.02:099][555]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003607s)
+[2019.08.02-07.01.02:100][555]LogAIModule: Creating AISystem for world FirstMap
+[2019.08.02-07.01.02:100][555]LogPlayLevel: PIE: World Init took: (0.000867s)
+[2019.08.02-07.01.02:101][555]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.004784s)
+[2019.08.02-07.01.02:133][555]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.08.02-07.01.02:139][555]LogInit: FAudioDevice initialized.
+[2019.08.02-07.01.02:147][555]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.02-07.01.02:283][555]LogLoad: Game class is 'GameModeBase'
+[2019.08.02-07.01.02:286][555]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.02-09.01.02
+[2019.08.02-07.01.02:286][555]LogWorld: Bringing up level for play took: 0.002775
+[2019.08.02-07.01.02:305][555]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap 0.119
+[2019.08.02-07.01.07:764][ 45]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.02-07.01.07:784][ 45]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.08.02-07.01.07:822][ 45]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.02-07.01.07:900][ 46]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.08.02-07.01.18:243][192]LogEditorViewport: Clicking on Actor (LMB): BP_Claymoree_C (BP_Claymoree)
+[2019.08.02-07.01.19:861][322]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.02-07.01.21:672][485]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.02-07.01.32:088][573]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.02-07.01.32:182][584]LogSlate: Window 'BP_Claymoree' being destroyed
+[2019.08.02-07.02.01:949][ 40]LogEditorViewport: Clicking on Actor (LMB): BP_Claymoree_C (BP_Claymoree2)
+[2019.08.02-07.02.03:244][189]Cmd: DELETE
+[2019.08.02-07.02.03:244][189]Cmd: ACTOR DELETE
+[2019.08.02-07.02.03:247][189]LogEditorActor: Deleted Actor: BP_Claymoree_C
+[2019.08.02-07.02.03:275][189]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2019.08.02-07.02.04:862][377]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.02-07.02.05:070][391]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMap2674DDBC4EE2BC9A0EB2028BA9B8CE11.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap'
+[2019.08.02-07.02.05:125][391]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMap_BuiltData2A281CCD47636032A527C688203A608F.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap_BuiltData.uasset'
+[2019.08.02-07.02.14:051][458]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.02-07.02.14:174][473]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.08.02-07.02.14:198][473]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.02-07.02.14:198][473]PIE: New page: PIE session: FirstMap (Aug 2, 2019, 11:02:14 AM)
+[2019.08.02-07.02.14:199][473]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
+[2019.08.02-07.02.14:201][473]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002856s)
+[2019.08.02-07.02.14:202][473]LogAIModule: Creating AISystem for world FirstMap
+[2019.08.02-07.02.14:203][473]LogPlayLevel: PIE: World Init took: (0.000885s)
+[2019.08.02-07.02.14:203][473]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.004109s)
+[2019.08.02-07.02.14:234][473]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.08.02-07.02.14:241][473]LogInit: FAudioDevice initialized.
+[2019.08.02-07.02.14:251][473]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.02-07.02.14:336][473]LogLoad: Game class is 'GameModeBase'
+[2019.08.02-07.02.14:339][473]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.02-09.02.14
+[2019.08.02-07.02.14:340][473]LogWorld: Bringing up level for play took: 0.002993
+[2019.08.02-07.02.14:357][473]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap 0.17
+[2019.08.02-07.02.24:284][647]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.02-07.02.24:303][647]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.08.02-07.02.24:335][647]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.02-07.02.24:433][649]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.08.02-07.02.31:513][457]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.02-07.04.19:750][998]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMap6877D9064E490A7D156E119D065F6712.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap'
+[2019.08.02-07.04.19:806][998]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMap_BuiltData0BD65C904A2796EF769CCB90E5E1D851.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap_BuiltData.uasset'
+[2019.08.02-07.04.21:652][208]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Programming/UI/WBP_ChooseWeapons.WBP_ChooseWeapons
+[2019.08.02-07.04.49:272][723]BlueprintLog: New page: Compile WBP_ChooseWeapons
+[2019.08.02-07.04.49:456][723]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/WBP_ChooseWeaponsF05CF7D942517387907FFE8A58147112.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/UI/WBP_ChooseWeapons.uasset'
+[2019.08.02-07.04.49:832][738]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/WBP_ChooseWeapons4342CD9D40C69A0564110EB290C23DDA.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/UI/WBP_ChooseWeapons.uasset'
+[2019.08.02-07.06.31:668][284]BlueprintLog: New page: Compile WBP_ChooseWeapons
+[2019.08.02-07.06.31:739][284]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/WBP_ChooseWeapons572DE098408D16D5BB6C8A9A5E525AE8.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/UI/WBP_ChooseWeapons.uasset'
+[2019.08.02-07.06.32:122][306]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/WBP_ChooseWeapons8B005A8840A1DF3A51F0E3B91238B894.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/UI/WBP_ChooseWeapons.uasset'
+[2019.08.02-07.06.32:819][359]LogSlate: Window 'WBP_ChooseWeapons' being destroyed
+[2019.08.02-07.06.35:439][653]LogEditorViewport: Clicking on Actor (LMB): BP_Claymoree_C (BP_Claymoree)
+[2019.08.02-07.06.44:750][746]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2019.08.02-07.06.44:808][746]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.02-07.06.47:283][ 29]LogEditorViewport: Clicking on Actor (LMB): BP_Claymoree_C (BP_Claymoree)
+[2019.08.02-07.06.49:001][228]Cmd: DELETE
+[2019.08.02-07.06.49:001][228]Cmd: ACTOR DELETE
+[2019.08.02-07.06.49:004][228]LogEditorActor: Deleted Actor: BP_Claymoree_C
+[2019.08.02-07.06.49:032][228]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2019.08.02-07.06.49:959][335]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.02-07.06.50:113][335]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMapD4A143B94C71887FD9846C8CA227C670.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap'
+[2019.08.02-07.06.50:148][335]LogFileHelpers: Saving map 'FirstMap' took 0.174
+[2019.08.02-07.06.54:402][835]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2019.08.02-07.06.54:460][835]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.02-07.06.55:685][972]LogEditorViewport: Clicking on Actor (LMB): Base_Character_C (Base_Character)
+[2019.08.02-07.06.58:621][221]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.02-07.06.58:737][233]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Programming/Character/Base_Character.Base_Character
+[2019.08.02-07.09.36:362][352]BlueprintLog: New page: Compile Base_Character
+[2019.08.02-07.09.36:374][352]LogBlueprint: Error: [Compiler Base_Character] Spawn node  SpawnActor NONE  must have a  Class  specified.
+[2019.08.02-07.09.36:746][352]LogBlueprint: Warning: [Compiler Base_Character] [0986.51] Compile of Base_Character failed. 1 Fatal Issue(s) 0 Warning(s) [in 383 ms] (/Game/Programming/Character/Base_Character.Base_Character)
+[2019.08.02-07.09.37:180][389]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_CharacterE2B5E55F42A3549453A4BC9FCE2F8084.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.09.39:568][663]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.08.02-07.09.44:013][176]BlueprintLog: New page: Compile Base_Character
+[2019.08.02-07.09.44:023][176]LogBlueprint: Error: [Compiler Base_Character] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2019.08.02-07.09.44:023][176]LogBlueprint: Error: [Compiler Base_Character] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2019.08.02-07.09.44:380][176]LogBlueprint: Warning: [Compiler Base_Character] [0994.15] Compile of Base_Character failed. 2 Fatal Issue(s) 0 Warning(s) [in 366 ms] (/Game/Programming/Character/Base_Character.Base_Character)
+[2019.08.02-07.09.44:567][189]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_Character47A80244407EC4896252AC98BAF667E9.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.10.07:683][912]BlueprintLog: New page: Compile Base_Character
+[2019.08.02-07.10.07:692][912]LogBlueprint: Error: [Compiler Base_Character] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2019.08.02-07.10.07:693][912]LogBlueprint: Error: [Compiler Base_Character] The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2019.08.02-07.10.08:049][912]LogBlueprint: Warning: [Compiler Base_Character] [1017.82] Compile of Base_Character failed. 2 Fatal Issue(s) 0 Warning(s) [in 366 ms] (/Game/Programming/Character/Base_Character.Base_Character)
+[2019.08.02-07.10.08:286][930]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_CharacterA93B4DB04FD441FD84D12AB361F9A6D3.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.10.10:451][181]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_CharacterF7EAF9C14EB5A4BDE31B689D394E3FAD.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.10.12:647][412]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMap0E222B984C3B6110C4E7BFBE37D4EAA8.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap'
+[2019.08.02-07.10.12:683][412]LogFileHelpers: Saving map 'FirstMap' took 0.175
+[2019.08.02-07.10.28:484][271]BlueprintLog: New page: Compile Base_Character
+[2019.08.02-07.10.28:939][271]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_Character6A38F7CF44FBC8A19258D7B5B6C61CD8.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.10.54:946][308]BlueprintLog: New page: Compile Base_Character
+[2019.08.02-07.10.55:396][308]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_Character80B4A51E4F1BD511A04714AE299E35C0.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.10.55:687][332]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_CharacterC1F99DBB4036E0F8316ADA991B160BC8.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.11.20:923][232]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMap6C50C2ED4CDBE1CFC42FEAAA5243176D.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap'
+[2019.08.02-07.11.20:957][232]LogFileHelpers: Saving map 'FirstMap' took 0.161
+[2019.08.02-07.11.21:010][232]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_Character1081C65142056DACC7B6649A26A5FFEF.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.11.25:140][722]BlueprintLog: New page: Compile Base_Character
+[2019.08.02-07.11.25:748][740]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_CharacterF0BE99E04CB64159FB9B28955F6D27F3.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.11.37:486][856]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Programming/Actors/Claymore/BP_Claymoree.BP_Claymoree
+[2019.08.02-07.12.15:743][302]BlueprintLog: New page: Compile BP_Claymoree
+[2019.08.02-07.12.16:007][302]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/BP_Claymoree4BD331CB44D67D0AD9490C9ACC174DAF.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Claymore/BP_Claymoree.uasset'
+[2019.08.02-07.12.16:261][315]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/BP_ClaymoreeD91371D546C3024B2AAB70B44A615CC2.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Claymore/BP_Claymoree.uasset'
+[2019.08.02-07.12.17:015][379]LogSlate: Window 'BP_Claymoree' being destroyed
+[2019.08.02-07.12.18:246][501]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMapB6F61BDA49F45B13F1CEBAAD4B1CD85D.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap'
+[2019.08.02-07.12.18:284][501]LogFileHelpers: Saving map 'FirstMap' took 0.166
+[2019.08.02-07.12.19:989][677]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.08.02-07.12.20:012][677]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.02-07.12.20:012][677]PIE: New page: PIE session: FirstMap (Aug 2, 2019, 11:12:20 AM)
+[2019.08.02-07.12.20:012][677]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
+[2019.08.02-07.12.20:016][677]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003372s)
+[2019.08.02-07.12.20:017][677]LogAIModule: Creating AISystem for world FirstMap
+[2019.08.02-07.12.20:019][677]LogPlayLevel: PIE: World Init took: (0.003244s)
+[2019.08.02-07.12.20:019][677]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.007112s)
+[2019.08.02-07.12.20:085][677]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.08.02-07.12.20:090][677]LogInit: FAudioDevice initialized.
+[2019.08.02-07.12.20:098][677]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.02-07.12.20:192][677]LogLoad: Game class is 'GameModeBase'
+[2019.08.02-07.12.20:195][677]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.02-09.12.20
+[2019.08.02-07.12.20:196][677]LogWorld: Bringing up level for play took: 0.002786
+[2019.08.02-07.12.20:214][677]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap 0.027
+[2019.08.02-07.12.21:432][806]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_FirstMap.FirstMap:PersistentLevel.Base_Character_2.CollisionCylinder' root component cannot be attached to other components in the same actor. Aborting.
+[2019.08.02-07.12.24:744][199]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.02-07.12.24:764][199]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.08.02-07.12.24:811][199]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.02-07.12.24:867][200]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.08.02-07.12.32:653][ 55]Cmd: DELETE
+[2019.08.02-07.12.32:653][ 55]Cmd: ACTOR DELETE
+[2019.08.02-07.12.32:655][ 55]LogEditorActor: Deleted Actor: BP_Claymoree_C
+[2019.08.02-07.12.32:686][ 55]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2019.08.02-07.12.34:030][211]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.02-07.12.34:208][222]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMapD3A128044E89A20B61BAAA8664045145.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap'
+[2019.08.02-07.12.34:268][222]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMap_BuiltData8C057509493D941F65948B879D3A3726.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap_BuiltData.uasset'
+[2019.08.02-07.13.30:359][502]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/BP_ClaymoreeFCDE6D2F4D7BBC8E6FE5028D3787406A.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Claymore/BP_Claymoree.uasset'
+[2019.08.02-07.16.10:510][ 17]BlueprintLog: New page: Compile Base_Character
+[2019.08.02-07.16.10:787][ 17]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_Character572EC0114F9AC3937D0C52A06CB96672.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.16.11:148][ 49]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_Character517950184C770F79ADCF1D9D9530C395.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.16.21:820][271]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMap0DDA19A345027F251505A4B60EB9AB16.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap'
+[2019.08.02-07.16.21:917][271]LogFileHelpers: Saving map 'FirstMap' took 0.230
+[2019.08.02-07.16.21:951][271]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_CharacterB4F4FF6E46D5F0440675E9B6BF805F8B.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.16.37:526][ 82]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_CharacterD57503F74D39461D6982C4B4AD38629C.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.16.38:639][211]BlueprintLog: New page: Compile Base_Character
+[2019.08.02-07.16.39:242][248]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_CharacterABD785A04DC160B1DE7E15B235FC0658.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.16.40:346][345]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMapCF038DC24D97B25D2FFEF7A5AF138EF1.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap'
+[2019.08.02-07.16.40:386][345]LogFileHelpers: Saving map 'FirstMap' took 0.163
+[2019.08.02-07.16.47:686][200]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.08.02-07.16.49:405][392]BlueprintLog: New page: Compile Base_Character
+[2019.08.02-07.16.49:696][392]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_Character942562264677BC5BF53A2CB291147246.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.16.50:100][423]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_CharacterE0E4E2A843264E14C70E6CA3C4C24DD6.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.16.52:093][646]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.08.02-07.16.52:125][646]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.02-07.16.52:125][646]PIE: New page: PIE session: FirstMap (Aug 2, 2019, 11:16:52 AM)
+[2019.08.02-07.16.52:125][646]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
+[2019.08.02-07.16.52:128][646]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002798s)
+[2019.08.02-07.16.52:129][646]LogAIModule: Creating AISystem for world FirstMap
+[2019.08.02-07.16.52:129][646]LogPlayLevel: PIE: World Init took: (0.001050s)
+[2019.08.02-07.16.52:129][646]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.004187s)
+[2019.08.02-07.16.52:163][646]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.08.02-07.16.52:170][646]LogInit: FAudioDevice initialized.
+[2019.08.02-07.16.52:180][646]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.02-07.16.52:263][646]LogLoad: Game class is 'GameModeBase'
+[2019.08.02-07.16.52:265][646]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.02-09.16.52
+[2019.08.02-07.16.52:266][646]LogWorld: Bringing up level for play took: 0.003059
+[2019.08.02-07.16.52:281][646]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.08.02-07.16.52:281][646]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.08.02-07.16.52:284][646]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap 0.097
+[2019.08.02-07.16.55:895][997]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_FirstMap.FirstMap:PersistentLevel.Base_Character_2.CollisionCylinder' root component cannot be attached to other components in the same actor. Aborting.
+[2019.08.02-07.17.02:168][631]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.02-07.17.02:190][631]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.08.02-07.17.02:226][631]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.02-07.17.02:330][632]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.08.02-07.18.00:881][422]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMap4B370A724703CAD05C2DB28DD3C3741C.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap'
+[2019.08.02-07.18.00:916][422]LogFileHelpers: Saving map 'FirstMap' took 0.169
+[2019.08.02-07.18.00:994][422]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_Character644A672343C922EB3304EBAE937143CE.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.18.31:615][ 10]BlueprintLog: New page: Compile Base_Character
+[2019.08.02-07.18.31:906][ 10]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_CharacterF7B4B140433222BC2AC562801E84598D.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.18.32:093][ 22]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_Character503418D3449223A519792AB61272F2DB.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.18.42:612][234]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMap7D5953BB49028674D80117A9F7B149BA.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap'
+[2019.08.02-07.18.42:649][234]LogFileHelpers: Saving map 'FirstMap' took 0.167
+[2019.08.02-07.18.42:715][234]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_Character86D374264ABEE3164C1609B0351AAD89.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.18.55:954][806]BlueprintLog: New page: Compile Base_Character
+[2019.08.02-07.18.56:225][806]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_CharacterDD352D4445DA3091AD2E559FAE30BFD5.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.18.56:384][814]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_Character8395BBE249E1A6F9A6CC9283A3DB0605.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.19.04:447][722]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMap8A56CEA14108031F24EF4982BE0E0A89.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap'
+[2019.08.02-07.19.04:484][722]LogFileHelpers: Saving map 'FirstMap' took 0.167
+[2019.08.02-07.19.04:545][722]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_Character67313C8E4E7CD272E5370DA8E3DE0215.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.19.11:985][601]BlueprintLog: New page: Compile Base_Character
+[2019.08.02-07.19.12:557][634]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_Character95887EE6404422B30EF317860AF18C48.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.19.16:761][803]LogSlate: Window 'Color Picker' being destroyed
+[2019.08.02-07.19.19:216][ 73]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMap0AE8BBFC489EABC9400E4491D0CC7B31.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap'
+[2019.08.02-07.19.19:252][ 73]LogFileHelpers: Saving map 'FirstMap' took 0.166
+[2019.08.02-07.19.19:324][ 73]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_CharacterD806C78E49AB48410EB5D493020B3B82.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.19.22:002][389]BlueprintLog: New page: Compile Base_Character
+[2019.08.02-07.19.22:558][421]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_CharacterD38985C24FFEDD97689D99909ABBCC2C.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.19.26:054][487]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.08.02-07.19.26:088][487]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.02-07.19.26:088][487]PIE: New page: PIE session: FirstMap (Aug 2, 2019, 11:19:26 AM)
+[2019.08.02-07.19.26:089][487]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
+[2019.08.02-07.19.26:092][487]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003110s)
+[2019.08.02-07.19.26:093][487]LogAIModule: Creating AISystem for world FirstMap
+[2019.08.02-07.19.26:093][487]LogPlayLevel: PIE: World Init took: (0.001044s)
+[2019.08.02-07.19.26:094][487]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.004876s)
+[2019.08.02-07.19.26:129][487]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.08.02-07.19.26:135][487]LogInit: FAudioDevice initialized.
+[2019.08.02-07.19.26:143][487]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.02-07.19.26:225][487]LogLoad: Game class is 'GameModeBase'
+[2019.08.02-07.19.26:245][487]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.02-09.19.26
+[2019.08.02-07.19.26:245][487]LogWorld: Bringing up level for play took: 0.003111
+[2019.08.02-07.19.26:305][487]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.08.02-07.19.26:306][487]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.08.02-07.19.26:307][487]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap 0.12
+[2019.08.02-07.19.28:331][710]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_FirstMap.FirstMap:PersistentLevel.Base_Character_2.CollisionCylinder' root component cannot be attached to other components in the same actor. Aborting.
+[2019.08.02-07.19.30:156][921]PIE: Warning: AttachTo: '/Game/Levels/UEDPIE_0_FirstMap.FirstMap:PersistentLevel.Base_Character_2.CollisionCylinder' root component cannot be attached to other components in the same actor. Aborting.
+[2019.08.02-07.19.37:129][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.02-07.19.37:150][735]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.08.02-07.19.37:197][735]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.02-07.19.37:276][736]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.08.02-07.20.02:890][696]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMap427BAE934F8F53104F7A4FBB8D16B3CB.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap'
+[2019.08.02-07.20.02:926][696]LogFileHelpers: Saving map 'FirstMap' took 0.169
+[2019.08.02-07.20.03:011][696]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_Character4FF8E8D5430CD920C36355B6A3036904.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.20.36:866][624]BlueprintLog: New page: Compile Base_Character
+[2019.08.02-07.20.37:134][624]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_CharacterABA472314145D04D097DFDA7D09FC9CF.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.20.37:641][673]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_CharacterFA08AA92475F3D3B369B8D832A539138.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.20.58:594][ 90]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMap6C44C8B9469C6947CFF76DA21BCAF996.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap'
+[2019.08.02-07.20.58:644][ 90]LogFileHelpers: Saving map 'FirstMap' took 0.183
+[2019.08.02-07.20.58:704][ 90]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_CharacterDC6DB81B40DDB0B9A07196AB139210C3.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.22.01:992][405]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_Character2702E170437424D16016BAA852DA94F6.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.22.16:832][103]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_Character7EE0452645E2BD2C6C06239BF3D1F01E.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.22.25:109][ 72]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_CharacterF1182CD845EB7ACDAE0E3990D1D22FF3.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.22.48:233][755]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_Character7CFCA7AA4B3EC8FE60029684098571AB.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.22.49:473][888]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_Character4DD38A004816226EC2DA0FA4B5577BFA.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.23.08:541][ 89]BlueprintLog: New page: Compile Base_Character
+[2019.08.02-07.23.08:822][ 89]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_Character9F1D8A6A4954B81CC24B0C9E22F33E1C.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.23.09:193][117]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_Character95D7CE29480E9CC81258898CBE048CB8.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.23.09:813][181]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Base_CharacterCAA38402435A5BB0AAE26EA2E4280471.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Character/Base_Character.uasset'
+[2019.08.02-07.23.12:948][549]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.08.02-07.23.12:979][549]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.02-07.23.12:979][549]PIE: New page: PIE session: FirstMap (Aug 2, 2019, 11:23:12 AM)
+[2019.08.02-07.23.12:979][549]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
+[2019.08.02-07.23.12:982][549]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003083s)
+[2019.08.02-07.23.12:983][549]LogAIModule: Creating AISystem for world FirstMap
+[2019.08.02-07.23.12:984][549]LogPlayLevel: PIE: World Init took: (0.001010s)
+[2019.08.02-07.23.12:984][549]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.004476s)
+[2019.08.02-07.23.13:020][549]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.08.02-07.23.13:027][549]LogInit: FAudioDevice initialized.
+[2019.08.02-07.23.13:035][549]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.02-07.23.13:126][549]LogLoad: Game class is 'GameModeBase'
+[2019.08.02-07.23.13:129][549]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.02-09.23.13
+[2019.08.02-07.23.13:130][549]LogWorld: Bringing up level for play took: 0.003306
+[2019.08.02-07.23.13:143][549]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.08.02-07.23.13:144][549]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2019.08.02-07.23.13:145][549]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap 0.958

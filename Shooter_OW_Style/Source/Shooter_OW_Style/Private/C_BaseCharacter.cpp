@@ -9,6 +9,7 @@
 #include "Shooter_OW_Style.h"
 #include "Components/CapsuleComponent.h"
 #include "HealthComponent.h"
+#include "Net/UnrealNetwork.h"
 
 // Sets default values
 AC_BaseCharacter::AC_BaseCharacter()
@@ -42,18 +43,23 @@ void AC_BaseCharacter::BeginPlay()
 	Super::BeginPlay();	
 
 	DefaultFOV = CameraComp->FieldOfView;
-
-	FActorSpawnParameters SpawnParams; 
-	SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
-
-	CurrentWeapon = GetWorld()->SpawnActor<AA_BaseWeapon>(StarterWeapon, FVector::ZeroVector, FRotator::ZeroRotator, SpawnParams);
-
-	if (CurrentWeapon)
-	{
-		CurrentWeapon->SetOwner(this);
-		CurrentWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, WeaponAttachSocketName);
-	}
 	HealthComp->OnHealthChanged.AddDynamic(this, &AC_BaseCharacter::OnHealthChanged);
+
+
+	if (Role == ROLE_Authority)
+	{
+		FActorSpawnParameters SpawnParams;
+		SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+
+		CurrentWeapon = GetWorld()->SpawnActor<AA_BaseWeapon>(StarterWeapon, FVector::ZeroVector, FRotator::ZeroRotator, SpawnParams);
+
+		if (CurrentWeapon)
+		{
+			CurrentWeapon->SetOwner(this);
+			CurrentWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetNotIncludingScale, WeaponAttachSocketName);
+		}
+	}
+	
 }
 
 void AC_BaseCharacter::MoveForward(float Speed)
@@ -187,4 +193,11 @@ FVector AC_BaseCharacter::GetPawnViewLocation() const
 
 	return Super::GetPawnViewLocation();
 }
+ 
+void AC_BaseCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
+{
 
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+
+	DOREPLIFETIME(AC_BaseCharacter, CurrentWeapon); // DE ESTA MANERA REPLICAMOS ESTA VARIABLE A TODOS LOS CLIENTES
+}

@@ -1,4 +1,4 @@
-﻿Log file open, 08/01/19 01:22:08
+﻿Log file open, 08/02/19 20:46:12
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,7 +8,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Shooter_OW_Style
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.267059
+LogStats: Stats thread started at 0.273506
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -91,7 +91,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.143s to configure plugins.
+LogStreaming: Display: Took  0.101s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -145,1226 +145,278 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.003s to delete old logs.
+LogStreaming: Display: Took  0.002s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.07.31-23.22.08:721][  0]LogInit: Selected Device Profile: [Windows]
-[2019.07.31-23.22.08:721][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.07.31-23.22.08:731][  0]LogHAL: Display: Platform has ~ 16 GB [17137950720 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.07.31-23.22.08:731][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.07.31-23.22.08:732][  0]LogInit: Going up to parent DeviceProfile []
-[2019.07.31-23.22.08:732][  0]LogInit: Computer: JOANPC
-[2019.07.31-23.22.08:732][  0]LogInit: User: JoanAbad
-[2019.07.31-23.22.08:733][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.07.31-23.22.08:733][  0]LogInit: High frequency timer resolution =3.421874 MHz
-[2019.07.31-23.22.08:733][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2019.07.31-23.22.08:733][  0]LogMemory: Platform Memory Stats for Windows
-[2019.07.31-23.22.08:733][  0]LogMemory: Process Physical Memory: 100.87 MB used, 100.87 MB peak
-[2019.07.31-23.22.08:733][  0]LogMemory: Process Virtual Memory: 94.67 MB used, 94.67 MB peak
-[2019.07.31-23.22.08:733][  0]LogMemory: Physical Memory: 11325.86 MB used,  5018.16 MB free, 16344.02 MB total
-[2019.07.31-23.22.08:733][  0]LogMemory: Virtual Memory: 484.88 MB used,  5018.16 MB free, 134217728.00 MB total
-[2019.07.31-23.22.08:827][  0]LogInit: Overriding language with editor language configuration option (en).
-[2019.07.31-23.22.08:827][  0]LogInit: Overriding locale with editor locale configuration option (en).
-[2019.07.31-23.22.09:192][  0]LogStreaming: Display: Took  0.365s to InitEngineTextLocalization.
-[2019.07.31-23.22.09:193][  0]LogInit: Setting process to per monitor DPI aware
-[2019.07.31-23.22.09:222][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.07.31-23.22.09:223][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.07.31-23.22.09:367][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.07.31-23.22.09:367][  0]LogD3D11RHI: D3D11 adapters:
-[2019.07.31-23.22.09:439][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2019.07.31-23.22.09:439][  0]LogD3D11RHI:       8046/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2019.07.31-23.22.09:443][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.07.31-23.22.09:443][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.07.31-23.22.09:443][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.07.31-23.22.09:448][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.07.31-23.22.09:448][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2019.07.31-23.22.09:448][  0]LogWindows: EnumDisplayDevices:
-[2019.07.31-23.22.09:449][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2019.07.31-23.22.09:449][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2019.07.31-23.22.09:449][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2019.07.31-23.22.09:449][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2019.07.31-23.22.09:449][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.07.31-23.22.09:449][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2019.07.31-23.22.09:449][  0]LogD3D11RHI:   Driver Version: 431.60 (internal:26.21.14.3160, unified:431.60)
-[2019.07.31-23.22.09:449][  0]LogD3D11RHI:      Driver Date: 7-17-2019
-[2019.07.31-23.22.09:449][  0]LogRHI: Texture pool is 5632 MB (70% of 8046 MB)
-[2019.07.31-23.22.09:473][  0]LogD3D11RHI: Async texture creation enabled
-[2019.07.31-23.22.09:493][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.07.31-23.22.09:537][  0]LogShaderCompilers: Guid format shader working directory is -42 characters bigger than the processId version (../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Intermediate/Shaders/WorkingDirectory/804/).
-[2019.07.31-23.22.09:537][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Joan Abad/AppData/Local/Temp/UnrealShaderWorkingDir/49F126C24DB0E0B495FE8DA074A41117/'.
-[2019.07.31-23.22.09:825][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.07.31-23.22.09:853][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.07.31-23.22.09:868][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.07.31-23.22.09:883][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.07.31-23.22.09:899][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.07.31-23.22.09:915][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.07.31-23.22.09:930][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.07.31-23.22.09:946][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.07.31-23.22.09:954][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.07.31-23.22.10:035][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.31-23.22.10:035][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.31-23.22.10:035][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.31-23.22.10:035][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.31-23.22.10:035][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.31-23.22.10:035][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.31-23.22.10:035][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.31-23.22.10:035][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.31-23.22.10:035][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.31-23.22.10:036][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.31-23.22.10:036][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.31-23.22.10:036][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.31-23.22.10:036][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.31-23.22.10:036][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.31-23.22.10:036][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.31-23.22.10:036][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.31-23.22.10:036][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.31-23.22.10:036][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.07.31-23.22.10:038][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.07.31-23.22.10:121][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.07.31-23.22.10:121][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.07.31-23.22.10:146][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.07.31-23.22.10:146][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.07.31-23.22.10:161][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.07.31-23.22.10:174][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.07.31-23.22.10:188][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.07.31-23.22.10:203][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.07.31-23.22.10:213][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.07.31-23.22.10:213][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.07.31-23.22.10:290][  0]LogXGEController: Cleaning working directory: C:/Users/Joan Abad/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.07.31-23.22.10:310][  0]LogShaderCompilers: Display: Using XGE Shader Compiler (Interception Interface).
-[2019.07.31-23.22.11:013][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.07.31-23.22.11:091][  0]LogDerivedDataCache: Loaded boot cache 0.08s 71MB C:/Users/Joan Abad/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.07.31-23.22.11:091][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Joan Abad/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.07.31-23.22.11:092][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.07.31-23.22.11:092][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.07.31-23.22.11:092][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.07.31-23.22.11:092][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.07.31-23.22.11:106][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.07.31-23.22.11:119][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Joan Abad/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.07.31-23.22.11:119][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.07.31-23.22.11:119][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.07.31-23.22.11:138][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.07.31-23.22.11:139][  0]LogSlate: Using FreeType 2.6.0
-[2019.07.31-23.22.11:140][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.07.31-23.22.11:211][  0]LogAssetRegistry: FAssetRegistry took 0.0281 seconds to start up
-[2019.07.31-23.22.11:506][  0]LogInit: Selected Device Profile: [Windows]
-[2019.07.31-23.22.11:644][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.07.31-23.22.11:660][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.07.31-23.22.11:660][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.07.31-23.22.11:660][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.07.31-23.22.11:660][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.07.31-23.22.11:677][  0]LogNetVersion: Shooter_OW_Style 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1206910907)
-[2019.07.31-23.22.12:115][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.050421 seconds
-[2019.07.31-23.22.12:121][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.07.31-23.22.12:122][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2019.07.31-23.22.12:122][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.07.31-23.22.12:994][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.07.31-23.22.13:009][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.07.31-23.22.13:190][  0]SourceControl: Source control is disabled
-[2019.07.31-23.22.13:190][  0]SourceControl: Source control is disabled
-[2019.07.31-23.22.13:199][  0]SourceControl: Source control is disabled
-[2019.07.31-23.22.13:202][  0]SourceControl: Source control is disabled
-[2019.07.31-23.22.13:460][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.07.31-23.22.13:542][  0]LogOcInput: OculusInput pre-init called
-[2019.07.31-23.22.13:612][  0]LogEngine: Initializing Engine...
-[2019.07.31-23.22.13:613][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.07.31-23.22.13:614][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.07.31-23.22.13:614][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.07.31-23.22.13:614][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.07.31-23.22.13:614][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.07.31-23.22.13:829][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.07.31-23.22.13:846][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.07.31-23.22.13:868][  0]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.07.31-23.22.13:877][  0]LogInit: FAudioDevice initialized.
-[2019.07.31-23.22.13:877][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.07.31-23.22.14:359][  0]LogDerivedDataCache: Saved boot cache 0.48s 71MB C:/Users/Joan Abad/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.07.31-23.22.14:363][  0]LogInit: Texture streaming: Enabled
-[2019.07.31-23.22.14:392][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.07.31-23.22.14:407][  0]LogInit: Transaction tracking system initialized
-[2019.07.31-23.22.14:435][  0]BlueprintLog: New page: Editor Load
-[2019.07.31-23.22.14:559][  0]LocalizationService: Localization service is disabled
-[2019.07.31-23.22.14:859][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
-[2019.07.31-23.22.14:860][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
-[2019.07.31-23.22.14:860][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
-[2019.07.31-23.22.15:035][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.07.31-23.22.15:035][  0]LogCook: Display: Mobile HDR setting 1
-[2019.07.31-23.22.15:036][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.07.31-23.22.15:036][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.07.31-23.22.15:036][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.07.31-23.22.15:036][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.07.31-23.22.15:036][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.07.31-23.22.15:197][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/' took 0.01s
-[2019.07.31-23.22.15:198][  0]SourceControl: Source control is disabled
-[2019.07.31-23.22.15:198][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.07.31-23.22.15:198][  0]LightingResults: New page: Lighting Build
-[2019.07.31-23.22.15:201][  0]MapCheck: New page: Map Check
-[2019.07.31-23.22.15:202][  0]LightingResults: New page: Lighting Build
-[2019.07.31-23.22.15:807][  0]LogAIModule: Creating AISystem for world FirstMap
-[2019.07.31-23.22.15:854][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.07.31-23.22.15:879][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.07.31-23.22.15:933][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 53.972ms to complete.
-[2019.07.31-23.22.15:934][  0]LogFileHelpers: Loading map 'FirstMap' took 0.737
-[2019.07.31-23.22.16:025][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.22.16:032][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.22.16:038][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.22.16:045][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.22.16:052][  0]LogCollectionManager: Loaded 0 collections in 0.001624 seconds
-[2019.07.31-23.22.16:103][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Collections/' took 0.01s
-[2019.07.31-23.22.16:103][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Developers/JoanAbad/Collections/' took 0.01s
-[2019.07.31-23.22.16:103][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Collections/' took 0.01s
-[2019.07.31-23.22.16:103][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.07.31-23.22.16:113][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2579 classes and 606 folders.
-[2019.07.31-23.22.16:121][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.07.31-23.22.16:149][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.07.31-23.22.16:157][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2019.07.31-23.22.16:228][  0]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.07.31-23.22.16:230][  0]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.07.31-23.22.16:237][  0]LogSlate: Took 0.000352 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.07.31-23.22.16:312][  0]LogRenderer: Reallocating scene render targets to support 1716x884 Format 10 NumSamples 1 (Frame:1).
-[2019.07.31-23.22.16:467][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.07.31-23.22.16:467][  0]LogLoad: (Engine Initialization) Total time: 9.06 seconds
-[2019.07.31-23.22.16:467][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.07.31-23.22.16:499][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.07.31-23.22.16:552][  1]LogAssetRegistry: Asset discovery search completed in 5.3645 seconds
-[2019.07.31-23.22.16:554][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.07.31-23.22.16:554][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000166 seconds (updated 0 objects)
-[2019.07.31-23.22.17:980][157]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.07.31-23.22.18:047][165]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.07.31-23.22.18:066][165]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.07.31-23.22.18:082][165]PIE: New page: PIE session: FirstMap (Aug 1, 2019, 3:22:18 AM)
-[2019.07.31-23.22.18:083][165]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
-[2019.07.31-23.22.18:094][165]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005508s)
-[2019.07.31-23.22.18:095][165]LogAIModule: Creating AISystem for world FirstMap
-[2019.07.31-23.22.18:096][165]LogPlayLevel: PIE: World Init took: (0.001226s)
-[2019.07.31-23.22.18:096][165]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.013011s)
-[2019.07.31-23.22.18:121][165]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.07.31-23.22.18:127][165]LogInit: FAudioDevice initialized.
-[2019.07.31-23.22.18:136][165]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.22.18:252][165]LogLoad: Game class is 'GameModeBase'
-[2019.07.31-23.22.18:255][165]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.01-01.22.18
-[2019.07.31-23.22.18:256][165]LogWorld: Bringing up level for play took: 0.003010
-[2019.07.31-23.22.18:273][165]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
-[2019.07.31-23.22.18:280][165]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap 1.092
-[2019.07.31-23.22.26:260][ 97]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.22.26:279][ 97]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.07.31-23.22.26:317][ 97]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.31-23.22.26:403][ 99]LogPlayLevel: Display: Destroying online subsystem :Context_1
-[2019.07.31-23.22.27:275][203]LogEditorViewport: Clicking on Actor (LMB): ExplosiveBarrel_C (ExplosiveBarrel2)
-[2019.07.31-23.22.30:369][558]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.07.31-23.22.30:477][571]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.07.31-23.22.30:495][571]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.07.31-23.22.30:496][571]PIE: New page: PIE session: FirstMap (Aug 1, 2019, 3:22:30 AM)
-[2019.07.31-23.22.30:496][571]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
-[2019.07.31-23.22.30:499][571]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003565s)
-[2019.07.31-23.22.30:500][571]LogAIModule: Creating AISystem for world FirstMap
-[2019.07.31-23.22.30:501][571]LogPlayLevel: PIE: World Init took: (0.000916s)
-[2019.07.31-23.22.30:501][571]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.004981s)
-[2019.07.31-23.22.30:526][571]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.07.31-23.22.30:533][571]LogInit: FAudioDevice initialized.
-[2019.07.31-23.22.30:542][571]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.22.30:639][571]LogLoad: Game class is 'GameModeBase'
-[2019.07.31-23.22.30:642][571]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.01-01.22.30
-[2019.07.31-23.22.30:643][571]LogWorld: Bringing up level for play took: 0.002942
-[2019.07.31-23.22.30:659][571]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap -0.528
-[2019.07.31-23.22.31:711][681]LogRenderer: Reallocating scene render targets to support 2560x1380 Format 10 NumSamples 1 (Frame:112).
-[2019.07.31-23.22.38:676][501]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.22.38:695][501]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.07.31-23.22.38:733][501]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.31-23.22.38:789][502]LogPlayLevel: Display: Destroying online subsystem :Context_4
-[2019.07.31-23.22.40:302][676]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.07.31-23.22.40:320][676]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.07.31-23.22.40:320][676]PIE: New page: PIE session: FirstMap (Aug 1, 2019, 3:22:40 AM)
-[2019.07.31-23.22.40:321][676]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
-[2019.07.31-23.22.40:324][676]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003077s)
-[2019.07.31-23.22.40:325][676]LogAIModule: Creating AISystem for world FirstMap
-[2019.07.31-23.22.40:325][676]LogPlayLevel: PIE: World Init took: (0.001191s)
-[2019.07.31-23.22.40:325][676]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.004633s)
-[2019.07.31-23.22.40:351][676]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.07.31-23.22.40:357][676]LogInit: FAudioDevice initialized.
-[2019.07.31-23.22.40:367][676]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.22.40:457][676]LogLoad: Game class is 'GameModeBase'
-[2019.07.31-23.22.40:459][676]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.01-01.22.40
-[2019.07.31-23.22.40:460][676]LogWorld: Bringing up level for play took: 0.002549
-[2019.07.31-23.22.40:478][676]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap -0.71
-[2019.07.31-23.23.00:640][ 38]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.23.00:659][ 38]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.07.31-23.23.00:694][ 38]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.31-23.23.00:747][ 40]LogPlayLevel: Display: Destroying online subsystem :Context_5
-[2019.07.31-23.23.01:903][175]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.07.31-23.23.01:922][175]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.07.31-23.23.01:923][175]PIE: New page: PIE session: FirstMap (Aug 1, 2019, 3:23:01 AM)
-[2019.07.31-23.23.01:923][175]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
-[2019.07.31-23.23.01:928][175]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005181s)
-[2019.07.31-23.23.01:929][175]LogAIModule: Creating AISystem for world FirstMap
-[2019.07.31-23.23.01:929][175]LogPlayLevel: PIE: World Init took: (0.000965s)
-[2019.07.31-23.23.01:929][175]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.006557s)
-[2019.07.31-23.23.01:956][175]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.07.31-23.23.01:962][175]LogInit: FAudioDevice initialized.
-[2019.07.31-23.23.01:972][175]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.23.02:061][175]LogLoad: Game class is 'GameModeBase'
-[2019.07.31-23.23.02:063][175]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.01-01.23.02
-[2019.07.31-23.23.02:064][175]LogWorld: Bringing up level for play took: 0.002731
-[2019.07.31-23.23.02:083][175]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap 0.896
-[2019.07.31-23.23.03:998][378]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.07.31-23.23.04:899][416]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.07.31-23.23.16:572][751]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.23.16:592][751]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.07.31-23.23.16:628][751]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.31-23.23.16:703][752]LogPlayLevel: Display: Destroying online subsystem :Context_6
-[2019.07.31-23.23.18:192][898]LogEditorViewport: Clicking on Actor (LMB): ExplosiveBarrel_C (ExplosiveBarrel2)
-[2019.07.31-23.23.19:209][  3]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.07.31-23.23.19:292][ 12]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.07.31-23.23.19:298][ 12]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Programming/Actors/Barrel/ExplosiveBarrel.ExplosiveBarrel
-[2019.07.31-23.23.19:761][ 12]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
-[2019.07.31-23.23.20:585][ 12]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.07.31-23.23.24:175][274]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/ExplosiveBarrel703204534E1820EE946568A437CF0C34.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Barrel/ExplosiveBarrel.uasset'
-[2019.07.31-23.23.29:766][719]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/ExplosiveBarrelB17950E441D8693F18524F8EC3BA6852.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Barrel/ExplosiveBarrel.uasset'
-[2019.07.31-23.23.30:599][785]BlueprintLog: New page: Compile ExplosiveBarrel
-[2019.07.31-23.23.31:116][803]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/ExplosiveBarrelD7F311CA4C6F4E5B04563D9F9809CD46.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Barrel/ExplosiveBarrel.uasset'
-[2019.07.31-23.23.32:243][895]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.07.31-23.23.32:265][895]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.07.31-23.23.32:266][895]PIE: New page: PIE session: FirstMap (Aug 1, 2019, 3:23:32 AM)
-[2019.07.31-23.23.32:266][895]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
-[2019.07.31-23.23.32:270][895]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003772s)
-[2019.07.31-23.23.32:271][895]LogAIModule: Creating AISystem for world FirstMap
-[2019.07.31-23.23.32:271][895]LogPlayLevel: PIE: World Init took: (0.001599s)
-[2019.07.31-23.23.32:272][895]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.005824s)
-[2019.07.31-23.23.32:305][895]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.07.31-23.23.32:311][895]LogInit: FAudioDevice initialized.
-[2019.07.31-23.23.32:319][895]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.23.32:414][895]LogLoad: Game class is 'GameModeBase'
-[2019.07.31-23.23.32:418][895]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.01-01.23.32
-[2019.07.31-23.23.32:419][895]LogWorld: Bringing up level for play took: 0.003384
-[2019.07.31-23.23.32:438][895]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap -0.749
-[2019.07.31-23.23.35:922][180]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.23.35:943][180]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.07.31-23.23.35:983][180]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.31-23.23.36:054][181]LogPlayLevel: Display: Destroying online subsystem :Context_9
-[2019.07.31-23.23.40:832][648]BlueprintLog: New page: Compile ExplosiveBarrel
-[2019.07.31-23.23.41:033][648]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/ExplosiveBarrelD1699D6F4C3F228596FCA5836CF984CB.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Barrel/ExplosiveBarrel.uasset'
-[2019.07.31-23.23.41:361][672]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/ExplosiveBarrelBB1F4A3544787CD9AD753293B6E41DB4.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Barrel/ExplosiveBarrel.uasset'
-[2019.07.31-23.23.41:824][712]LogSlate: Window 'ExplosiveBarrel' being destroyed
-[2019.07.31-23.23.41:831][713]LogRenderer: Reallocating scene render targets to support 2572x1380 Format 10 NumSamples 1 (Frame:2468).
-[2019.07.31-23.23.42:694][812]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.07.31-23.23.42:718][812]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.07.31-23.23.42:718][812]PIE: New page: PIE session: FirstMap (Aug 1, 2019, 3:23:42 AM)
-[2019.07.31-23.23.42:718][812]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
-[2019.07.31-23.23.42:723][812]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004693s)
-[2019.07.31-23.23.42:724][812]LogAIModule: Creating AISystem for world FirstMap
-[2019.07.31-23.23.42:725][812]LogPlayLevel: PIE: World Init took: (0.001117s)
-[2019.07.31-23.23.42:725][812]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.006280s)
-[2019.07.31-23.23.42:758][812]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.07.31-23.23.42:764][812]LogInit: FAudioDevice initialized.
-[2019.07.31-23.23.42:776][812]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.23.42:862][812]LogLoad: Game class is 'GameModeBase'
-[2019.07.31-23.23.42:866][812]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.01-01.23.42
-[2019.07.31-23.23.42:866][812]LogWorld: Bringing up level for play took: 0.003403
-[2019.07.31-23.23.42:882][812]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap -0.304
-[2019.07.31-23.23.48:802][490]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.23.48:821][490]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.07.31-23.23.48:855][490]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.31-23.23.48:912][491]LogPlayLevel: Display: Destroying online subsystem :Context_10
-[2019.07.31-23.23.55:463][250]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMap4CE4A5A44ECECCC607C06B909CFA0995.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap'
-[2019.07.31-23.23.55:499][250]LogFileHelpers: Saving map 'FirstMap' took 0.172
-[2019.07.31-23.23.56:444][363]BlueprintLog: New page: Compile ExplosiveBarrel
-[2019.07.31-23.23.56:653][363]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/ExplosiveBarrelF45D1AFC4BBE21ACAEEDB688F8AFCB4F.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Barrel/ExplosiveBarrel.uasset'
-[2019.07.31-23.23.57:042][399]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/ExplosiveBarrelA19955AA498251EB967ED08A9B8D0D7B.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Barrel/ExplosiveBarrel.uasset'
-[2019.07.31-23.23.57:994][510]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.07.31-23.23.58:019][510]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.07.31-23.23.58:019][510]PIE: New page: PIE session: FirstMap (Aug 1, 2019, 3:23:58 AM)
-[2019.07.31-23.23.58:019][510]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
-[2019.07.31-23.23.58:023][510]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003384s)
-[2019.07.31-23.23.58:024][510]LogAIModule: Creating AISystem for world FirstMap
-[2019.07.31-23.23.58:024][510]LogPlayLevel: PIE: World Init took: (0.001196s)
-[2019.07.31-23.23.58:024][510]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.005373s)
-[2019.07.31-23.23.58:059][510]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.07.31-23.23.58:064][510]LogInit: FAudioDevice initialized.
-[2019.07.31-23.23.58:072][510]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.23.58:168][510]LogLoad: Game class is 'GameModeBase'
-[2019.07.31-23.23.58:171][510]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.01-01.23.58
-[2019.07.31-23.23.58:172][510]LogWorld: Bringing up level for play took: 0.003353
-[2019.07.31-23.23.58:190][510]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap 1.003
-[2019.07.31-23.24.02:745][ 32]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.24.02:764][ 32]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.07.31-23.24.02:800][ 32]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.31-23.24.02:859][ 33]LogPlayLevel: Display: Destroying online subsystem :Context_11
-[2019.07.31-23.24.04:173][157]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMap7E5C51684B54A9A222CB1AB0A7C451D6.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap'
-[2019.07.31-23.24.04:212][157]LogFileHelpers: Saving map 'FirstMap' took 0.169
-[2019.07.31-23.24.12:242][109]LogSlate: Took 0.030464 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.07.31-23.24.48:357][432]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.07.31-23.24.48:375][432]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.07.31-23.24.48:375][432]PIE: New page: PIE session: FirstMap (Aug 1, 2019, 3:24:48 AM)
-[2019.07.31-23.24.48:375][432]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
-[2019.07.31-23.24.48:379][432]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003907s)
-[2019.07.31-23.24.48:380][432]LogAIModule: Creating AISystem for world FirstMap
-[2019.07.31-23.24.48:381][432]LogPlayLevel: PIE: World Init took: (0.001107s)
-[2019.07.31-23.24.48:381][432]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.005460s)
-[2019.07.31-23.24.48:411][432]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.07.31-23.24.48:417][432]LogInit: FAudioDevice initialized.
-[2019.07.31-23.24.48:426][432]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.24.48:520][432]LogLoad: Game class is 'GameModeBase'
-[2019.07.31-23.24.48:523][432]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.01-01.24.48
-[2019.07.31-23.24.48:524][432]LogWorld: Bringing up level for play took: 0.003111
-[2019.07.31-23.24.48:540][432]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap -0.647
-[2019.07.31-23.25.01:679][961]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.25.01:699][961]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.07.31-23.25.01:736][961]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.31-23.25.01:797][962]LogPlayLevel: Display: Destroying online subsystem :Context_12
-[2019.07.31-23.25.11:908][144]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMap8746D11045147D3C1DFBF7A4B8F5A088.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap'
-[2019.07.31-23.25.11:945][144]LogFileHelpers: Saving map 'FirstMap' took 0.181
-[2019.07.31-23.25.11:992][144]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/ExplosiveBarrel981610074599BCC70F43C786A642D762.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Barrel/ExplosiveBarrel.uasset'
-[2019.07.31-23.25.12:720][228]BlueprintLog: New page: Compile ExplosiveBarrel
-[2019.07.31-23.25.13:378][264]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMapF6C1DC7147907FC5A19F8DAD87E444AC.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap'
-[2019.07.31-23.25.13:414][264]LogFileHelpers: Saving map 'FirstMap' took 0.166
-[2019.07.31-23.25.15:862][536]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.07.31-23.25.15:886][536]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.07.31-23.25.15:886][536]PIE: New page: PIE session: FirstMap (Aug 1, 2019, 3:25:15 AM)
-[2019.07.31-23.25.15:886][536]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
-[2019.07.31-23.25.15:889][536]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002986s)
-[2019.07.31-23.25.15:890][536]LogAIModule: Creating AISystem for world FirstMap
-[2019.07.31-23.25.15:892][536]LogPlayLevel: PIE: World Init took: (0.001942s)
-[2019.07.31-23.25.15:892][536]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.005828s)
-[2019.07.31-23.25.15:925][536]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.07.31-23.25.15:933][536]LogInit: FAudioDevice initialized.
-[2019.07.31-23.25.15:942][536]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.25.16:039][536]LogLoad: Game class is 'GameModeBase'
-[2019.07.31-23.25.16:042][536]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.01-01.25.16
-[2019.07.31-23.25.16:043][536]LogWorld: Bringing up level for play took: 0.002760
-[2019.07.31-23.25.16:060][536]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap 0.873
-[2019.07.31-23.25.20:454][  7]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.25.20:476][  7]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.07.31-23.25.20:535][  7]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.31-23.25.20:592][  8]LogPlayLevel: Display: Destroying online subsystem :Context_13
-[2019.07.31-23.26.01:246][606]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.07.31-23.26.01:264][606]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.07.31-23.26.01:264][606]PIE: New page: PIE session: FirstMap (Aug 1, 2019, 3:26:01 AM)
-[2019.07.31-23.26.01:265][606]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
-[2019.07.31-23.26.01:268][606]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003612s)
-[2019.07.31-23.26.01:269][606]LogAIModule: Creating AISystem for world FirstMap
-[2019.07.31-23.26.01:270][606]LogPlayLevel: PIE: World Init took: (0.001524s)
-[2019.07.31-23.26.01:270][606]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.005666s)
-[2019.07.31-23.26.01:304][606]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.07.31-23.26.01:309][606]LogInit: FAudioDevice initialized.
-[2019.07.31-23.26.01:320][606]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.26.01:431][606]LogLoad: Game class is 'GameModeBase'
-[2019.07.31-23.26.01:435][606]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.01-01.26.01
-[2019.07.31-23.26.01:436][606]LogWorld: Bringing up level for play took: 0.004335
-[2019.07.31-23.26.01:454][606]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap 0.267
-[2019.07.31-23.26.05:667][ 70]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.26.05:688][ 70]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.07.31-23.26.05:733][ 70]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.31-23.26.05:782][ 71]LogPlayLevel: Display: Destroying online subsystem :Context_14
-[2019.07.31-23.26.11:469][735]BlueprintLog: New page: Compile ExplosiveBarrel
-[2019.07.31-23.26.11:681][735]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/ExplosiveBarrelB3B600924BA3BEB752BB2D9432855C7B.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Barrel/ExplosiveBarrel.uasset'
-[2019.07.31-23.26.11:990][761]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/ExplosiveBarrelE5DA6B514DF45A89FA0CD6A362F83126.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Barrel/ExplosiveBarrel.uasset'
-[2019.07.31-23.26.13:117][887]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.07.31-23.26.13:139][887]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.07.31-23.26.13:139][887]PIE: New page: PIE session: FirstMap (Aug 1, 2019, 3:26:13 AM)
-[2019.07.31-23.26.13:140][887]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
-[2019.07.31-23.26.13:142][887]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002902s)
-[2019.07.31-23.26.13:143][887]LogAIModule: Creating AISystem for world FirstMap
-[2019.07.31-23.26.13:144][887]LogPlayLevel: PIE: World Init took: (0.000876s)
-[2019.07.31-23.26.13:144][887]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.004120s)
-[2019.07.31-23.26.13:175][887]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.07.31-23.26.13:181][887]LogInit: FAudioDevice initialized.
-[2019.07.31-23.26.13:192][887]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.26.13:276][887]LogLoad: Game class is 'GameModeBase'
-[2019.07.31-23.26.13:279][887]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.01-01.26.13
-[2019.07.31-23.26.13:280][887]LogWorld: Bringing up level for play took: 0.002575
-[2019.07.31-23.26.13:298][887]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap 0.111
-[2019.07.31-23.26.15:388][118]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.26.15:408][118]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.07.31-23.26.15:447][118]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.31-23.26.15:495][119]LogPlayLevel: Display: Destroying online subsystem :Context_15
-[2019.07.31-23.26.23:387][ 14]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMap8C8980034BA1E24F98095092DF185EBC.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap'
-[2019.07.31-23.26.23:422][ 14]LogFileHelpers: Saving map 'FirstMap' took 0.167
-[2019.07.31-23.26.25:124][214]BlueprintLog: New page: Compile ExplosiveBarrel
-[2019.07.31-23.26.25:331][214]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/ExplosiveBarrel026230AD42059E13233F5290A10F9B43.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Barrel/ExplosiveBarrel.uasset'
-[2019.07.31-23.26.25:660][242]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/ExplosiveBarrelB3B086F1485B33AD75C9DFA47962B3CD.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Barrel/ExplosiveBarrel.uasset'
-[2019.07.31-23.26.26:248][291]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMapA9279B2B467DCF8A586152804B664131.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap'
-[2019.07.31-23.26.26:287][291]LogFileHelpers: Saving map 'FirstMap' took 0.166
-[2019.07.31-23.26.28:166][508]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.07.31-23.26.28:189][508]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.07.31-23.26.28:189][508]PIE: New page: PIE session: FirstMap (Aug 1, 2019, 3:26:28 AM)
-[2019.07.31-23.26.28:189][508]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
-[2019.07.31-23.26.28:193][508]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003432s)
-[2019.07.31-23.26.28:193][508]LogAIModule: Creating AISystem for world FirstMap
-[2019.07.31-23.26.28:194][508]LogPlayLevel: PIE: World Init took: (0.001042s)
-[2019.07.31-23.26.28:194][508]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.004886s)
-[2019.07.31-23.26.28:229][508]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.07.31-23.26.28:239][508]LogInit: FAudioDevice initialized.
-[2019.07.31-23.26.28:248][508]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.26.28:342][508]LogLoad: Game class is 'GameModeBase'
-[2019.07.31-23.26.28:345][508]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.01-01.26.28
-[2019.07.31-23.26.28:346][508]LogWorld: Bringing up level for play took: 0.003555
-[2019.07.31-23.26.28:364][508]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap 1.177
-[2019.07.31-23.26.32:357][961]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.26.32:378][961]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.07.31-23.26.32:453][961]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.31-23.26.32:506][962]LogPlayLevel: Display: Destroying online subsystem :Context_16
-[2019.07.31-23.26.33:054][ 21]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.07.31-23.26.33:073][ 21]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.07.31-23.26.33:073][ 21]PIE: New page: PIE session: FirstMap (Aug 1, 2019, 3:26:33 AM)
-[2019.07.31-23.26.33:073][ 21]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
-[2019.07.31-23.26.33:077][ 21]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003558s)
-[2019.07.31-23.26.33:078][ 21]LogAIModule: Creating AISystem for world FirstMap
-[2019.07.31-23.26.33:078][ 21]LogPlayLevel: PIE: World Init took: (0.000961s)
-[2019.07.31-23.26.33:078][ 21]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.004918s)
-[2019.07.31-23.26.33:110][ 21]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.07.31-23.26.33:116][ 21]LogInit: FAudioDevice initialized.
-[2019.07.31-23.26.33:124][ 21]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.26.33:209][ 21]LogLoad: Game class is 'GameModeBase'
-[2019.07.31-23.26.33:211][ 21]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.01-01.26.33
-[2019.07.31-23.26.33:212][ 21]LogWorld: Bringing up level for play took: 0.002280
-[2019.07.31-23.26.33:229][ 21]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap 0.041
-[2019.07.31-23.26.36:766][316]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.07.31-23.26.37:573][412]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.26.37:593][412]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.07.31-23.26.37:629][412]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.31-23.26.37:690][413]LogPlayLevel: Display: Destroying online subsystem :Context_17
-[2019.07.31-23.26.38:296][481]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.07.31-23.26.38:314][481]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.07.31-23.26.38:314][481]PIE: New page: PIE session: FirstMap (Aug 1, 2019, 3:26:38 AM)
-[2019.07.31-23.26.38:314][481]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
-[2019.07.31-23.26.38:317][481]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003025s)
-[2019.07.31-23.26.38:318][481]LogAIModule: Creating AISystem for world FirstMap
-[2019.07.31-23.26.38:318][481]LogPlayLevel: PIE: World Init took: (0.000738s)
-[2019.07.31-23.26.38:318][481]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.004037s)
-[2019.07.31-23.26.38:350][481]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.07.31-23.26.38:356][481]LogInit: FAudioDevice initialized.
-[2019.07.31-23.26.38:364][481]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.26.38:465][481]LogLoad: Game class is 'GameModeBase'
-[2019.07.31-23.26.38:468][481]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.01-01.26.38
-[2019.07.31-23.26.38:469][481]LogWorld: Bringing up level for play took: 0.003251
-[2019.07.31-23.26.38:490][481]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap -0.697
-[2019.07.31-23.26.40:704][730]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.26.40:724][730]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.07.31-23.26.40:762][730]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.31-23.26.40:810][731]LogPlayLevel: Display: Destroying online subsystem :Context_18
-[2019.07.31-23.26.41:766][839]LogEditorViewport: Clicking on Actor (LMB): ExplosiveBarrel_C (ExplosiveBarrel2)
-[2019.07.31-23.26.54:431][197]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.07.31-23.26.54:616][206]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMap8E8B57804689E9BF5AED359DE9B29215.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap'
-[2019.07.31-23.26.54:684][206]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMap_BuiltData72FA8C6746460A3ED640EA81960E1DB3.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap_BuiltData.uasset'
-[2019.07.31-23.26.55:303][273]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.07.31-23.26.55:321][273]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.07.31-23.26.55:322][273]PIE: New page: PIE session: FirstMap (Aug 1, 2019, 3:26:55 AM)
-[2019.07.31-23.26.55:322][273]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
-[2019.07.31-23.26.55:325][273]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003118s)
-[2019.07.31-23.26.55:326][273]LogAIModule: Creating AISystem for world FirstMap
-[2019.07.31-23.26.55:326][273]LogPlayLevel: PIE: World Init took: (0.000722s)
-[2019.07.31-23.26.55:326][273]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.004127s)
-[2019.07.31-23.26.55:358][273]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.07.31-23.26.55:363][273]LogInit: FAudioDevice initialized.
-[2019.07.31-23.26.55:373][273]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.26.55:466][273]LogLoad: Game class is 'GameModeBase'
-[2019.07.31-23.26.55:469][273]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.01-01.26.55
-[2019.07.31-23.26.55:470][273]LogWorld: Bringing up level for play took: 0.002585
-[2019.07.31-23.26.55:490][273]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap 0.303
-[2019.07.31-23.27.00:020][790]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.27.00:042][790]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.07.31-23.27.00:085][790]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.31-23.27.00:140][791]LogPlayLevel: Display: Destroying online subsystem :Context_19
-[2019.07.31-23.27.02:681][ 88]LogEditorViewport: Clicking on Actor (LMB): ExplosiveBarrel_C (ExplosiveBarrel2)
-[2019.07.31-23.27.11:579][ 11]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.07.31-23.27.11:781][ 24]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMap8466DBFE4361B5513E7D8EA83629DFB7.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap'
-[2019.07.31-23.27.11:836][ 24]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMap_BuiltData4470413D4C930FCC4A97FBA25BCF9A8C.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap_BuiltData.uasset'
-[2019.07.31-23.27.12:380][ 83]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.07.31-23.27.12:399][ 83]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.07.31-23.27.12:399][ 83]PIE: New page: PIE session: FirstMap (Aug 1, 2019, 3:27:12 AM)
-[2019.07.31-23.27.12:399][ 83]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
-[2019.07.31-23.27.12:402][ 83]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003105s)
-[2019.07.31-23.27.12:403][ 83]LogAIModule: Creating AISystem for world FirstMap
-[2019.07.31-23.27.12:403][ 83]LogPlayLevel: PIE: World Init took: (0.000916s)
-[2019.07.31-23.27.12:404][ 83]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.004346s)
-[2019.07.31-23.27.12:437][ 83]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.07.31-23.27.12:443][ 83]LogInit: FAudioDevice initialized.
-[2019.07.31-23.27.12:452][ 83]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.27.12:545][ 83]LogLoad: Game class is 'GameModeBase'
-[2019.07.31-23.27.12:549][ 83]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.01-01.27.12
-[2019.07.31-23.27.12:550][ 83]LogWorld: Bringing up level for play took: 0.003355
-[2019.07.31-23.27.12:568][ 83]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap -0.619
-[2019.07.31-23.27.15:442][408]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.27.15:462][408]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.07.31-23.27.15:495][408]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.31-23.27.15:543][409]LogPlayLevel: Display: Destroying online subsystem :Context_20
-[2019.07.31-23.27.25:793][564]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.07.31-23.27.25:812][564]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.07.31-23.27.25:812][564]PIE: New page: PIE session: FirstMap (Aug 1, 2019, 3:27:25 AM)
-[2019.07.31-23.27.25:812][564]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
-[2019.07.31-23.27.25:817][564]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003393s)
-[2019.07.31-23.27.25:818][564]LogAIModule: Creating AISystem for world FirstMap
-[2019.07.31-23.27.25:818][564]LogPlayLevel: PIE: World Init took: (0.001073s)
-[2019.07.31-23.27.25:818][564]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.004831s)
-[2019.07.31-23.27.25:850][564]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.07.31-23.27.25:855][564]LogInit: FAudioDevice initialized.
-[2019.07.31-23.27.25:864][564]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.27.25:947][564]LogLoad: Game class is 'GameModeBase'
-[2019.07.31-23.27.25:950][564]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.01-01.27.25
-[2019.07.31-23.27.25:951][564]LogWorld: Bringing up level for play took: 0.002691
-[2019.07.31-23.27.25:968][564]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap 0.781
-[2019.07.31-23.27.26:831][651]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.07.31-23.27.26:867][651]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.31-23.27.26:959][652]LogPlayLevel: Display: Destroying online subsystem :Context_21
-[2019.07.31-23.27.28:115][790]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.07.31-23.27.28:133][790]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.07.31-23.27.28:134][790]PIE: New page: PIE session: FirstMap (Aug 1, 2019, 3:27:28 AM)
-[2019.07.31-23.27.28:134][790]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
-[2019.07.31-23.27.28:137][790]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003270s)
-[2019.07.31-23.27.28:138][790]LogAIModule: Creating AISystem for world FirstMap
-[2019.07.31-23.27.28:138][790]LogPlayLevel: PIE: World Init took: (0.000766s)
-[2019.07.31-23.27.28:138][790]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.004328s)
-[2019.07.31-23.27.28:169][790]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.07.31-23.27.28:178][790]LogInit: FAudioDevice initialized.
-[2019.07.31-23.27.28:187][790]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.27.28:286][790]LogLoad: Game class is 'GameModeBase'
-[2019.07.31-23.27.28:289][790]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.01-01.27.28
-[2019.07.31-23.27.28:290][790]LogWorld: Bringing up level for play took: 0.003534
-[2019.07.31-23.27.28:309][790]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap 1.122
-[2019.07.31-23.27.32:177][223]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.27.32:198][223]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.07.31-23.27.32:241][223]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.31-23.27.32:299][224]LogPlayLevel: Display: Destroying online subsystem :Context_22
-[2019.07.31-23.27.55:360][594]Candidate modules for hot reload:
-[2019.07.31-23.27.55:360][594]  Shooter_OW_Style
-[2019.07.31-23.27.55:361][594]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Shooter_OW_Style,1434 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Shooter_OW_Style.uproject" -canskiplink "C:/Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Shooter_OW_Style.uproject" ]
-[2019.07.31-23.27.55:362][594]Warning: Starting HotReload took  0.0s.
-[2019.07.31-23.28.00:489][713]CompilerResultsLog: New page: Compilation - Aug 1, 2019, 3:28:00 AM
-[2019.07.31-23.28.00:489][713]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2019.07.31-23.28.00:489][713]CompilerResultsLog: Compiling game modules for hot reload
-[2019.07.31-23.28.00:490][713]CompilerResultsLog: Distributing 3 actions to XGE
-[2019.07.31-23.28.00:490][713]CompilerResultsLog: --------------------Build System Warning---------------------------------------
-[2019.07.31-23.28.00:490][713]CompilerResultsLog: License is invalid:
-[2019.07.31-23.28.00:490][713]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
-[2019.07.31-23.28.00:490][713]CompilerResultsLog:     This build will run in standalone mode.
-[2019.07.31-23.28.00:491][713]CompilerResultsLog: 
-[2019.07.31-23.28.00:491][713]CompilerResultsLog: -------------------------------------------------------------------------------
-[2019.07.31-23.28.00:491][713]CompilerResultsLog: --------------------Project: Default-------------------------------------------
-[2019.07.31-23.28.00:491][713]CompilerResultsLog: ExplosiveBarrel.cpp (0:01.71 at +0:00)
-[2019.07.31-23.28.00:491][713]CompilerResultsLog: UE4Editor-Shooter_OW_Style-1434.dll (0:01.12 at +0:01)
-[2019.07.31-23.28.00:491][713]CompilerResultsLog:    Creando biblioteca C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\UE4Editor-Shooter_OW_Style-1434.suppressed.lib y objeto C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\UE4Editor-Shooter_OW_Style-1434.suppressed.exp
-[2019.07.31-23.28.00:491][713]CompilerResultsLog: UE4Editor-Shooter_OW_Style-1434.lib (0:00.40 at +0:02)
-[2019.07.31-23.28.00:491][713]CompilerResultsLog:    Creando biblioteca C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\UE4Editor-Shooter_OW_Style-1434.lib y objeto C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\UE4Editor-Shooter_OW_Style-1434.exp
-[2019.07.31-23.28.00:491][713]CompilerResultsLog: ---------------------- Done ----------------------
-[2019.07.31-23.28.00:491][713]CompilerResultsLog: 
-[2019.07.31-23.28.00:492][713]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
-[2019.07.31-23.28.00:492][713]CompilerResultsLog: 
-[2019.07.31-23.28.00:492][713]CompilerResultsLog: 1 build system warning(s):
-[2019.07.31-23.28.00:492][713]CompilerResultsLog:    - License is invalid
-[2019.07.31-23.28.00:492][713]CompilerResultsLog: 
-[2019.07.31-23.28.00:492][713]CompilerResultsLog: Total build time: 4,84 seconds (XGE executor: 3,36 seconds)
-[2019.07.31-23.28.00:492][713]LogMainFrame: MainFrame: Module compiling took 5.140 seconds
-[2019.07.31-23.28.00:547][713]LogContentBrowser: Native class hierarchy updated for 'Shooter_OW_Style' in 0.0003 seconds. Added 7 classes and 3 folders.
-[2019.07.31-23.28.00:553][713]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
-[2019.07.31-23.28.00:956][713]LogContentBrowser: Native class hierarchy populated in 0.0125 seconds. Added 2580 classes and 608 folders.
-[2019.07.31-23.28.00:956][713]Display: HotReload took  5.6s.
-[2019.07.31-23.28.04:359][834]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.07.31-23.28.04:378][834]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.07.31-23.28.04:379][834]PIE: New page: PIE session: FirstMap (Aug 1, 2019, 3:28:04 AM)
-[2019.07.31-23.28.04:379][834]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
-[2019.07.31-23.28.04:383][834]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003967s)
-[2019.07.31-23.28.04:384][834]LogAIModule: Creating AISystem for world FirstMap
-[2019.07.31-23.28.04:384][834]LogPlayLevel: PIE: World Init took: (0.000920s)
-[2019.07.31-23.28.04:385][834]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.005266s)
-[2019.07.31-23.28.04:441][834]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.07.31-23.28.04:447][834]LogInit: FAudioDevice initialized.
-[2019.07.31-23.28.04:455][834]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.28.04:551][834]LogLoad: Game class is 'GameModeBase'
-[2019.07.31-23.28.04:553][834]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.01-01.28.04
-[2019.07.31-23.28.04:554][834]LogWorld: Bringing up level for play took: 0.002476
-[2019.07.31-23.28.04:570][834]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap -0.616
-[2019.07.31-23.28.09:017][342]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.28.09:038][342]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.07.31-23.28.09:073][342]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.31-23.28.09:124][343]LogPlayLevel: Display: Destroying online subsystem :Context_23
-[2019.07.31-23.28.10:654][517]LogEditorViewport: Clicking on Actor (LMB): ExplosiveBarrel_C (ExplosiveBarrel2)
-[2019.07.31-23.28.17:813][328]LogEditorViewport: Clicking on Actor (LMB): Base_Character_C (Base_Character2)
-[2019.07.31-23.28.52:766][222]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.07.31-23.28.52:846][231]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.07.31-23.28.52:866][231]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.07.31-23.28.52:866][231]PIE: New page: PIE session: FirstMap (Aug 1, 2019, 3:28:52 AM)
-[2019.07.31-23.28.52:866][231]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
-[2019.07.31-23.28.52:870][231]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003125s)
-[2019.07.31-23.28.52:870][231]LogAIModule: Creating AISystem for world FirstMap
-[2019.07.31-23.28.52:871][231]LogPlayLevel: PIE: World Init took: (0.000779s)
-[2019.07.31-23.28.52:871][231]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.004283s)
-[2019.07.31-23.28.52:943][231]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.07.31-23.28.52:949][231]LogInit: FAudioDevice initialized.
-[2019.07.31-23.28.52:960][231]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.28.53:056][231]LogLoad: Game class is 'GameModeBase'
-[2019.07.31-23.28.53:059][231]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.01-01.28.53
-[2019.07.31-23.28.53:060][231]LogWorld: Bringing up level for play took: 0.003010
-[2019.07.31-23.28.53:077][231]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap -0.11
-[2019.07.31-23.28.54:404][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.28.54:426][373]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.07.31-23.28.54:463][373]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.31-23.28.54:523][374]LogPlayLevel: Display: Destroying online subsystem :Context_25
-[2019.07.31-23.28.55:201][447]Candidate modules for hot reload:
-[2019.07.31-23.28.55:201][447]  Shooter_OW_Style
-[2019.07.31-23.28.55:201][447]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Shooter_OW_Style,8442 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Shooter_OW_Style.uproject" -canskiplink "C:/Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Shooter_OW_Style.uproject" ]
-[2019.07.31-23.28.55:202][447]Warning: Starting HotReload took  0.0s.
-[2019.07.31-23.29.02:824][292]CompilerResultsLog: New page: Compilation - Aug 1, 2019, 3:29:02 AM
-[2019.07.31-23.29.02:825][292]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
-[2019.07.31-23.29.02:825][292]CompilerResultsLog: Compiling game modules for hot reload
-[2019.07.31-23.29.02:826][292]CompilerResultsLog: Distributing 3 actions to XGE
-[2019.07.31-23.29.02:826][292]CompilerResultsLog: --------------------Build System Warning---------------------------------------
-[2019.07.31-23.29.02:826][292]CompilerResultsLog: License is invalid:
-[2019.07.31-23.29.02:826][292]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
-[2019.07.31-23.29.02:827][292]CompilerResultsLog:     This build will run in standalone mode.
-[2019.07.31-23.29.02:827][292]CompilerResultsLog: 
-[2019.07.31-23.29.02:827][292]CompilerResultsLog: -------------------------------------------------------------------------------
-[2019.07.31-23.29.02:827][292]CompilerResultsLog: --------------------Project: Default-------------------------------------------
-[2019.07.31-23.29.02:827][292]CompilerResultsLog: ExplosiveBarrel.cpp (0:03.53 at +0:00)
-[2019.07.31-23.29.02:827][292]CompilerResultsLog: UE4Editor-Shooter_OW_Style-8442.dll (0:01.59 at +0:03)
-[2019.07.31-23.29.02:828][292]CompilerResultsLog:    Creando biblioteca C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\UE4Editor-Shooter_OW_Style-8442.suppressed.lib y objeto C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\UE4Editor-Shooter_OW_Style-8442.suppressed.exp
-[2019.07.31-23.29.02:828][292]CompilerResultsLog: UE4Editor-Shooter_OW_Style-8442.lib (0:00.12 at +0:05)
-[2019.07.31-23.29.02:828][292]CompilerResultsLog:    Creando biblioteca C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\UE4Editor-Shooter_OW_Style-8442.lib y objeto C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\UE4Editor-Shooter_OW_Style-8442.exp
-[2019.07.31-23.29.02:828][292]CompilerResultsLog: ---------------------- Done ----------------------
-[2019.07.31-23.29.02:828][292]CompilerResultsLog: 
-[2019.07.31-23.29.02:829][292]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
-[2019.07.31-23.29.02:829][292]CompilerResultsLog: 
-[2019.07.31-23.29.02:829][292]CompilerResultsLog: 1 build system warning(s):
-[2019.07.31-23.29.02:829][292]CompilerResultsLog:    - License is invalid
-[2019.07.31-23.29.02:830][292]CompilerResultsLog: 
-[2019.07.31-23.29.02:830][292]CompilerResultsLog: Total build time: 7,34 seconds (XGE executor: 5,61 seconds)
-[2019.07.31-23.29.02:831][292]LogMainFrame: MainFrame: Module compiling took 7.638 seconds
-[2019.07.31-23.29.02:899][292]LogContentBrowser: Native class hierarchy updated for 'Shooter_OW_Style' in 0.0005 seconds. Added 7 classes and 3 folders.
-[2019.07.31-23.29.02:904][292]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
-[2019.07.31-23.29.03:261][292]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2580 classes and 608 folders.
-[2019.07.31-23.29.03:261][292]Display: HotReload took  8.1s.
-[2019.07.31-23.29.08:141][870]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.07.31-23.29.08:162][870]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.07.31-23.29.08:162][870]PIE: New page: PIE session: FirstMap (Aug 1, 2019, 3:29:08 AM)
-[2019.07.31-23.29.08:162][870]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
-[2019.07.31-23.29.08:166][870]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003663s)
-[2019.07.31-23.29.08:167][870]LogAIModule: Creating AISystem for world FirstMap
-[2019.07.31-23.29.08:167][870]LogPlayLevel: PIE: World Init took: (0.001008s)
-[2019.07.31-23.29.08:168][870]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.005280s)
-[2019.07.31-23.29.08:250][870]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.07.31-23.29.08:255][870]LogInit: FAudioDevice initialized.
-[2019.07.31-23.29.08:263][870]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.29.08:355][870]LogLoad: Game class is 'GameModeBase'
-[2019.07.31-23.29.08:358][870]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.01-01.29.08
-[2019.07.31-23.29.08:359][870]LogWorld: Bringing up level for play took: 0.003045
-[2019.07.31-23.29.08:375][870]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap 1.188
-[2019.07.31-23.29.26:752][  2]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.29.26:774][  2]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.07.31-23.29.26:812][  2]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.31-23.29.26:861][  3]LogPlayLevel: Display: Destroying online subsystem :Context_26
-[2019.07.31-23.29.28:450][186]LogEditorViewport: Clicking on Actor (LMB): ExplosiveBarrel_C (ExplosiveBarrel2)
-[2019.07.31-23.30.51:110][ 75]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.07.31-23.30.51:193][ 85]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.07.31-23.30.51:211][ 85]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.07.31-23.30.51:211][ 85]PIE: New page: PIE session: FirstMap (Aug 1, 2019, 3:30:51 AM)
-[2019.07.31-23.30.51:212][ 85]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
-[2019.07.31-23.30.51:215][ 85]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003433s)
-[2019.07.31-23.30.51:216][ 85]LogAIModule: Creating AISystem for world FirstMap
-[2019.07.31-23.30.51:216][ 85]LogPlayLevel: PIE: World Init took: (0.000916s)
-[2019.07.31-23.30.51:216][ 85]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.004806s)
-[2019.07.31-23.30.51:254][ 85]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.07.31-23.30.51:260][ 85]LogInit: FAudioDevice initialized.
-[2019.07.31-23.30.51:270][ 85]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.30.51:363][ 85]LogLoad: Game class is 'GameModeBase'
-[2019.07.31-23.30.51:365][ 85]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.01-01.30.51
-[2019.07.31-23.30.51:366][ 85]LogWorld: Bringing up level for play took: 0.003074
-[2019.07.31-23.30.51:384][ 85]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap 0.197
-[2019.07.31-23.30.53:731][352]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.30.53:751][352]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.07.31-23.30.53:786][352]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.31-23.30.53:834][353]LogPlayLevel: Display: Destroying online subsystem :Context_27
-[2019.07.31-23.31.00:192][906]LogEditorViewport: Clicking on Actor (LMB): ExplosiveBarrel_C (ExplosiveBarrel2)
-[2019.07.31-23.31.01:353][ 35]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.07.31-23.31.08:940][922]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.07.31-23.31.08:958][922]BlueprintLog: New page: Pre-Play auto-recompile
-[2019.07.31-23.31.08:960][922]LogPlayLevel: [PlayLevel] Compiling ExplosiveBarrel before play...
-[2019.07.31-23.31.09:186][922]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/ExplosiveBarrel0D8C96A545047204D88CC087C5720C1F.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Actors/Barrel/ExplosiveBarrel.uasset'
-[2019.07.31-23.31.09:227][922]LogPlayLevel: PlayLevel: Blueprint regeneration took 269 ms (1 blueprints)
-[2019.07.31-23.31.09:227][922]PIE: New page: PIE session: FirstMap (Aug 1, 2019, 3:31:09 AM)
-[2019.07.31-23.31.09:227][922]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
-[2019.07.31-23.31.09:230][922]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002844s)
-[2019.07.31-23.31.09:231][922]LogAIModule: Creating AISystem for world FirstMap
-[2019.07.31-23.31.09:231][922]LogPlayLevel: PIE: World Init took: (0.000860s)
-[2019.07.31-23.31.09:231][922]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.003977s)
-[2019.07.31-23.31.09:265][922]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.07.31-23.31.09:270][922]LogInit: FAudioDevice initialized.
-[2019.07.31-23.31.09:278][922]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.31.09:366][922]LogLoad: Game class is 'GameModeBase'
-[2019.07.31-23.31.09:369][922]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.01-01.31.09
-[2019.07.31-23.31.09:369][922]LogWorld: Bringing up level for play took: 0.002581
-[2019.07.31-23.31.09:387][922]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap 0.2
-[2019.07.31-23.31.12:797][321]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.31.12:817][321]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.07.31-23.31.12:849][321]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.31-23.31.12:916][322]LogPlayLevel: Display: Destroying online subsystem :Context_28
-[2019.07.31-23.31.17:076][814]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.07.31-23.31.17:099][814]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.07.31-23.31.17:099][814]PIE: New page: PIE session: FirstMap (Aug 1, 2019, 3:31:17 AM)
-[2019.07.31-23.31.17:100][814]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
-[2019.07.31-23.31.17:103][814]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003318s)
-[2019.07.31-23.31.17:104][814]LogAIModule: Creating AISystem for world FirstMap
-[2019.07.31-23.31.17:104][814]LogPlayLevel: PIE: World Init took: (0.000871s)
-[2019.07.31-23.31.17:104][814]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.004530s)
-[2019.07.31-23.31.17:138][814]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.07.31-23.31.17:143][814]LogInit: FAudioDevice initialized.
-[2019.07.31-23.31.17:152][814]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.31.17:250][814]LogLoad: Game class is 'GameModeBase'
-[2019.07.31-23.31.17:252][814]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.01-01.31.17
-[2019.07.31-23.31.17:253][814]LogWorld: Bringing up level for play took: 0.002393
-[2019.07.31-23.31.17:269][814]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap 0.082
-[2019.07.31-23.31.23:144][489]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.07.31-23.31.24:068][570]Cmd: SELECT NONE
-[2019.07.31-23.31.25:177][695]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.31.25:199][695]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.07.31-23.31.25:236][695]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.31-23.31.25:286][696]LogPlayLevel: Display: Destroying online subsystem :Context_29
-[2019.07.31-23.31.27:656][960]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMap73EFA1BE4C0F7F8A56857689F3A86534.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap'
-[2019.07.31-23.31.27:711][960]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMap_BuiltDataD53D91EE42A095491F025D92C82F527F.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap_BuiltData.uasset'
-[2019.07.31-23.31.34:248][715]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
-[2019.07.31-23.31.34:431][715]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.07.31-23.31.51:683][884]LogEditorViewport: Clicking on Actor (LMB): Base_Character_C (Base_Character2)
-[2019.07.31-23.31.52:708][920]Cmd: EDIT COPY
-[2019.07.31-23.31.52:901][937]Cmd: EDIT PASTE
-[2019.07.31-23.31.57:981][417]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.07.31-23.31.58:083][429]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.07.31-23.31.58:103][429]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.07.31-23.31.58:105][429]PIE: New page: PIE session: FirstMap (Aug 1, 2019, 3:31:58 AM)
-[2019.07.31-23.31.58:106][429]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
-[2019.07.31-23.31.58:110][429]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003889s)
-[2019.07.31-23.31.58:112][429]LogAIModule: Creating AISystem for world FirstMap
-[2019.07.31-23.31.58:112][429]LogPlayLevel: PIE: World Init took: (0.000996s)
-[2019.07.31-23.31.58:113][429]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.006153s)
-[2019.07.31-23.31.58:178][429]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.07.31-23.31.58:184][429]LogInit: FAudioDevice initialized.
-[2019.07.31-23.31.58:194][429]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.31.58:285][429]LogLoad: Game class is 'GameModeBase'
-[2019.07.31-23.31.58:288][429]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.01-01.31.58
-[2019.07.31-23.31.58:289][429]LogWorld: Bringing up level for play took: 0.002936
-[2019.07.31-23.31.58:306][429]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap 1.119
-[2019.07.31-23.32.04:462][153]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.32.04:483][153]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.07.31-23.32.04:517][153]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.31-23.32.04:571][154]LogPlayLevel: Display: Destroying online subsystem :Context_30
-[2019.07.31-23.32.05:254][228]LogEditorViewport: Clicking on Actor (LMB): Base_Character_C (Base_Character3)
-[2019.07.31-23.32.05:816][263]Cmd: DELETE
-[2019.07.31-23.32.05:817][263]Cmd: ACTOR DELETE
-[2019.07.31-23.32.05:845][263]LogEditorActor: Deleted Actor: Base_Character_C
-[2019.07.31-23.32.05:910][263]LogEditorActor: Deleted 1 Actors (0.094 secs)
-[2019.07.31-23.32.09:353][668]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.07.31-23.32.09:500][668]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMapAF63214A49082FD449E275B36C730502.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap'
-[2019.07.31-23.32.09:535][668]LogFileHelpers: Saving map 'FirstMap' took 0.169
-[2019.07.31-23.32.59:230][314]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.07.31-23.32.59:453][314]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMap6F8B1E68402A1C9474A47397230360B0.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap'
-[2019.07.31-23.32.59:514][314]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMap_BuiltData75BA2794436FC0D8D536BFA87557D1A4.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap_BuiltData.uasset'
-[2019.07.31-23.33.00:620][424]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.07.31-23.33.00:728][437]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.07.31-23.33.00:747][437]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.07.31-23.33.00:747][437]PIE: New page: PIE session: FirstMap (Aug 1, 2019, 3:33:00 AM)
-[2019.07.31-23.33.00:747][437]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
-[2019.07.31-23.33.00:750][437]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003002s)
-[2019.07.31-23.33.00:751][437]LogAIModule: Creating AISystem for world FirstMap
-[2019.07.31-23.33.00:752][437]LogPlayLevel: PIE: World Init took: (0.001533s)
-[2019.07.31-23.33.00:752][437]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.004912s)
-[2019.07.31-23.33.00:787][437]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.07.31-23.33.00:793][437]LogInit: FAudioDevice initialized.
-[2019.07.31-23.33.00:801][437]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.33.00:895][437]LogLoad: Game class is 'GameModeBase'
-[2019.07.31-23.33.00:898][437]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.01-01.33.00
-[2019.07.31-23.33.00:898][437]LogWorld: Bringing up level for play took: 0.002668
-[2019.07.31-23.33.00:917][437]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap -0.27
-[2019.07.31-23.33.05:339][938]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.33.05:359][938]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.07.31-23.33.05:401][938]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.31-23.33.05:452][939]LogPlayLevel: Display: Destroying online subsystem :Context_31
-[2019.07.31-23.33.06:383][ 42]LogEditorViewport: Clicking on Actor (LMB): ExplosiveBarrel_C (ExplosiveBarrel)
-[2019.07.31-23.33.07:278][131]Cmd: SELECT NONE
-[2019.07.31-23.33.08:139][230]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.07.31-23.33.08:239][242]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.07.31-23.33.08:258][242]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.07.31-23.33.08:259][242]PIE: New page: PIE session: FirstMap (Aug 1, 2019, 3:33:08 AM)
-[2019.07.31-23.33.08:259][242]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
-[2019.07.31-23.33.08:262][242]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003137s)
-[2019.07.31-23.33.08:263][242]LogAIModule: Creating AISystem for world FirstMap
-[2019.07.31-23.33.08:263][242]LogPlayLevel: PIE: World Init took: (0.000963s)
-[2019.07.31-23.33.08:263][242]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.004402s)
-[2019.07.31-23.33.08:301][242]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.07.31-23.33.08:308][242]LogInit: FAudioDevice initialized.
-[2019.07.31-23.33.08:318][242]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.33.08:413][242]LogLoad: Game class is 'GameModeBase'
-[2019.07.31-23.33.08:416][242]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.01-01.33.08
-[2019.07.31-23.33.08:416][242]LogWorld: Bringing up level for play took: 0.003137
-[2019.07.31-23.33.08:434][242]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap -0.753
-[2019.07.31-23.33.12:087][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.33.12:109][642]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.07.31-23.33.12:149][642]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.31-23.33.12:204][643]LogPlayLevel: Display: Destroying online subsystem :Context_32
-[2019.07.31-23.34.03:521][812]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.07.31-23.34.39:828][772]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.07.31-23.34.39:847][772]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.07.31-23.34.39:848][772]PIE: New page: PIE session: FirstMap (Aug 1, 2019, 3:34:39 AM)
-[2019.07.31-23.34.39:848][772]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
-[2019.07.31-23.34.39:851][772]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003188s)
-[2019.07.31-23.34.39:852][772]LogAIModule: Creating AISystem for world FirstMap
-[2019.07.31-23.34.39:852][772]LogPlayLevel: PIE: World Init took: (0.001008s)
-[2019.07.31-23.34.39:853][772]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.004699s)
-[2019.07.31-23.34.39:891][772]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.07.31-23.34.39:899][772]LogInit: FAudioDevice initialized.
-[2019.07.31-23.34.39:913][772]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.34.40:002][772]LogLoad: Game class is 'GameModeBase'
-[2019.07.31-23.34.40:004][772]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.01-01.34.40
-[2019.07.31-23.34.40:005][772]LogWorld: Bringing up level for play took: 0.002446
-[2019.07.31-23.34.40:020][772]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap 0.833
-[2019.07.31-23.34.45:665][427]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.34.45:687][427]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.07.31-23.34.45:728][427]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.31-23.34.45:790][428]LogPlayLevel: Display: Destroying online subsystem :Context_33
-[2019.07.31-23.34.50:776][998]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2019.07.31-23.34.51:247][ 42]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2019.07.31-23.34.51:683][ 87]LogEditorViewport: Clicking on Actor (LMB): Base_Character_C (Base_Character2)
-[2019.07.31-23.34.54:548][305]LogEditorViewport: Clicking on Actor (LMB): ExplosiveBarrel_C (ExplosiveBarrel2)
-[2019.07.31-23.34.57:954][618]LogEditorViewport: Clicking on Actor (LMB): Base_Character_C (Base_Character2)
-[2019.07.31-23.35.01:313][925]LogEditorViewport: Clicking on Actor (LMB): ExplosiveBarrel_C (ExplosiveBarrel2)
-[2019.07.31-23.35.05:518][385]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.07.31-23.35.05:715][393]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMapDC20031340D59632EB3744A77ADB8F80.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap'
-[2019.07.31-23.35.05:771][393]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMap_BuiltData901CE01E48C81420F64173A2913D619A.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap_BuiltData.uasset'
-[2019.07.31-23.35.06:511][476]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2019.07.31-23.35.06:529][476]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.07.31-23.35.06:529][476]PIE: New page: PIE session: FirstMap (Aug 1, 2019, 3:35:06 AM)
-[2019.07.31-23.35.06:530][476]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstMap
-[2019.07.31-23.35.06:533][476]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003559s)
-[2019.07.31-23.35.06:534][476]LogAIModule: Creating AISystem for world FirstMap
-[2019.07.31-23.35.06:534][476]LogPlayLevel: PIE: World Init took: (0.000856s)
-[2019.07.31-23.35.06:534][476]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_0_FirstMap.FirstMap (0.004781s)
-[2019.07.31-23.35.06:582][476]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.07.31-23.35.06:587][476]LogInit: FAudioDevice initialized.
-[2019.07.31-23.35.06:595][476]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.35.06:692][476]LogLoad: Game class is 'GameModeBase'
-[2019.07.31-23.35.06:695][476]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.01-01.35.06
-[2019.07.31-23.35.06:696][476]LogWorld: Bringing up level for play took: 0.002843
-[2019.07.31-23.35.06:715][476]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstMap -0.473
-[2019.07.31-23.35.09:984][845]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.07.31-23.35.10:005][845]LogSlate: Window 'Shooter_OW_Style Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
-[2019.07.31-23.35.10:043][845]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.07.31-23.35.10:089][846]LogPlayLevel: Display: Destroying online subsystem :Context_34
-[2019.07.31-23.35.11:496][996]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMapA4A525784942DEFB1B0EAD931754E93D.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap'
-[2019.07.31-23.35.11:551][996]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMap_BuiltData5F5A97314C1917E550E21EAA51185F0C.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap_BuiltData.uasset'
-[2019.07.31-23.35.25:540][541]LogSlate: Window 'Shooter_OW_Style - Unreal Editor' being destroyed
-[2019.07.31-23.35.25:541][541]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.07.31-23.35.25:921][542]Cmd: QUIT_EDITOR
-[2019.07.31-23.35.26:743][542]LogExit: Preparing to exit.
-[2019.07.31-23.35.27:850][542]LogExit: Editor shut down
-[2019.07.31-23.35.27:851][542]LogExit: Transaction tracking system shut down
-[2019.07.31-23.35.29:352][542]LogExit: Object subsystem successfully closed.
-[2019.07.31-23.35.29:475][542]LogShaderCompilers: Display: Shaders left to compile 0
-[2019.07.31-23.35.29:510][542]LogD3D11RHI: Shutdown
-[2019.07.31-23.35.29:510][542]LogD3D11RHI: CleanupD3DDevice
-[2019.07.31-23.35.29:563][542]LogD3D11RHI: ~FD3D11DynamicRHI
-[2019.07.31-23.35.30:475][542]LogModuleManager: Shutting down and abandoning module Shooter_OW_Style (620)
-[2019.07.31-23.35.30:475][542]LogModuleManager: Shutting down and abandoning module BlueprintGraph (618)
-[2019.07.31-23.35.30:475][542]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (616)
-[2019.07.31-23.35.30:475][542]LogModuleManager: Shutting down and abandoning module Voice (614)
-[2019.07.31-23.35.30:487][542]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
-[2019.07.31-23.35.30:487][542]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
-[2019.07.31-23.35.30:487][542]LogModuleManager: Shutting down and abandoning module AddContentDialog (608)
-[2019.07.31-23.35.30:488][542]LogModuleManager: Shutting down and abandoning module WidgetCarousel (607)
-[2019.07.31-23.35.30:488][542]LogModuleManager: Shutting down and abandoning module EditorWidgets (604)
-[2019.07.31-23.35.30:488][542]LogModuleManager: Shutting down and abandoning module CollectionManager (602)
-[2019.07.31-23.35.30:499][542]LogModuleManager: Shutting down and abandoning module StatsViewer (600)
-[2019.07.31-23.35.30:506][542]LogModuleManager: Shutting down and abandoning module FoliageEdit (598)
-[2019.07.31-23.35.30:514][542]LogModuleManager: Shutting down and abandoning module LandscapeEditor (596)
-[2019.07.31-23.35.30:551][542]LogModuleManager: Shutting down and abandoning module MeshPaintMode (594)
-[2019.07.31-23.35.30:551][542]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (592)
-[2019.07.31-23.35.30:551][542]LogModuleManager: Shutting down and abandoning module ActorPickerMode (590)
-[2019.07.31-23.35.30:551][542]LogModuleManager: Shutting down and abandoning module GeometryMode (588)
-[2019.07.31-23.35.30:551][542]LogModuleManager: Shutting down and abandoning module TextureAlignMode (586)
-[2019.07.31-23.35.30:553][542]LogModuleManager: Shutting down and abandoning module BspMode (584)
-[2019.07.31-23.35.30:553][542]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (582)
-[2019.07.31-23.35.30:565][542]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (580)
-[2019.07.31-23.35.30:565][542]LogModuleManager: Shutting down and abandoning module AutomationWorker (578)
-[2019.07.31-23.35.30:565][542]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (576)
-[2019.07.31-23.35.30:565][542]LogModuleManager: Shutting down and abandoning module SequenceRecorder (575)
-[2019.07.31-23.35.30:578][542]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (572)
-[2019.07.31-23.35.30:578][542]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (570)
-[2019.07.31-23.35.30:592][542]LogModuleManager: Shutting down and abandoning module PlacementMode (569)
-[2019.07.31-23.35.30:592][542]LogModuleManager: Shutting down and abandoning module MaterialEditor (568)
-[2019.07.31-23.35.30:592][542]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (564)
-[2019.07.31-23.35.30:592][542]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (562)
-[2019.07.31-23.35.30:593][542]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (560)
-[2019.07.31-23.35.30:606][542]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (558)
-[2019.07.31-23.35.30:606][542]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (556)
-[2019.07.31-23.35.30:606][542]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (554)
-[2019.07.31-23.35.30:606][542]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (552)
-[2019.07.31-23.35.30:607][542]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (550)
-[2019.07.31-23.35.30:607][542]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (548)
-[2019.07.31-23.35.30:607][542]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (546)
-[2019.07.31-23.35.30:607][542]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (544)
-[2019.07.31-23.35.30:607][542]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (542)
-[2019.07.31-23.35.30:607][542]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (540)
-[2019.07.31-23.35.30:607][542]LogModuleManager: Shutting down and abandoning module CharacterAI (538)
-[2019.07.31-23.35.30:608][542]LogModuleManager: Shutting down and abandoning module SmartSnapping (536)
-[2019.07.31-23.35.30:608][542]LogModuleManager: Shutting down and abandoning module SessionServices (534)
-[2019.07.31-23.35.30:608][542]LogModuleManager: Shutting down and abandoning module ViewportSnapping (532)
-[2019.07.31-23.35.30:608][542]LogModuleManager: Shutting down and abandoning module ViewportInteraction (530)
-[2019.07.31-23.35.30:608][542]LogModuleManager: Shutting down and abandoning module ClothPainter (528)
-[2019.07.31-23.35.30:625][542]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (527)
-[2019.07.31-23.35.30:626][542]LogModuleManager: Shutting down and abandoning module LogVisualizer (524)
-[2019.07.31-23.35.30:639][542]LogModuleManager: Shutting down and abandoning module IntroTutorials (522)
-[2019.07.31-23.35.30:650][542]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (521)
-[2019.07.31-23.35.30:660][542]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (518)
-[2019.07.31-23.35.30:660][542]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (516)
-[2019.07.31-23.35.30:660][542]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (514)
-[2019.07.31-23.35.30:661][542]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (512)
-[2019.07.31-23.35.30:661][542]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (511)
-[2019.07.31-23.35.31:084][542]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (508)
-[2019.07.31-23.35.31:084][542]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (506)
-[2019.07.31-23.35.31:085][542]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (504)
-[2019.07.31-23.35.31:085][542]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (502)
-[2019.07.31-23.35.31:085][542]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
-[2019.07.31-23.35.31:104][542]LogModuleManager: Shutting down and abandoning module MergeActors (498)
-[2019.07.31-23.35.31:116][542]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
-[2019.07.31-23.35.31:129][542]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
-[2019.07.31-23.35.31:141][542]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
-[2019.07.31-23.35.31:141][542]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
-[2019.07.31-23.35.31:141][542]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
-[2019.07.31-23.35.31:149][542]LogModuleManager: Shutting down and abandoning module XmlParser (486)
-[2019.07.31-23.35.31:149][542]LogModuleManager: Shutting down and abandoning module Blutility (484)
-[2019.07.31-23.35.31:150][542]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
-[2019.07.31-23.35.31:150][542]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
-[2019.07.31-23.35.31:150][542]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
-[2019.07.31-23.35.31:150][542]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
-[2019.07.31-23.35.31:160][542]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
-[2019.07.31-23.35.31:174][542]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
-[2019.07.31-23.35.31:180][542]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
-[2019.07.31-23.35.31:190][542]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
-[2019.07.31-23.35.31:200][542]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
-[2019.07.31-23.35.31:256][542]LogModuleManager: Shutting down and abandoning module AutomationController (464)
-[2019.07.31-23.35.31:296][542]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
-[2019.07.31-23.35.31:316][542]LogModuleManager: Shutting down and abandoning module Layers (460)
-[2019.07.31-23.35.31:332][542]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
-[2019.07.31-23.35.31:332][542]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
-[2019.07.31-23.35.31:344][542]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
-[2019.07.31-23.35.31:344][542]LogModuleManager: Shutting down and abandoning module Persona (452)
-[2019.07.31-23.35.31:408][542]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
-[2019.07.31-23.35.31:408][542]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
-[2019.07.31-23.35.31:441][542]LogModuleManager: Shutting down and abandoning module Kismet (446)
-[2019.07.31-23.35.31:456][542]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
-[2019.07.31-23.35.31:456][542]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
-[2019.07.31-23.35.31:456][542]LogModuleManager: Shutting down and abandoning module Toolbox (440)
-[2019.07.31-23.35.31:456][542]LogModuleManager: Shutting down and abandoning module DesktopPlatform (439)
-[2019.07.31-23.35.31:469][542]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
-[2019.07.31-23.35.31:473][542]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
-[2019.07.31-23.35.31:484][542]LogModuleManager: Shutting down and abandoning module OutputLog (432)
-[2019.07.31-23.35.31:484][542]LogModuleManager: Shutting down and abandoning module GammaUI (430)
-[2019.07.31-23.35.31:495][542]LogModuleManager: Shutting down and abandoning module Documentation (428)
-[2019.07.31-23.35.31:495][542]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
-[2019.07.31-23.35.31:505][542]LogModuleManager: Shutting down and abandoning module MovieScene (424)
-[2019.07.31-23.35.31:514][542]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
-[2019.07.31-23.35.31:514][542]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
-[2019.07.31-23.35.31:514][542]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
-[2019.07.31-23.35.31:514][542]LogModuleManager: Shutting down and abandoning module PortalServices (416)
-[2019.07.31-23.35.31:514][542]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
-[2019.07.31-23.35.31:514][542]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
-[2019.07.31-23.35.31:514][542]LogModuleManager: Shutting down and abandoning module AIModule (410)
-[2019.07.31-23.35.31:538][542]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
-[2019.07.31-23.35.31:538][542]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
-[2019.07.31-23.35.31:542][542]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
-[2019.07.31-23.35.31:542][542]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
-[2019.07.31-23.35.31:548][542]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
-[2019.07.31-23.35.31:561][542]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
-[2019.07.31-23.35.31:561][542]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
-[2019.07.31-23.35.31:561][542]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
-[2019.07.31-23.35.31:568][542]LogModuleManager: Shutting down and abandoning module OculusInput (392)
-[2019.07.31-23.35.31:568][542]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
-[2019.07.31-23.35.31:568][542]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
-[2019.07.31-23.35.31:582][542]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
-[2019.07.31-23.35.31:583][542]LogModuleManager: Shutting down and abandoning module CableComponent (384)
-[2019.07.31-23.35.31:583][542]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
-[2019.07.31-23.35.31:584][542]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
-[2019.07.31-23.35.31:585][542]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
-[2019.07.31-23.35.31:585][542]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
-[2019.07.31-23.35.31:585][542]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
-[2019.07.31-23.35.31:604][542]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (372)
-[2019.07.31-23.35.31:605][542]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
-[2019.07.31-23.35.31:605][542]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
-[2019.07.31-23.35.31:605][542]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
-[2019.07.31-23.35.31:624][542]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
-[2019.07.31-23.35.31:624][542]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
-[2019.07.31-23.35.31:624][542]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
-[2019.07.31-23.35.31:624][542]LogModuleManager: Shutting down and abandoning module BackChannel (358)
-[2019.07.31-23.35.31:632][542]LogModuleManager: Shutting down and abandoning module AppleVision (356)
-[2019.07.31-23.35.31:632][542]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
-[2019.07.31-23.35.31:632][542]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
-[2019.07.31-23.35.31:632][542]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
-[2019.07.31-23.35.31:633][542]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
-[2019.07.31-23.35.31:633][542]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
-[2019.07.31-23.35.31:633][542]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
-[2019.07.31-23.35.31:633][542]LogModuleManager: Shutting down and abandoning module DatasmithContent (342)
-[2019.07.31-23.35.31:635][542]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
-[2019.07.31-23.35.31:635][542]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
-[2019.07.31-23.35.31:645][542]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
-[2019.07.31-23.35.31:651][542]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
-[2019.07.31-23.35.31:652][542]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
-[2019.07.31-23.35.31:657][542]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
-[2019.07.31-23.35.31:669][542]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
-[2019.07.31-23.35.31:669][542]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
-[2019.07.31-23.35.31:669][542]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
-[2019.07.31-23.35.31:669][542]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
-[2019.07.31-23.35.31:670][542]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
-[2019.07.31-23.35.31:677][542]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
-[2019.07.31-23.35.31:688][542]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
-[2019.07.31-23.35.31:700][542]LogModuleManager: Shutting down and abandoning module SourceControl (315)
-[2019.07.31-23.35.31:709][542]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
-[2019.07.31-23.35.31:709][542]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
-[2019.07.31-23.35.31:709][542]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
-[2019.07.31-23.35.31:709][542]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
-[2019.07.31-23.35.31:709][542]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
-[2019.07.31-23.35.31:719][542]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
-[2019.07.31-23.35.31:731][542]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
-[2019.07.31-23.35.31:731][542]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
-[2019.07.31-23.35.31:732][542]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
-[2019.07.31-23.35.31:732][542]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
-[2019.07.31-23.35.31:739][542]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
-[2019.07.31-23.35.31:739][542]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
-[2019.07.31-23.35.31:740][542]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
-[2019.07.31-23.35.31:749][542]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
-[2019.07.31-23.35.31:749][542]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
-[2019.07.31-23.35.31:850][542]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
-[2019.07.31-23.35.31:969][542]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
-[2019.07.31-23.35.31:969][542]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
-[2019.07.31-23.35.31:978][542]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
-[2019.07.31-23.35.31:978][542]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
-[2019.07.31-23.35.31:978][542]LogModuleManager: Shutting down and abandoning module DataValidation (270)
-[2019.07.31-23.35.31:978][542]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
-[2019.07.31-23.35.31:988][542]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
-[2019.07.31-23.35.31:998][542]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
-[2019.07.31-23.35.32:008][542]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
-[2019.07.31-23.35.32:008][542]LogModuleManager: Shutting down and abandoning module MainFrame (262)
-[2019.07.31-23.35.32:012][542]LogModuleManager: Shutting down and abandoning module HotReload (261)
-[2019.07.31-23.35.32:013][542]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
-[2019.07.31-23.35.32:014][542]LogModuleManager: Shutting down and abandoning module TreeMap (255)
-[2019.07.31-23.35.32:023][542]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
-[2019.07.31-23.35.32:023][542]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
-[2019.07.31-23.35.32:023][542]LogModuleManager: Shutting down and abandoning module Paper2D (248)
-[2019.07.31-23.35.32:030][542]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
-[2019.07.31-23.35.32:043][542]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
-[2019.07.31-23.35.32:048][542]LogModuleManager: Shutting down and abandoning module Media (243)
-[2019.07.31-23.35.32:054][542]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
-[2019.07.31-23.35.32:055][542]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
-[2019.07.31-23.35.32:055][542]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
-[2019.07.31-23.35.32:065][542]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
-[2019.07.31-23.35.32:066][542]LogModuleManager: Shutting down and abandoning module Overlay (232)
-[2019.07.31-23.35.32:066][542]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
-[2019.07.31-23.35.32:066][542]LogModuleManager: Shutting down and abandoning module VREditor (228)
-[2019.07.31-23.35.32:080][542]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
-[2019.07.31-23.35.32:092][542]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
-[2019.07.31-23.35.32:092][542]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
-[2019.07.31-23.35.32:113][542]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
-[2019.07.31-23.35.32:121][542]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
-[2019.07.31-23.35.32:129][542]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
-[2019.07.31-23.35.32:129][542]LogModuleManager: Shutting down and abandoning module UMG (214)
-[2019.07.31-23.35.32:129][542]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
-[2019.07.31-23.35.32:154][542]LogModuleManager: Shutting down and abandoning module Sequencer (212)
-[2019.07.31-23.35.32:178][542]LogModuleManager: Shutting down and abandoning module MessageLog (209)
-[2019.07.31-23.35.32:178][542]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
-[2019.07.31-23.35.32:197][542]LogModuleManager: Shutting down and abandoning module Slate (202)
-[2019.07.31-23.35.32:197][542]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
-[2019.07.31-23.35.32:199][542]LogModuleManager: Shutting down and abandoning module MRMesh (198)
-[2019.07.31-23.35.32:200][542]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
-[2019.07.31-23.35.32:200][542]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
-[2019.07.31-23.35.32:200][542]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
-[2019.07.31-23.35.32:201][542]LogModuleManager: Shutting down and abandoning module Networking (190)
-[2019.07.31-23.35.32:201][542]LogModuleManager: Shutting down and abandoning module Core (188)
-[2019.07.31-23.35.32:201][542]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
-[2019.07.31-23.35.32:201][542]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
-[2019.07.31-23.35.32:201][542]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
-[2019.07.31-23.35.32:215][542]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
-[2019.07.31-23.35.32:224][542]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
-[2019.07.31-23.35.32:224][542]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
-[2019.07.31-23.35.32:233][542]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
-[2019.07.31-23.35.32:243][542]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
-[2019.07.31-23.35.32:243][542]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
-[2019.07.31-23.35.32:252][542]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
-[2019.07.31-23.35.32:258][542]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
-[2019.07.31-23.35.32:258][542]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
-[2019.07.31-23.35.32:296][542]LogDerivedDataCache: Shutdown
-[2019.07.31-23.35.32:296][542]LogModuleManager: Shutting down and abandoning module XGEController (160)
-[2019.07.31-23.35.32:296][542]LogXGEController: Cleaning working directory: C:/Users/Joan Abad/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.07.31-23.35.32:297][542]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
-[2019.07.31-23.35.32:297][542]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
-[2019.07.31-23.35.32:304][542]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
-[2019.07.31-23.35.32:304][542]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
-[2019.07.31-23.35.32:314][542]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
-[2019.07.31-23.35.32:314][542]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
-[2019.07.31-23.35.32:327][542]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
-[2019.07.31-23.35.32:327][542]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
-[2019.07.31-23.35.32:328][542]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
-[2019.07.31-23.35.32:328][542]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
-[2019.07.31-23.35.32:329][542]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
-[2019.07.31-23.35.32:329][542]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
-[2019.07.31-23.35.32:329][542]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
-[2019.07.31-23.35.32:329][542]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
-[2019.07.31-23.35.32:329][542]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
-[2019.07.31-23.35.32:329][542]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
-[2019.07.31-23.35.32:329][542]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
-[2019.07.31-23.35.32:329][542]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
-[2019.07.31-23.35.32:329][542]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
-[2019.07.31-23.35.32:329][542]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
-[2019.07.31-23.35.32:329][542]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
-[2019.07.31-23.35.32:329][542]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
-[2019.07.31-23.35.32:330][542]LogModuleManager: Shutting down and abandoning module Messaging (115)
-[2019.07.31-23.35.32:330][542]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
-[2019.07.31-23.35.32:332][542]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
-[2019.07.31-23.35.32:332][542]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
-[2019.07.31-23.35.32:339][542]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
-[2019.07.31-23.35.32:339][542]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
-[2019.07.31-23.35.32:339][542]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
-[2019.07.31-23.35.32:339][542]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
-[2019.07.31-23.35.32:340][542]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
-[2019.07.31-23.35.32:340][542]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
-[2019.07.31-23.35.32:340][542]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
-[2019.07.31-23.35.32:340][542]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
-[2019.07.31-23.35.32:340][542]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
-[2019.07.31-23.35.32:340][542]LogModuleManager: Shutting down and abandoning module InputCore (88)
-[2019.07.31-23.35.32:340][542]LogModuleManager: Shutting down and abandoning module Settings (86)
-[2019.07.31-23.35.32:340][542]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
-[2019.07.31-23.35.32:340][542]LogModuleManager: Shutting down and abandoning module SteamVR (82)
-[2019.07.31-23.35.32:341][542]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
-[2019.07.31-23.35.32:341][542]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
-[2019.07.31-23.35.32:341][542]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
-[2019.07.31-23.35.32:341][542]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2019.07.31-23.35.32:341][542]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
-[2019.07.31-23.35.32:354][542]LogModuleManager: Shutting down and abandoning module XMPP (65)
-[2019.07.31-23.35.32:370][542]LogModuleManager: Shutting down and abandoning module WebSockets (64)
-[2019.07.31-23.35.32:410][542]LogModuleManager: Shutting down and abandoning module HTTP (61)
-[2019.07.31-23.35.32:421][542]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2019.07.31-23.35.32:421][542]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7AA913DF-4328-2080-4349-A39C21471D5E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=ef0cb73c40ee232067bf2f9418bfd32e%7Cedd99b47fa48427186a74866ceca2384%7C85907bce-fbd9-4385-9f0f-76ca26d18a0d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2019.07.31-23.35.32:446][542]LogModuleManager: Shutting down and abandoning module SSL (60)
-[2019.07.31-23.35.32:455][542]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
-[2019.07.31-23.35.32:455][542]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
-[2019.07.31-23.35.32:456][542]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
-[2019.07.31-23.35.32:456][542]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
-[2019.07.31-23.35.32:456][542]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
-[2019.07.31-23.35.32:456][542]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
-[2019.07.31-23.35.32:456][542]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
-[2019.07.31-23.35.32:456][542]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
-[2019.07.31-23.35.32:456][542]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
-[2019.07.31-23.35.32:457][542]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2019.07.31-23.35.32:457][542]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
-[2019.07.31-23.35.32:457][542]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2019.07.31-23.35.32:473][542]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2019.07.31-23.35.32:473][542]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2019.07.31-23.35.32:490][542]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2019.07.31-23.35.32:511][542]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2019.07.31-23.35.32:511][542]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2019.07.31-23.35.32:511][542]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2019.07.31-23.35.32:525][542]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2019.07.31-23.35.32:533][542]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2019.07.31-23.35.32:533][542]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2019.07.31-23.35.32:544][542]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2019.07.31-23.35.32:544][542]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2019.07.31-23.35.32:544][542]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2019.07.31-23.35.32:545][542]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2019.07.31-23.35.32:560][542]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2019.07.31-23.35.32:561][542]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2019.07.31-23.35.32:566][542]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2019.07.31-23.35.32:567][542]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2019.07.31-23.35.32:599][542]LogExit: Exiting.
-[2019.07.31-23.35.32:608][542]Log file closed, 08/01/19 01:35:32
+[2019.08.02-18.46.12:655][  0]LogInit: Selected Device Profile: [Windows]
+[2019.08.02-18.46.12:655][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.08.02-18.46.12:663][  0]LogHAL: Display: Platform has ~ 16 GB [17137950720 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.08.02-18.46.12:663][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.08.02-18.46.12:663][  0]LogInit: Going up to parent DeviceProfile []
+[2019.08.02-18.46.12:664][  0]LogInit: Computer: JOANPC
+[2019.08.02-18.46.12:664][  0]LogInit: User: JoanAbad
+[2019.08.02-18.46.12:664][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.08.02-18.46.12:664][  0]LogInit: High frequency timer resolution =3.421870 MHz
+[2019.08.02-18.46.12:665][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.08.02-18.46.12:665][  0]LogMemory: Platform Memory Stats for Windows
+[2019.08.02-18.46.12:665][  0]LogMemory: Process Physical Memory: 100.43 MB used, 100.43 MB peak
+[2019.08.02-18.46.12:665][  0]LogMemory: Process Virtual Memory: 96.25 MB used, 96.25 MB peak
+[2019.08.02-18.46.12:665][  0]LogMemory: Physical Memory: 8448.07 MB used,  7895.95 MB free, 16344.02 MB total
+[2019.08.02-18.46.12:665][  0]LogMemory: Virtual Memory: 486.44 MB used,  7895.95 MB free, 134217728.00 MB total
+[2019.08.02-18.46.12:769][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.08.02-18.46.12:769][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.08.02-18.46.13:133][  0]LogStreaming: Display: Took  0.364s to InitEngineTextLocalization.
+[2019.08.02-18.46.13:133][  0]LogInit: Setting process to per monitor DPI aware
+[2019.08.02-18.46.13:168][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.08.02-18.46.13:168][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.08.02-18.46.13:306][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.08.02-18.46.13:306][  0]LogD3D11RHI: D3D11 adapters:
+[2019.08.02-18.46.13:371][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.08.02-18.46.13:371][  0]LogD3D11RHI:       8046/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.08.02-18.46.13:374][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.08.02-18.46.13:374][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.08.02-18.46.13:374][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.08.02-18.46.13:380][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.08.02-18.46.13:380][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2019.08.02-18.46.13:380][  0]LogWindows: EnumDisplayDevices:
+[2019.08.02-18.46.13:380][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2019.08.02-18.46.13:380][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2019.08.02-18.46.13:380][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.08.02-18.46.13:380][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.08.02-18.46.13:381][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.08.02-18.46.13:381][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.08.02-18.46.13:381][  0]LogD3D11RHI:   Driver Version: 431.60 (internal:26.21.14.3160, unified:431.60)
+[2019.08.02-18.46.13:381][  0]LogD3D11RHI:      Driver Date: 7-17-2019
+[2019.08.02-18.46.13:381][  0]LogRHI: Texture pool is 5632 MB (70% of 8046 MB)
+[2019.08.02-18.46.13:404][  0]LogD3D11RHI: Async texture creation enabled
+[2019.08.02-18.46.13:425][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.08.02-18.46.13:471][  0]LogShaderCompilers: Guid format shader working directory is -44 characters bigger than the processId version (../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Intermediate/Shaders/WorkingDirectory/10524/).
+[2019.08.02-18.46.13:471][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Joan Abad/AppData/Local/Temp/UnrealShaderWorkingDir/9800DBC64A1F2D31DEEEB0840D838671/'.
+[2019.08.02-18.46.13:682][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.08.02-18.46.13:697][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.08.02-18.46.13:710][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.08.02-18.46.13:725][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.08.02-18.46.13:739][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.08.02-18.46.13:754][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.08.02-18.46.13:768][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.08.02-18.46.13:783][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.08.02-18.46.13:789][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.08.02-18.46.13:866][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.02-18.46.13:866][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.02-18.46.13:866][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.02-18.46.13:866][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.02-18.46.13:867][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.02-18.46.13:867][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.02-18.46.13:867][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.02-18.46.13:867][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.02-18.46.13:867][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.02-18.46.13:867][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.02-18.46.13:867][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.02-18.46.13:867][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.02-18.46.13:867][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.02-18.46.13:867][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.02-18.46.13:867][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.02-18.46.13:867][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.02-18.46.13:867][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.02-18.46.13:867][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.02-18.46.13:870][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.08.02-18.46.13:937][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.08.02-18.46.13:937][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.08.02-18.46.13:963][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.08.02-18.46.13:963][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.08.02-18.46.13:983][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.08.02-18.46.13:997][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.08.02-18.46.14:011][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.08.02-18.46.14:026][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.08.02-18.46.14:042][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.08.02-18.46.14:042][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.08.02-18.46.14:167][  0]LogXGEController: Cleaning working directory: C:/Users/Joan Abad/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.08.02-18.46.14:179][  0]LogShaderCompilers: Display: Using XGE Shader Compiler (Interception Interface).
+[2019.08.02-18.46.14:901][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.08.02-18.46.14:990][  0]LogDerivedDataCache: Loaded boot cache 0.09s 71MB C:/Users/Joan Abad/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.08.02-18.46.14:991][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Joan Abad/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.08.02-18.46.14:991][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.08.02-18.46.14:991][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.08.02-18.46.14:991][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.08.02-18.46.14:991][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.08.02-18.46.15:006][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.08.02-18.46.15:019][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Joan Abad/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.08.02-18.46.15:019][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.08.02-18.46.15:019][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.08.02-18.46.15:038][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.08.02-18.46.15:039][  0]LogSlate: Using FreeType 2.6.0
+[2019.08.02-18.46.15:040][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.08.02-18.46.15:112][  0]LogAssetRegistry: FAssetRegistry took 0.0280 seconds to start up
+[2019.08.02-18.46.15:413][  0]LogInit: Selected Device Profile: [Windows]
+[2019.08.02-18.46.15:550][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.08.02-18.46.15:570][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.08.02-18.46.15:570][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.08.02-18.46.15:570][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.08.02-18.46.15:570][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.08.02-18.46.15:586][  0]LogNetVersion: Shooter_OW_Style 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1206910907)
+[2019.08.02-18.46.16:051][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.043726 seconds
+[2019.08.02-18.46.16:058][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.08.02-18.46.16:058][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.08.02-18.46.16:058][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.08.02-18.46.17:038][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.08.02-18.46.17:064][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.08.02-18.46.17:261][  0]SourceControl: Source control is disabled
+[2019.08.02-18.46.17:261][  0]SourceControl: Source control is disabled
+[2019.08.02-18.46.17:267][  0]SourceControl: Source control is disabled
+[2019.08.02-18.46.17:269][  0]SourceControl: Source control is disabled
+[2019.08.02-18.46.17:507][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.08.02-18.46.17:585][  0]LogOcInput: OculusInput pre-init called
+[2019.08.02-18.46.17:650][  0]LogEngine: Initializing Engine...
+[2019.08.02-18.46.17:651][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.08.02-18.46.17:653][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.08.02-18.46.17:653][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.08.02-18.46.17:653][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.08.02-18.46.17:653][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.08.02-18.46.17:869][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.08.02-18.46.17:889][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.08.02-18.46.17:912][  0]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.08.02-18.46.17:918][  0]LogInit: FAudioDevice initialized.
+[2019.08.02-18.46.17:919][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.08.02-18.46.18:015][  0]LogDerivedDataCache: Saved boot cache 0.10s 71MB C:/Users/Joan Abad/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.08.02-18.46.18:016][  0]LogInit: Texture streaming: Enabled
+[2019.08.02-18.46.18:041][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.08.02-18.46.18:053][  0]LogInit: Transaction tracking system initialized
+[2019.08.02-18.46.18:094][  0]BlueprintLog: New page: Editor Load
+[2019.08.02-18.46.18:249][  0]LocalizationService: Localization service is disabled
+[2019.08.02-18.46.18:526][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2019.08.02-18.46.18:527][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2019.08.02-18.46.18:527][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2019.08.02-18.46.18:714][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.08.02-18.46.18:714][  0]LogCook: Display: Mobile HDR setting 1
+[2019.08.02-18.46.18:714][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.08.02-18.46.18:714][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.08.02-18.46.18:714][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.08.02-18.46.18:714][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.08.02-18.46.18:715][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.08.02-18.46.18:727][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/' took 0.01s
+[2019.08.02-18.46.18:865][  0]SourceControl: Source control is disabled
+[2019.08.02-18.46.18:865][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.08.02-18.46.18:866][  0]LightingResults: New page: Lighting Build
+[2019.08.02-18.46.18:868][  0]MapCheck: New page: Map Check
+[2019.08.02-18.46.18:868][  0]LightingResults: New page: Lighting Build
+[2019.08.02-18.46.19:455][  0]LogAIModule: Creating AISystem for world FirstMap
+[2019.08.02-18.46.19:461][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.08.02-18.46.19:487][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.08.02-18.46.19:539][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.171ms to complete.
+[2019.08.02-18.46.19:539][  0]LogFileHelpers: Loading map 'FirstMap' took 0.674
+[2019.08.02-18.46.19:642][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.02-18.46.19:650][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.02-18.46.19:658][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.02-18.46.19:668][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.02-18.46.19:675][  0]LogCollectionManager: Loaded 0 collections in 0.001701 seconds
+[2019.08.02-18.46.19:723][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Collections/' took 0.01s
+[2019.08.02-18.46.19:723][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Developers/JoanAbad/Collections/' took 0.01s
+[2019.08.02-18.46.19:723][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Collections/' took 0.01s
+[2019.08.02-18.46.19:723][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.08.02-18.46.19:732][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2580 classes and 606 folders.
+[2019.08.02-18.46.19:740][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.08.02-18.46.19:768][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.08.02-18.46.19:775][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.08.02-18.46.19:845][  0]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.08.02-18.46.19:847][  0]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.08.02-18.46.19:853][  0]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.08.02-18.46.19:931][  0]LogRenderer: Reallocating scene render targets to support 1716x884 Format 10 NumSamples 1 (Frame:1).
+[2019.08.02-18.46.20:117][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.08.02-18.46.20:117][  0]LogLoad: (Engine Initialization) Total time: 8.71 seconds
+[2019.08.02-18.46.20:117][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.08.02-18.46.20:158][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.08.02-18.46.20:238][  1]LogAssetRegistry: Asset discovery search completed in 5.1496 seconds
+[2019.08.02-18.46.20:239][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.08.02-18.46.20:239][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000129 seconds (updated 0 objects)
+[2019.08.02-18.46.41:118][486]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.02-18.46.44:034][766]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.08.02-18.46.44:041][766]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Programming/Weapons/BP_Rifle.BP_Rifle
+[2019.08.02-18.46.44:448][766]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2019.08.02-18.46.47:070][976]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Programming/Weapons/BP_Rifle.BP_Rifle
+[2019.08.02-18.46.47:367][976]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.08.02-18.46.51:195][418]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/BP_Rifle1F9AC07F42E10031BAAB59B9D17C1035.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Programming/Weapons/BP_Rifle.uasset'
+[2019.08.02-18.46.52:797][604]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.08.02-18.46.52:819][604]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.02-18.46.52:837][604]PIE: New page: PIE session: FirstMap (Aug 2, 2019, 10:46:52 PM)
+[2019.08.02-18.46.52:837][604]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_1_FirstMap
+[2019.08.02-18.46.52:841][604]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003180s)
+[2019.08.02-18.46.52:841][604]LogAIModule: Creating AISystem for world FirstMap
+[2019.08.02-18.46.52:842][604]LogPlayLevel: PIE: World Init took: (0.000945s)
+[2019.08.02-18.46.52:842][604]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_1_FirstMap.FirstMap (0.004523s)
+[2019.08.02-18.46.52:878][604]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.08.02-18.46.52:884][604]LogInit: FAudioDevice initialized.
+[2019.08.02-18.46.52:892][604]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.02-18.46.52:954][604]LogLoad: Game class is 'BP_GameMode_C'
+[2019.08.02-18.46.52:956][604]LogWorld: Bringing World /Game/Levels/UEDPIE_1_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.02-20.46.52
+[2019.08.02-18.46.52:957][604]LogWorld: Bringing up level for play took: 0.001142
+[2019.08.02-18.46.52:975][604]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2019.08.02-18.46.52:977][604]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.08.02-18.46.52:977][604]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2019.08.02-18.46.52:977][604]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.08.02-18.46.52:977][604]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.08.02-18.46.52:978][604]LogInit: WinSock: Socket queue 131072 / 131072
+[2019.08.02-18.46.52:983][604]LogInit: WinSock: I am JoanPC (192.168.56.1:0)
+[2019.08.02-18.46.52:984][604]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.08.02-18.46.52:984][604]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2019.08.02-18.46.52:989][604]PIE: Play in editor start time for /Game/Levels/UEDPIE_1_FirstMap 0.801
+[2019.08.02-18.46.52:996][604]PIE: New page: PIE session: FirstMap (Aug 2, 2019, 10:46:52 PM)
+[2019.08.02-18.46.53:006][604]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.02-18.46.53:010][604]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.02-18.46.53:105][604]LogNet: Browse: 127.0.0.1:17777//Game/Levels/FirstMap
+[2019.08.02-18.46.53:105][604]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.08.02-18.46.53:106][604]LogTemp: Display: ParseSettings for IpNetDriver_1
+[2019.08.02-18.46.53:106][604]LogTemp: Display: ParseSettings for PendingNetDriver
+[2019.08.02-18.46.53:106][604]LogInit: WinSock: Socket queue 32768 / 32768
+[2019.08.02-18.46.53:107][604]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.08.02-18.46.53:107][604]LogNet: Game client on port 17777, rate 10000
+[2019.08.02-18.46.53:110][604]PIE: Play in editor start time for /Game/Levels/FirstMap 0.923
+[2019.08.02-18.46.53:123][604]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61503
+[2019.08.02-18.46.53:123][604]LogHandshake: SendConnectChallenge. Timestamp: 0.008334, Cookie: 206242000088003003083162021018251106220237178075077136182175
+[2019.08.02-18.46.53:127][604]LogHandshake: SendChallengeResponse. Timestamp: 0.008334, Cookie: 206242000088003003083162021018251106220237178075077136182175
+[2019.08.02-18.46.53:249][605]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61503
+[2019.08.02-18.46.53:249][605]LogHandshake: SendChallengeAck. InCookie: 206242000088003003083162021018251106220237178075077136182175
+[2019.08.02-18.46.53:249][605]LogNet: Server accepting post-challenge connection from: 127.0.0.1:61503
+[2019.08.02-18.46.53:250][605]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.08.02-18.46.53:250][605]LogNet: NotifyAcceptedConnection: Name: FirstMap, TimeStamp: 08/02/19 20:46:53, [UNetConnection] RemoteAddr: 127.0.0.1:61503, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.08.02-18.46.53:250][605]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:61503, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.08.02-18.46.53:251][605]LogNetVersion: Shooter_OW_Style 1.0.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3100246290)
+[2019.08.02-18.46.53:251][605]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.08.02-18.46.53:265][606]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Levels/UEDPIE_1_FirstMap.FirstMap: Accepted
+[2019.08.02-18.46.53:265][606]LogNet: Remote platform little endian=1
+[2019.08.02-18.46.53:265][606]LogNet: This platform little endian=1
+[2019.08.02-18.46.53:289][607]LogNet: Login request: /Game/Levels/FirstMap?Name=JoanPC-E849342A4335C26D0A09879F3EB51BAA userId: JoanPC-E849342A4335C26D0A09879F3EB51BAA
+[2019.08.02-18.46.53:290][607]LogNet: Welcomed by server (Level: /Game/Levels/UEDPIE_1_FirstMap, Game: /Game/Programming/Core/BP_GameMode.BP_GameMode_C)
+[2019.08.02-18.46.53:292][607]LogLoad: LoadMap: 127.0.0.1:17777//Game/Levels/UEDPIE_1_FirstMap?game=/Game/Programming/Core/BP_GameMode.BP_GameMode_C
+[2019.08.02-18.46.53:323][607]LogAIModule: Creating AISystem for world FirstMap
+[2019.08.02-18.46.53:323][607]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.08.02-18.46.53:324][607]LogWorld: Bringing World /Game/Levels/UEDPIE_2_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.02-20.46.53
+[2019.08.02-18.46.53:325][607]LogWorld: Bringing up level for play took: 0.000750
+[2019.08.02-18.46.53:325][607]LogLoad: Took 0.032689 seconds to LoadMap(/Game/Levels/UEDPIE_1_FirstMap)
+[2019.08.02-18.46.53:343][608]LogNet: Client netspeed is 10000
+[2019.08.02-18.46.53:344][608]LogNet: Join request: /Game/Levels/FirstMap?Name=JoanPC-E849342A4335C26D0A09879F3EB51BAA?SplitscreenCount=1
+[2019.08.02-18.46.53:344][608]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.08.02-18.46.53:347][608]LogNet: Join succeeded: JoanPC-E849342A4335C
+[2019.08.02-18.46.53:430][614]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.08.02-18.46.53:470][617]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.08.02-18.47.25:411][345]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.02-18.47.35:276][142]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.02-18.47.35:697][157]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.02-18.47.41:625][649]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.02-18.47.53:598][627]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.02-18.47.53:621][627]LogSlate: Window 'Shooter_OW_Style Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2019.08.02-18.47.53:656][627]LogOnline: Warning: OSS: No game present to leave for session (GameSession)
+[2019.08.02-18.47.53:656][627]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.02-18.47.53:674][627]LogSlate: Window 'Shooter_OW_Style Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2019.08.02-18.47.53:714][627]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.08.02-18.47.53:742][627]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61503, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:JoanPC-E849342A4335C26D0A09879F3EB51BAA
+[2019.08.02-18.47.53:742][627]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:61503, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:JoanPC-E849342A4335C26D0A09879F3EB51BAA, Channels: 2, Time: 2019.08.02-18.47.53
+[2019.08.02-18.47.53:742][627]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61503, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: None, Owner: None, UniqueId: NULL:JoanPC-E849342A4335C26D0A09879F3EB51BAA
+[2019.08.02-18.47.53:743][627]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:JoanPC-E849342A4335C26D0A09879F3EB51BAA
+[2019.08.02-18.47.53:743][627]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:JoanPC-E849342A4335C26D0A09879F3EB51BAA, Channels: 2, Time: 2019.08.02-18.47.53
+[2019.08.02-18.47.53:743][627]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: None, Owner: None, UniqueId: NULL:JoanPC-E849342A4335C26D0A09879F3EB51BAA
+[2019.08.02-18.47.53:750][627]LogExit: GameNetDriver None shut down
+[2019.08.02-18.47.53:750][627]LogExit: GameNetDriver None shut down
+[2019.08.02-18.47.53:772][628]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.08.02-18.47.53:772][628]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.08.02-18.48.32:826][971]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMapF53F484A499F172BF9D99B8D1E3A8B8D.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap'
+[2019.08.02-18.48.32:890][971]LogSavePackage: Moving '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/FirstMap_BuiltData0C284BAA4FD3100231EA4981C81CA6F8.tmp' to '../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap_BuiltData.uasset'

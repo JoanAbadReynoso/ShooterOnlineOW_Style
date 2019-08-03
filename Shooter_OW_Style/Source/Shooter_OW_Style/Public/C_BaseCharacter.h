@@ -55,6 +55,7 @@ protected:
 	UPROPERTY(EditDefaultsOnly, Category = "Player")
 	TSubclassOf<AA_BaseWeapon> StarterWeapon;
 
+	UPROPERTY(Replicated)
 	AA_BaseWeapon* CurrentWeapon;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Player")

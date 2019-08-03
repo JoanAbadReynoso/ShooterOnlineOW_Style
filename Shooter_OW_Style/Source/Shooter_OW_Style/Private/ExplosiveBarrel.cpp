@@ -20,7 +20,7 @@ AExplosiveBarrel::AExplosiveBarrel()
 
 	RadialForceComp = CreateDefaultSubobject<URadialForceComponent>(TEXT("RadialForceComp"));
 	RadialForceComp->SetupAttachment(BarrelMesh);
-	RadialForceComp->Radius = 250;
+	RadialForceComp->Radius = 650;
 	RadialForceComp->bImpulseVelChange = true;
 	RadialForceComp->bAutoActivate = false; // PREVENT COMPONENT FROM TICKING, AND ONLY USE FireImpulse() instead
 	RadialForceComp->bIgnoreOwningActor = true;
@@ -63,7 +63,7 @@ void AExplosiveBarrel::OnHealthChanged(UHealthComponent * OwningHealthComponent,
 		
 		RadialForceComp->FireImpulse();
 
-		UGameplayStatics::ApplyRadialDamage(GetWorld() , 10, GetActorLocation(), BaseDamage, DamageTypeSubClass, TArray<AActor*>(), this, (AController*)GetOwner(), true, ECC_PhysicsBody);
+		UGameplayStatics::ApplyRadialDamage(GetWorld() , BaseDamage	, GetActorLocation(), BaseDamage, DamageTypeSubClass, TArray<AActor*>(), this, (AController*)GetOwner(), true, ECC_PhysicsBody);
 
 
 	}

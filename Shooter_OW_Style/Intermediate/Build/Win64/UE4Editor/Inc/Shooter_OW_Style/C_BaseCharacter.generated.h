@@ -57,7 +57,8 @@ private: \
 	friend struct Z_Construct_UClass_AC_BaseCharacter_Statics; \
 public: \
 	DECLARE_CLASS(AC_BaseCharacter, ACharacter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Shooter_OW_Style"), NO_API) \
-	DECLARE_SERIALIZER(AC_BaseCharacter)
+	DECLARE_SERIALIZER(AC_BaseCharacter) \
+	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
 
 #define Shooter_OW_Style_Source_Shooter_OW_Style_Public_C_BaseCharacter_h_18_INCLASS \
@@ -66,7 +67,8 @@ private: \
 	friend struct Z_Construct_UClass_AC_BaseCharacter_Statics; \
 public: \
 	DECLARE_CLASS(AC_BaseCharacter, ACharacter, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Shooter_OW_Style"), NO_API) \
-	DECLARE_SERIALIZER(AC_BaseCharacter)
+	DECLARE_SERIALIZER(AC_BaseCharacter) \
+	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
 
 #define Shooter_OW_Style_Source_Shooter_OW_Style_Public_C_BaseCharacter_h_18_STANDARD_CONSTRUCTORS \
@@ -97,6 +99,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AC_BaseCharacter); \
 	FORCEINLINE static uint32 __PPO__ZoomedFOV() { return STRUCT_OFFSET(AC_BaseCharacter, ZoomedFOV); } \
 	FORCEINLINE static uint32 __PPO__ZoomInterpSpeed() { return STRUCT_OFFSET(AC_BaseCharacter, ZoomInterpSpeed); } \
 	FORCEINLINE static uint32 __PPO__StarterWeapon() { return STRUCT_OFFSET(AC_BaseCharacter, StarterWeapon); } \
+	FORCEINLINE static uint32 __PPO__CurrentWeapon() { return STRUCT_OFFSET(AC_BaseCharacter, CurrentWeapon); } \
 	FORCEINLINE static uint32 __PPO__WeaponAttachSocketName() { return STRUCT_OFFSET(AC_BaseCharacter, WeaponAttachSocketName); } \
 	FORCEINLINE static uint32 __PPO__bDied() { return STRUCT_OFFSET(AC_BaseCharacter, bDied); } \
 	FORCEINLINE static uint32 __PPO__CameraComp() { return STRUCT_OFFSET(AC_BaseCharacter, CameraComp); } \

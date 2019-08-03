@@ -14,6 +14,22 @@ class USkeletalMeshComponent;
 class UDamageType;
 class UParticleSystem;
 
+
+//Contanics information of a single hitscan weapon linetrace
+USTRUCT()
+struct FHitScanTrace
+{
+	GENERATED_BODY()
+
+public:
+
+	UPROPERTY()
+	TEnumAsByte<EPhysicalSurface> SurfaceType;
+	
+	UPROPERTY()
+	FVector_NetQuantize TraceTo;
+};
+
 UCLASS()
 class SHOOTER_OW_STYLE_API AA_BaseWeapon : public AActor
 {
@@ -53,6 +69,8 @@ protected:
 
 	void PlayFireEffects(FVector TraceEnd);
 
+	void PlayImpactEffects(EPhysicalSurface SurfaceType, FVector ImpactPoint);
+
 	UPROPERTY(EditDefaultsOnly, Category = "Weapon")
 	TSubclassOf<UCameraShake> FireCameraShake;
 
@@ -60,6 +78,9 @@ protected:
 	float baseDamage;
 
 	virtual void ShootFire();
+
+	UFUNCTION(Server, Reliable, WithValidation)
+	void ServerShootFire();
 
 	FTimerHandle TimeHandler_TimeBetweenShots;
 
@@ -69,6 +90,13 @@ protected:
 	float RateOfFire;
 
 	float TimeBetweenShots;
+
+
+	UPROPERTY(ReplicatedUsing=OnRep_HitScanTrace)
+	FHitScanTrace HitScanTrace;
+
+	UFUNCTION()
+	void OnRep_HitScanTrace();
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
