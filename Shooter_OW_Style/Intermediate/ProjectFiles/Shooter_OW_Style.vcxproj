@@ -572,8 +572,10 @@
     <None Include="..\..\Config\DefaultInput.ini" />
     <None Include="..\..\Source\Shooter_OW_Style\Shooter_OW_Style.Build.cs" />
     <ClCompile Include="..\..\Source\Shooter_OW_Style\Private\Claymore.cpp" />
+    <ClCompile Include="..\..\Source\Shooter_OW_Style\Private\TrackerBot.cpp" />
     <ClCompile Include="..\..\Source\Shooter_OW_Style\Shooter_OW_Style.cpp" />
     <ClInclude Include="..\..\Source\Shooter_OW_Style\Public\Claymore.h" />
+    <ClInclude Include="..\..\Source\Shooter_OW_Style\Public\TrackerBot.h" />
     <ClInclude Include="..\..\Source\Shooter_OW_Style\Shooter_OW_Style.h" />
     <ClCompile Include="..\..\Source\Shooter_OW_Style\Shooter_OW_StyleGameModeBase.cpp" />
     <ClInclude Include="..\..\Source\Shooter_OW_Style\Shooter_OW_StyleGameModeBase.h" />

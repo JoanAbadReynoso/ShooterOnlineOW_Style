@@ -18,15 +18,20 @@ class SHOOTER_OW_STYLE_API UHealthComponent : public UActorComponent
 public:	
 	// Sets default values for this component's properties
 	UHealthComponent();
+	
+	UPROPERTY(ReplicatedUsing = OnRep_Health, BlueprintReadOnly, Category = "HealthComponent")
+	float Health;
 
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
 
-	UPROPERTY(BlueprintReadOnly, Category = "HealthComponent")
-	float Health;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "HealthComponent")
+
+	UFUNCTION()
+	void OnRep_Health(float OldHealth);
+
+	UPROPERTY(Replicated, EditAnywhere, BlueprintReadWrite, Category = "HealthComponent")
 	float DefaultHealth;
 
 	UFUNCTION()

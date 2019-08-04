@@ -1,0 +1,29 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Shooter_OW_Style-8322.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\Shooter_OW_StyleEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\Shooter_OW_Style.cpp.obj"
+"C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\Shooter_OW_StyleGameModeBase.cpp.obj"
+"C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\A_BaseWeapon.cpp.obj"
+"C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\Claymore.cpp.obj"
+"C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\C_BaseCharacter.cpp.obj"
+"C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\ExplosiveBarrel.cpp.obj"
+"C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\GrenadeLauncher.cpp.obj"
+"C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\HealthComponent.cpp.obj"
+"C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\MyCameraShake.cpp.obj"
+"C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\A_BaseWeapon.gen.cpp.obj"
+"C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\Claymore.gen.cpp.obj"
+"C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\C_BaseCharacter.gen.cpp.obj"
+"C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\ExplosiveBarrel.gen.cpp.obj"
+"C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\GrenadeLauncher.gen.cpp.obj"
+"C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\HealthComponent.gen.cpp.obj"
+"C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\MyCameraShake.gen.cpp.obj"
+"C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\Shooter_OW_Style.init.gen.cpp.obj"
+"C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\Shooter_OW_StyleGameModeBase.gen.cpp.obj"
+"C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\PCLaunch.rc.res"
+/OUT:"C:\Users\Joan Abad\Documents\Github\New\ShooterOnlineOW_Style\Shooter_OW_Style\Intermediate\Build\Win64\UE4Editor\Development\Shooter_OW_Style\UE4Editor-Shooter_OW_Style-8322.lib"

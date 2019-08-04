@@ -13,7 +13,7 @@
 class USkeletalMeshComponent;
 class UDamageType;
 class UParticleSystem;
-
+class USoundCue;
 
 //Contanics information of a single hitscan weapon linetrace
 USTRUCT()
@@ -91,6 +91,8 @@ protected:
 
 	float TimeBetweenShots;
 
+	UPROPERTY(EditDefaultsOnly, Category = "Sounds")
+	USoundCue* RifleShotSound;
 
 	UPROPERTY(ReplicatedUsing=OnRep_HitScanTrace)
 	FHitScanTrace HitScanTrace;

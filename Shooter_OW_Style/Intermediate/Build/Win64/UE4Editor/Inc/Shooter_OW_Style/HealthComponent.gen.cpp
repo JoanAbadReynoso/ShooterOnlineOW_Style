@@ -22,6 +22,7 @@ void EmptyLinkFunctionForGeneratedCodeHealthComponent() {}
 	SHOOTER_OW_STYLE_API UClass* Z_Construct_UClass_UHealthComponent();
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 	SHOOTER_OW_STYLE_API UFunction* Z_Construct_UFunction_UHealthComponent_HandleTakeAnyDamage();
+	SHOOTER_OW_STYLE_API UFunction* Z_Construct_UFunction_UHealthComponent_OnRep_Health();
 // End Cross Module References
 	struct Z_Construct_UDelegateFunction_Shooter_OW_Style_OnHealthChangedSignature__DelegateSignature_Statics
 	{
@@ -96,6 +97,7 @@ void EmptyLinkFunctionForGeneratedCodeHealthComponent() {}
 		UClass* Class = UHealthComponent::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "HandleTakeAnyDamage", &UHealthComponent::execHandleTakeAnyDamage },
+			{ "OnRep_Health", &UHealthComponent::execOnRep_Health },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -155,6 +157,38 @@ void EmptyLinkFunctionForGeneratedCodeHealthComponent() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_UHealthComponent_OnRep_Health_Statics
+	{
+		struct HealthComponent_eventOnRep_Health_Parms
+		{
+			float OldHealth;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_OldHealth;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_UHealthComponent_OnRep_Health_Statics::NewProp_OldHealth = { UE4CodeGen_Private::EPropertyClass::Float, "OldHealth", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(HealthComponent_eventOnRep_Health_Parms, OldHealth), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UHealthComponent_OnRep_Health_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UHealthComponent_OnRep_Health_Statics::NewProp_OldHealth,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UHealthComponent_OnRep_Health_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/HealthComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UHealthComponent_OnRep_Health_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UHealthComponent, "OnRep_Health", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x00080401, sizeof(HealthComponent_eventOnRep_Health_Parms), Z_Construct_UFunction_UHealthComponent_OnRep_Health_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_UHealthComponent_OnRep_Health_Statics::PropPointers), 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UHealthComponent_OnRep_Health_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_UHealthComponent_OnRep_Health_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UHealthComponent_OnRep_Health()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UHealthComponent_OnRep_Health_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_UHealthComponent_NoRegister()
 	{
 		return UHealthComponent::StaticClass();
@@ -188,6 +222,7 @@ void EmptyLinkFunctionForGeneratedCodeHealthComponent() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UHealthComponent_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UHealthComponent_HandleTakeAnyDamage, "HandleTakeAnyDamage" }, // 1578289375
+		{ &Z_Construct_UFunction_UHealthComponent_OnRep_Health, "OnRep_Health" }, // 3656853663
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UHealthComponent_Statics::Class_MetaDataParams[] = {
@@ -210,14 +245,14 @@ void EmptyLinkFunctionForGeneratedCodeHealthComponent() {}
 		{ "ModuleRelativePath", "Public/HealthComponent.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UHealthComponent_Statics::NewProp_DefaultHealth = { UE4CodeGen_Private::EPropertyClass::Float, "DefaultHealth", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000005, 1, nullptr, STRUCT_OFFSET(UHealthComponent, DefaultHealth), METADATA_PARAMS(Z_Construct_UClass_UHealthComponent_Statics::NewProp_DefaultHealth_MetaData, ARRAY_COUNT(Z_Construct_UClass_UHealthComponent_Statics::NewProp_DefaultHealth_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UHealthComponent_Statics::NewProp_DefaultHealth = { UE4CodeGen_Private::EPropertyClass::Float, "DefaultHealth", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000025, 1, nullptr, STRUCT_OFFSET(UHealthComponent, DefaultHealth), METADATA_PARAMS(Z_Construct_UClass_UHealthComponent_Statics::NewProp_DefaultHealth_MetaData, ARRAY_COUNT(Z_Construct_UClass_UHealthComponent_Statics::NewProp_DefaultHealth_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UHealthComponent_Statics::NewProp_Health_MetaData[] = {
 		{ "Category", "HealthComponent" },
 		{ "ModuleRelativePath", "Public/HealthComponent.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UHealthComponent_Statics::NewProp_Health = { UE4CodeGen_Private::EPropertyClass::Float, "Health", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000014, 1, nullptr, STRUCT_OFFSET(UHealthComponent, Health), METADATA_PARAMS(Z_Construct_UClass_UHealthComponent_Statics::NewProp_Health_MetaData, ARRAY_COUNT(Z_Construct_UClass_UHealthComponent_Statics::NewProp_Health_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UHealthComponent_Statics::NewProp_Health = { UE4CodeGen_Private::EPropertyClass::Float, "Health", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000100000034, 1, "OnRep_Health", STRUCT_OFFSET(UHealthComponent, Health), METADATA_PARAMS(Z_Construct_UClass_UHealthComponent_Statics::NewProp_Health_MetaData, ARRAY_COUNT(Z_Construct_UClass_UHealthComponent_Statics::NewProp_Health_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UHealthComponent_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UHealthComponent_Statics::NewProp_OnHealthChanged,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UHealthComponent_Statics::NewProp_DefaultHealth,
@@ -246,7 +281,7 @@ void EmptyLinkFunctionForGeneratedCodeHealthComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UHealthComponent, 3311718442);
+	IMPLEMENT_CLASS(UHealthComponent, 1216866454);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UHealthComponent(Z_Construct_UClass_UHealthComponent, &UHealthComponent::StaticClass, TEXT("/Script/Shooter_OW_Style"), TEXT("UHealthComponent"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UHealthComponent);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

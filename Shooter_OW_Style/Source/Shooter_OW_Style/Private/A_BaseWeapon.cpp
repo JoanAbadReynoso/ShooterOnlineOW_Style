@@ -12,6 +12,7 @@
 #include "TimerManager.h"
 #include "Math/UnrealMathUtility.h"
 #include "Net/UnrealNetwork.h"
+#include "Sound/SoundCue.h"
 
 int32 DebugWeaponDrawing = 0;
 FAutoConsoleVariableRef CVARDDebugWeaponDrawing(TEXT("COOP.DebugWeapons"), DebugWeaponDrawing, TEXT("Draw Debug Lines for Weapons"), ECVF_Cheat);
@@ -83,6 +84,7 @@ void AA_BaseWeapon::ShootFire()
 		//IF WE HIT SOMETHING
 		if (GetWorld()->LineTraceSingleByChannel(Hit, EyeLocation, TraceEnd, COLLISION_WEAPON, QueryParams))
 		{
+			UGameplayStatics::PlaySoundAtLocation(GetWorld(), RifleShotSound, GetActorLocation());
 			//DO DAMAGE
 			AActor* HitActor = Hit.GetActor();
 

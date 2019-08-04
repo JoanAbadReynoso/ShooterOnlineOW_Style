@@ -105,10 +105,12 @@ void AC_BaseCharacter::EndZoom()
 
 void AC_BaseCharacter::Fire()
 {
+	
 	if (CurrentWeapon)
 	{
 		CurrentWeapon->StartFire();
 	}
+	
 }
 
 void AC_BaseCharacter::StopFire()
@@ -128,6 +130,8 @@ void AC_BaseCharacter::OnHealthChanged(UHealthComponent* OwningHealthComponent, 
 		GetCapsuleComponent()->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 
 		DetachFromControllerPendingDestroy();
+
+		StopFire();
 
 		SetLifeSpan(10.0f);
 	}
@@ -200,4 +204,5 @@ void AC_BaseCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& Out
 	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
 
 	DOREPLIFETIME(AC_BaseCharacter, CurrentWeapon); // DE ESTA MANERA REPLICAMOS ESTA VARIABLE A TODOS LOS CLIENTES
+	DOREPLIFETIME(AC_BaseCharacter, bDied);
 }

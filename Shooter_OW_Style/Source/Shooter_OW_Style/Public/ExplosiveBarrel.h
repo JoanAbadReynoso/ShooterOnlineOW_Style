@@ -11,6 +11,7 @@ class UStaticMeshComponent;
 class UParticleSystem;
 class URadialForceComponent;
 class UMaterialInterface;
+class USoundCue;
 
 UCLASS()
 class SHOOTER_OW_STYLE_API AExplosiveBarrel : public AActor
@@ -40,6 +41,7 @@ protected:
 	UFUNCTION()
 	void OnHealthChanged(UHealthComponent* OwningHealthComponent, float Health, float HealthDelta, const class UDamageType* DamageType, AController* InstigatedBy, AActor* DamageCauser);
 
+	UPROPERTY(ReplicatedUsing=OnRep_Exploded)
 	bool bExplode;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Components")
@@ -47,6 +49,12 @@ protected:
 
 	UPROPERTY(EditDefaultsOnly, Category = "FX")
 	float ExplosionImpulse;
+
+	UFUNCTION()
+	void OnRep_Exploded();
+
+	UPROPERTY(EditDefaultsOnly, Category = "Sound")
+	USoundCue* SC_Explossion;
 
 	UPROPERTY(EditDefaultsOnly, Category = "FX")
 	UParticleSystem* ExplosionEffect;

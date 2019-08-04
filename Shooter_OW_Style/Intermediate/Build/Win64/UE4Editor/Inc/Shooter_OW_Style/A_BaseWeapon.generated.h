@@ -128,6 +128,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AA_BaseWeapon); \
 	FORCEINLINE static uint32 __PPO__FireCameraShake() { return STRUCT_OFFSET(AA_BaseWeapon, FireCameraShake); } \
 	FORCEINLINE static uint32 __PPO__baseDamage() { return STRUCT_OFFSET(AA_BaseWeapon, baseDamage); } \
 	FORCEINLINE static uint32 __PPO__RateOfFire() { return STRUCT_OFFSET(AA_BaseWeapon, RateOfFire); } \
+	FORCEINLINE static uint32 __PPO__RifleShotSound() { return STRUCT_OFFSET(AA_BaseWeapon, RifleShotSound); } \
 	FORCEINLINE static uint32 __PPO__HitScanTrace() { return STRUCT_OFFSET(AA_BaseWeapon, HitScanTrace); }
 
 

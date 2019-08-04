@@ -53,6 +53,15 @@ static inline void FOnHealthChangedSignature_DelegateWrapper(const FMulticastScr
 		P_NATIVE_BEGIN; \
 		P_THIS->HandleTakeAnyDamage(Z_Param_DamagedActor,Z_Param_Damage,Z_Param_DamageType,Z_Param_InstigatedBy,Z_Param_DamageCauser); \
 		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnRep_Health) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_OldHealth); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnRep_Health(Z_Param_OldHealth); \
+		P_NATIVE_END; \
 	}
 
 
@@ -69,6 +78,15 @@ static inline void FOnHealthChangedSignature_DelegateWrapper(const FMulticastScr
 		P_NATIVE_BEGIN; \
 		P_THIS->HandleTakeAnyDamage(Z_Param_DamagedActor,Z_Param_Damage,Z_Param_DamageType,Z_Param_InstigatedBy,Z_Param_DamageCauser); \
 		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execOnRep_Health) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_OldHealth); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->OnRep_Health(Z_Param_OldHealth); \
+		P_NATIVE_END; \
 	}
 
 
@@ -78,7 +96,8 @@ private: \
 	friend struct Z_Construct_UClass_UHealthComponent_Statics; \
 public: \
 	DECLARE_CLASS(UHealthComponent, UActorComponent, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Shooter_OW_Style"), NO_API) \
-	DECLARE_SERIALIZER(UHealthComponent)
+	DECLARE_SERIALIZER(UHealthComponent) \
+	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
 
 #define Shooter_OW_Style_Source_Shooter_OW_Style_Public_HealthComponent_h_16_INCLASS \
@@ -87,7 +106,8 @@ private: \
 	friend struct Z_Construct_UClass_UHealthComponent_Statics; \
 public: \
 	DECLARE_CLASS(UHealthComponent, UActorComponent, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Shooter_OW_Style"), NO_API) \
-	DECLARE_SERIALIZER(UHealthComponent)
+	DECLARE_SERIALIZER(UHealthComponent) \
+	void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
 
 
 #define Shooter_OW_Style_Source_Shooter_OW_Style_Public_HealthComponent_h_16_STANDARD_CONSTRUCTORS \
@@ -115,7 +135,6 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UHealthComponent); \
 
 
 #define Shooter_OW_Style_Source_Shooter_OW_Style_Public_HealthComponent_h_16_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__Health() { return STRUCT_OFFSET(UHealthComponent, Health); } \
 	FORCEINLINE static uint32 __PPO__DefaultHealth() { return STRUCT_OFFSET(UHealthComponent, DefaultHealth); }
 
 

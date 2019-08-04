@@ -1,0 +1,1403 @@
+﻿Log file open, 08/04/19 15:50:53
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Shooter_OW_Style
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.266602
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.129s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 8.1 (), CPU: Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.003s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.08.04-13.50.54:162][  0]LogInit: Selected Device Profile: [Windows]
+[2019.08.04-13.50.54:162][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.08.04-13.50.54:171][  0]LogHAL: Display: Platform has ~ 16 GB [17137950720 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.08.04-13.50.54:171][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.08.04-13.50.54:171][  0]LogInit: Going up to parent DeviceProfile []
+[2019.08.04-13.50.54:172][  0]LogInit: Computer: JOANPC
+[2019.08.04-13.50.54:172][  0]LogInit: User: JoanAbad
+[2019.08.04-13.50.54:172][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.08.04-13.50.54:172][  0]LogInit: High frequency timer resolution =3.421873 MHz
+[2019.08.04-13.50.54:172][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.08.04-13.50.54:172][  0]LogMemory: Platform Memory Stats for Windows
+[2019.08.04-13.50.54:172][  0]LogMemory: Process Physical Memory: 101.20 MB used, 101.20 MB peak
+[2019.08.04-13.50.54:172][  0]LogMemory: Process Virtual Memory: 94.67 MB used, 94.67 MB peak
+[2019.08.04-13.50.54:172][  0]LogMemory: Physical Memory: 10629.00 MB used,  5715.02 MB free, 16344.02 MB total
+[2019.08.04-13.50.54:172][  0]LogMemory: Virtual Memory: 484.88 MB used,  5715.02 MB free, 134217728.00 MB total
+[2019.08.04-13.50.54:273][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.08.04-13.50.54:273][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.08.04-13.50.54:687][  0]LogStreaming: Display: Took  0.414s to InitEngineTextLocalization.
+[2019.08.04-13.50.54:687][  0]LogInit: Setting process to per monitor DPI aware
+[2019.08.04-13.50.54:719][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.08.04-13.50.54:719][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.08.04-13.50.54:879][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.08.04-13.50.54:879][  0]LogD3D11RHI: D3D11 adapters:
+[2019.08.04-13.50.54:950][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.08.04-13.50.54:950][  0]LogD3D11RHI:       8046/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.08.04-13.50.54:956][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.08.04-13.50.54:956][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.08.04-13.50.54:956][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.08.04-13.50.54:964][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.08.04-13.50.54:964][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2019.08.04-13.50.54:964][  0]LogWindows: EnumDisplayDevices:
+[2019.08.04-13.50.54:964][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2019.08.04-13.50.54:964][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2019.08.04-13.50.54:965][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.08.04-13.50.54:965][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.08.04-13.50.54:965][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.08.04-13.50.54:965][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.08.04-13.50.54:965][  0]LogD3D11RHI:   Driver Version: 431.60 (internal:26.21.14.3160, unified:431.60)
+[2019.08.04-13.50.54:965][  0]LogD3D11RHI:      Driver Date: 7-17-2019
+[2019.08.04-13.50.54:965][  0]LogRHI: Texture pool is 5632 MB (70% of 8046 MB)
+[2019.08.04-13.50.54:994][  0]LogD3D11RHI: Async texture creation enabled
+[2019.08.04-13.50.55:015][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.08.04-13.50.55:059][  0]LogShaderCompilers: Guid format shader working directory is -44 characters bigger than the processId version (../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Intermediate/Shaders/WorkingDirectory/10220/).
+[2019.08.04-13.50.55:060][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Joan Abad/AppData/Local/Temp/UnrealShaderWorkingDir/9326F8D241E8410FFFD8079A025F24DB/'.
+[2019.08.04-13.50.55:302][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.08.04-13.50.55:316][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.08.04-13.50.55:332][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.08.04-13.50.55:347][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.08.04-13.50.55:363][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.08.04-13.50.55:377][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.08.04-13.50.55:393][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.08.04-13.50.55:408][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.08.04-13.50.55:417][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.08.04-13.50.55:502][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.04-13.50.55:502][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.04-13.50.55:502][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.04-13.50.55:502][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.04-13.50.55:502][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.04-13.50.55:502][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.04-13.50.55:502][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.04-13.50.55:502][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.04-13.50.55:502][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.04-13.50.55:503][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.04-13.50.55:503][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.04-13.50.55:503][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.04-13.50.55:503][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.04-13.50.55:503][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.04-13.50.55:503][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.04-13.50.55:503][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.04-13.50.55:503][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.04-13.50.55:503][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.04-13.50.55:513][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.08.04-13.50.55:603][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.08.04-13.50.55:603][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.08.04-13.50.55:628][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.08.04-13.50.55:628][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.08.04-13.50.55:641][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.08.04-13.50.55:657][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.08.04-13.50.55:672][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.08.04-13.50.55:685][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.08.04-13.50.55:694][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.08.04-13.50.55:695][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.08.04-13.50.55:798][  0]LogXGEController: Cleaning working directory: C:/Users/Joan Abad/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.08.04-13.50.55:828][  0]LogShaderCompilers: Display: Using XGE Shader Compiler (Interception Interface).
+[2019.08.04-13.50.56:582][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.08.04-13.50.56:664][  0]LogDerivedDataCache: Loaded boot cache 0.08s 71MB C:/Users/Joan Abad/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.08.04-13.50.56:664][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Joan Abad/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.08.04-13.50.56:665][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.08.04-13.50.56:665][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.08.04-13.50.56:665][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.08.04-13.50.56:665][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.08.04-13.50.56:680][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.08.04-13.50.56:693][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Joan Abad/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.08.04-13.50.56:693][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.08.04-13.50.56:693][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.08.04-13.50.56:713][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.08.04-13.50.56:715][  0]LogSlate: Using FreeType 2.6.0
+[2019.08.04-13.50.56:715][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.08.04-13.50.56:790][  0]LogAssetRegistry: FAssetRegistry took 0.0305 seconds to start up
+[2019.08.04-13.50.57:104][  0]LogInit: Selected Device Profile: [Windows]
+[2019.08.04-13.50.57:253][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.08.04-13.50.57:258][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.08.04-13.50.57:258][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.08.04-13.50.57:258][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.08.04-13.50.57:258][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.08.04-13.50.57:277][  0]LogNetVersion: Shooter_OW_Style 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1206910907)
+[2019.08.04-13.50.57:772][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.047043 seconds
+[2019.08.04-13.50.57:780][  0]LogUObjectArray: 38428 objects as part of root set at end of initial load.
+[2019.08.04-13.50.57:780][  0]LogUObjectAllocator: 6691584 out of 0 bytes used by permanent object pool.
+[2019.08.04-13.50.57:780][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.08.04-13.50.58:689][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.08.04-13.50.58:705][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.08.04-13.50.58:884][  0]SourceControl: Source control is disabled
+[2019.08.04-13.50.58:888][  0]SourceControl: Source control is disabled
+[2019.08.04-13.50.58:896][  0]SourceControl: Source control is disabled
+[2019.08.04-13.50.58:897][  0]SourceControl: Source control is disabled
+[2019.08.04-13.50.59:218][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.08.04-13.50.59:334][  0]LogOcInput: OculusInput pre-init called
+[2019.08.04-13.50.59:400][  0]LogEngine: Initializing Engine...
+[2019.08.04-13.50.59:400][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.08.04-13.50.59:402][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.08.04-13.50.59:402][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.08.04-13.50.59:402][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.08.04-13.50.59:402][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.08.04-13.50.59:653][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.08.04-13.50.59:677][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.08.04-13.50.59:701][  0]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.08.04-13.50.59:711][  0]LogInit: FAudioDevice initialized.
+[2019.08.04-13.50.59:712][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.08.04-13.51.00:086][  0]LogDerivedDataCache: Saved boot cache 0.37s 71MB C:/Users/Joan Abad/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.08.04-13.51.00:087][  0]LogInit: Texture streaming: Enabled
+[2019.08.04-13.51.00:108][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.08.04-13.51.00:108][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={C590FA4B-43AA-0F2B-D4E4-158BE2A73FE8}
+[2019.08.04-13.51.00:118][  0]LogInit: Transaction tracking system initialized
+[2019.08.04-13.51.00:146][  0]BlueprintLog: New page: Editor Load
+[2019.08.04-13.51.00:255][  0]LocalizationService: Localization service is disabled
+[2019.08.04-13.51.00:652][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2019.08.04-13.51.00:653][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2019.08.04-13.51.00:653][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2019.08.04-13.51.00:845][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.08.04-13.51.00:846][  0]LogCook: Display: Mobile HDR setting 1
+[2019.08.04-13.51.00:846][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.08.04-13.51.00:846][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.08.04-13.51.00:846][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.08.04-13.51.00:846][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.08.04-13.51.00:846][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.08.04-13.51.01:026][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/' took 0.01s
+[2019.08.04-13.51.01:027][  0]SourceControl: Source control is disabled
+[2019.08.04-13.51.01:028][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Levels/FirstMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.08.04-13.51.01:028][  0]LightingResults: New page: Lighting Build
+[2019.08.04-13.51.01:032][  0]MapCheck: New page: Map Check
+[2019.08.04-13.51.01:032][  0]LightingResults: New page: Lighting Build
+[2019.08.04-13.51.01:231][  0]LogLinker: Error: HOTRELOADED_HealthComponent_1 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Materials/UI/WBP_HealthIndicator.uasset)
+[2019.08.04-13.51.01:234][  0]LogLinker: Error: HOTRELOADED_HealthComponent_1 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Materials/UI/WBP_HealthIndicator.uasset)
+[2019.08.04-13.51.01:235][  0]LogLinker: Error: HOTRELOADED_HealthComponent_1 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Materials/UI/WBP_HealthIndicator.uasset)
+[2019.08.04-13.51.01:236][  0]LogLinker: Error: HOTRELOADED_HealthComponent_1 has an inappropriate outermost, it was probably saved with a deprecated outer (file: ../../../../../../Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Materials/UI/WBP_HealthIndicator.uasset)
+[2019.08.04-13.51.01:713][  0]LogAIModule: Creating AISystem for world FirstMap
+[2019.08.04-13.51.01:726][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.08.04-13.51.01:751][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.08.04-13.51.01:810][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 59.526ms to complete.
+[2019.08.04-13.51.01:811][  0]LogFileHelpers: Loading map 'FirstMap' took 0.783
+[2019.08.04-13.51.01:911][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.04-13.51.01:918][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.04-13.51.01:927][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.04-13.51.01:937][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.04-13.51.01:945][  0]LogCollectionManager: Loaded 0 collections in 0.001375 seconds
+[2019.08.04-13.51.02:005][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Saved/Collections/' took 0.02s
+[2019.08.04-13.51.02:005][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Developers/JoanAbad/Collections/' took 0.02s
+[2019.08.04-13.51.02:005][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joan Abad/Documents/Github/New/ShooterOnlineOW_Style/Shooter_OW_Style/Content/Collections/' took 0.02s
+[2019.08.04-13.51.02:005][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.08.04-13.51.02:014][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2581 classes and 606 folders.
+[2019.08.04-13.51.02:022][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.08.04-13.51.02:051][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.08.04-13.51.02:058][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.08.04-13.51.02:136][  0]LogSlate: Took 0.000268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.08.04-13.51.02:137][  0]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.08.04-13.51.02:218][  0]LogRenderer: Reallocating scene render targets to support 1716x884 Format 10 NumSamples 1 (Frame:1).
+[2019.08.04-13.51.02:380][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.08.04-13.51.02:381][  0]LogLoad: (Engine Initialization) Total time: 9.62 seconds
+[2019.08.04-13.51.02:381][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.08.04-13.51.02:413][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.08.04-13.51.02:433][  1]LogAssetRegistry: Asset discovery search completed in 5.6691 seconds
+[2019.08.04-13.51.02:435][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.08.04-13.51.02:435][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000122 seconds (updated 0 objects)
+[2019.08.04-13.51.11:630][ 81]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.04-13.51.11:714][ 91]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.08.04-13.51.11:736][ 91]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.04-13.51.11:756][ 91]PIE: New page: PIE session: FirstMap (Aug 4, 2019, 5:51:11 PM)
+[2019.08.04-13.51.11:756][ 91]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_1_FirstMap
+[2019.08.04-13.51.11:764][ 91]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007137s)
+[2019.08.04-13.51.11:765][ 91]LogAIModule: Creating AISystem for world FirstMap
+[2019.08.04-13.51.11:767][ 91]LogPlayLevel: PIE: World Init took: (0.002477s)
+[2019.08.04-13.51.11:767][ 91]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstMap.FirstMap to /Game/Levels/UEDPIE_1_FirstMap.FirstMap (0.010407s)
+[2019.08.04-13.51.11:793][ 91]LogInit: XAudio2 using 'Altavoces (5- Logitech G933 Gaming Wireless Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.08.04-13.51.11:802][ 91]LogInit: FAudioDevice initialized.
+[2019.08.04-13.51.11:812][ 91]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.04-13.51.11:932][ 91]LogLoad: Game class is 'BP_GameMode_C'
+[2019.08.04-13.51.11:934][ 91]LogWorld: Bringing World /Game/Levels/UEDPIE_1_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.04-15.51.11
+[2019.08.04-13.51.11:935][ 91]LogWorld: Bringing up level for play took: 0.001615
+[2019.08.04-13.51.11:952][ 91]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2019.08.04-13.51.11:955][ 91]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.08.04-13.51.11:955][ 91]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2019.08.04-13.51.11:955][ 91]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.08.04-13.51.11:955][ 91]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.08.04-13.51.11:955][ 91]LogInit: WinSock: Socket queue 131072 / 131072
+[2019.08.04-13.51.11:959][ 91]LogInit: WinSock: I am JoanPC (192.168.56.1:0)
+[2019.08.04-13.51.11:963][ 91]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.08.04-13.51.11:963][ 91]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2019.08.04-13.51.11:967][ 91]PIE: Play in editor start time for /Game/Levels/UEDPIE_1_FirstMap 0.781
+[2019.08.04-13.51.11:974][ 91]PIE: New page: PIE session: FirstMap (Aug 4, 2019, 5:51:11 PM)
+[2019.08.04-13.51.11:985][ 91]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.04-13.51.11:987][ 91]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.04-13.51.12:088][ 91]LogNet: Browse: 127.0.0.1:17777//Game/Levels/FirstMap
+[2019.08.04-13.51.12:088][ 91]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.08.04-13.51.12:088][ 91]LogTemp: Display: ParseSettings for IpNetDriver_1
+[2019.08.04-13.51.12:088][ 91]LogTemp: Display: ParseSettings for PendingNetDriver
+[2019.08.04-13.51.12:088][ 91]LogInit: WinSock: Socket queue 32768 / 32768
+[2019.08.04-13.51.12:089][ 91]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.08.04-13.51.12:089][ 91]LogNet: Game client on port 17777, rate 10000
+[2019.08.04-13.51.12:092][ 91]PIE: Play in editor start time for /Game/Levels/FirstMap 0.905
+[2019.08.04-13.51.12:101][ 91]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:53784
+[2019.08.04-13.51.12:101][ 91]LogHandshake: SendConnectChallenge. Timestamp: 0.008333, Cookie: 063244183224097139203083157096080088088078004111056137192023
+[2019.08.04-13.51.12:102][ 91]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:107][ 91]LogHandshake: SendChallengeResponse. Timestamp: 0.008333, Cookie: 063244183224097139203083157096080088088078004111056137192023
+[2019.08.04-13.51.12:214][ 92]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:53784
+[2019.08.04-13.51.12:214][ 92]LogHandshake: SendChallengeAck. InCookie: 063244183224097139203083157096080088088078004111056137192023
+[2019.08.04-13.51.12:214][ 92]LogNet: Server accepting post-challenge connection from: 127.0.0.1:53784
+[2019.08.04-13.51.12:215][ 92]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.08.04-13.51.12:215][ 92]LogNet: NotifyAcceptedConnection: Name: FirstMap, TimeStamp: 08/04/19 15:51:12, [UNetConnection] RemoteAddr: 127.0.0.1:53784, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.08.04-13.51.12:215][ 92]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:53784, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.08.04-13.51.12:216][ 92]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:217][ 92]LogNetVersion: Shooter_OW_Style 1.0.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3100246290)
+[2019.08.04-13.51.12:217][ 92]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.08.04-13.51.12:254][ 93]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Levels/UEDPIE_1_FirstMap.FirstMap: Accepted
+[2019.08.04-13.51.12:254][ 93]LogNet: Remote platform little endian=1
+[2019.08.04-13.51.12:254][ 93]LogNet: This platform little endian=1
+[2019.08.04-13.51.12:255][ 93]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:277][ 94]LogNet: Login request: /Game/Levels/FirstMap?Name=JoanPC-8B5451474B66233C6F8A4492BA88422E userId: JoanPC-8B5451474B66233C6F8A4492BA88422E
+[2019.08.04-13.51.12:278][ 94]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:279][ 94]LogNet: Welcomed by server (Level: /Game/Levels/UEDPIE_1_FirstMap, Game: /Game/Programming/Core/BP_GameMode.BP_GameMode_C)
+[2019.08.04-13.51.12:281][ 94]LogLoad: LoadMap: 127.0.0.1:17777//Game/Levels/UEDPIE_1_FirstMap?game=/Game/Programming/Core/BP_GameMode.BP_GameMode_C
+[2019.08.04-13.51.12:309][ 94]LogAIModule: Creating AISystem for world FirstMap
+[2019.08.04-13.51.12:309][ 94]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.08.04-13.51.12:311][ 94]LogWorld: Bringing World /Game/Levels/UEDPIE_2_FirstMap.FirstMap up for play (max tick rate 0) at 2019.08.04-15.51.12
+[2019.08.04-13.51.12:311][ 94]LogWorld: Bringing up level for play took: 0.001687
+[2019.08.04-13.51.12:312][ 94]LogLoad: Took 0.031084 seconds to LoadMap(/Game/Levels/UEDPIE_1_FirstMap)
+[2019.08.04-13.51.12:330][ 95]LogNet: Client netspeed is 10000
+[2019.08.04-13.51.12:330][ 95]LogNet: Join request: /Game/Levels/FirstMap?Name=JoanPC-8B5451474B66233C6F8A4492BA88422E?SplitscreenCount=1
+[2019.08.04-13.51.12:330][ 95]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.08.04-13.51.12:333][ 95]LogNet: Join succeeded: JoanPC-8B5451474B662
+[2019.08.04-13.51.12:334][ 95]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:347][ 96]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:359][ 97]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:367][ 98]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:378][ 99]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:389][100]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:400][101]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:414][102]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:425][103]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:434][104]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:445][105]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:455][106]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:466][107]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:470][107]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:480][108]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:481][108]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:492][109]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:494][109]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.08.04-13.51.12:494][109]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:503][110]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:505][110]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:515][111]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:516][111]LogOnline: Warning: OSS: No game present to join for session (GameSession)
+[2019.08.04-13.51.12:517][111]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:526][112]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:528][112]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:537][113]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:538][113]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:548][114]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:550][114]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:557][115]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:558][115]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:567][116]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:569][116]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:580][117]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:582][117]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:590][118]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:591][118]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:599][119]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:601][119]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:608][120]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:610][120]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:619][121]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:620][121]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:628][122]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:630][122]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:637][123]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:639][123]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:648][124]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:649][124]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:657][125]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:658][125]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:666][126]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:668][126]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:676][127]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:678][127]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:691][128]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:692][128]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:701][129]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:703][129]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:711][130]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:712][130]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:722][131]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:723][131]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:732][132]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:733][132]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:741][133]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:743][133]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:752][134]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:753][134]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:761][135]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:764][135]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:771][136]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:773][136]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:782][137]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:783][137]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:791][138]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:793][138]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:806][139]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:807][139]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:816][140]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:817][140]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:825][141]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:826][141]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:835][142]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:837][142]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:845][143]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:847][143]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:855][144]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:857][144]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:866][145]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:867][145]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:876][146]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:878][146]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:887][147]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:889][147]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:897][148]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:898][148]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:906][149]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:907][149]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:917][150]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:918][150]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:927][151]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:928][151]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:938][152]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:939][152]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:949][153]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:952][153]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:959][154]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:961][154]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:969][155]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:971][155]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:979][156]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:981][156]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:988][157]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:989][157]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.12:998][158]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.12:999][158]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:007][159]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:008][159]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:017][160]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:018][160]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:027][161]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:028][161]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:037][162]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:038][162]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:049][163]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:050][163]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:058][164]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:059][164]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:070][165]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:074][165]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:083][166]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:088][166]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:097][167]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:099][167]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:108][168]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:109][168]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:119][169]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:121][169]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:129][170]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:132][170]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:140][171]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:141][171]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:150][172]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:152][172]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:161][173]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:171][173]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:180][174]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:182][174]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:190][175]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:191][175]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:199][176]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:201][176]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:210][177]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:213][177]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:222][178]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:223][178]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:232][179]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:234][179]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:241][180]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:243][180]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:252][181]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:253][181]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:260][182]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:264][182]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:271][183]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:272][183]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:281][184]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:283][184]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:290][185]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:292][185]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:300][186]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:302][186]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:310][187]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:312][187]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:320][188]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:322][188]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:334][189]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:336][189]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:343][190]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:345][190]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:354][191]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:356][191]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:364][192]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:366][192]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:375][193]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:376][193]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:385][194]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:386][194]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:394][195]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:396][195]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:404][196]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:405][196]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:414][197]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:416][197]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:424][198]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:425][198]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:436][199]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:437][199]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:446][200]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:447][200]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:455][201]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:456][201]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:465][202]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:467][202]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:474][203]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:476][203]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:485][204]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:486][204]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:495][205]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:497][205]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:505][206]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:506][206]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:515][207]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:516][207]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:525][208]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:526][208]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:537][209]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:538][209]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:549][210]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:551][210]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:559][211]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:564][211]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:572][212]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:573][212]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:584][213]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:585][213]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:594][214]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:597][214]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:604][215]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:606][215]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:615][216]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:617][216]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:624][217]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:626][217]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:633][218]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:635][218]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:644][219]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:645][219]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:655][220]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:657][220]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:665][221]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:667][221]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:674][222]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:676][222]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:685][223]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:686][223]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:694][224]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:697][224]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:705][225]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:706][225]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:716][226]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:717][226]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:725][227]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:727][227]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:736][228]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:740][228]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:750][229]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:751][229]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:758][230]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:760][230]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:772][231]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:774][231]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:783][232]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:786][232]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:794][233]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:797][233]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:807][234]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:809][234]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:817][235]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:819][235]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:827][236]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:830][236]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:837][237]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:838][237]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:848][238]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:849][238]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:857][239]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:858][239]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:867][240]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:868][240]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:877][241]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:879][241]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:888][242]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:889][242]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:897][243]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:899][243]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:907][244]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:908][244]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:918][245]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:920][245]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:928][246]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:929][246]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:937][247]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:938][247]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:948][248]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:949][248]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:958][249]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:959][249]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:971][250]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:972][250]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:981][251]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:984][251]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.13:992][252]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.13:994][252]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:001][253]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:004][253]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:012][254]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:013][254]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:022][255]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:023][255]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:034][256]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:035][256]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:043][257]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:045][257]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:054][258]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:055][258]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:063][259]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:066][259]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:076][260]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:077][260]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:086][261]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:088][261]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:096][262]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:098][262]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:105][263]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:106][263]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:116][264]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:118][264]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:125][265]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:127][265]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:136][266]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:137][266]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:146][267]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:148][267]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:156][268]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:157][268]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:171][269]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:173][269]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:184][270]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:185][270]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:193][271]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:196][271]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:204][272]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:206][272]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:215][273]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:217][273]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:225][274]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:226][274]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:235][275]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:236][275]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:244][276]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:246][276]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:255][277]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:256][277]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:265][278]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:267][278]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:276][279]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:279][279]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:287][280]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:289][280]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:297][281]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:302][281]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:309][282]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:315][282]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:323][283]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:324][283]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:333][284]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:335][284]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:344][285]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:348][285]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:356][286]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:357][286]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:366][287]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:368][287]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:376][288]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:377][288]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:387][289]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:388][289]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:397][290]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:399][290]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:406][291]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:408][291]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:417][292]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:418][292]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:426][293]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:427][293]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:436][294]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:437][294]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:446][295]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:447][295]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:456][296]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:457][296]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:464][297]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:466][297]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:473][298]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:475][298]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:485][299]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:486][299]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:493][300]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:495][300]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:507][301]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:509][301]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:518][302]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:519][302]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:527][303]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:530][303]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:538][304]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:539][304]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:549][305]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:550][305]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:558][306]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:559][306]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:571][307]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:574][307]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:583][308]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:585][308]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:593][309]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:594][309]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:602][310]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:604][310]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:613][311]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:614][311]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:622][312]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:623][312]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:631][313]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:633][313]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:641][314]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:642][314]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:651][315]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:653][315]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:660][316]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:661][316]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:671][317]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:672][317]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:681][318]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:682][318]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:689][319]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:691][319]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:699][320]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:701][320]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:708][321]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:709][321]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:720][322]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:722][322]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:730][323]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:731][323]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:738][324]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:740][324]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:748][325]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:749][325]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:757][326]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:759][326]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:767][327]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:769][327]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:780][328]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:781][328]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:789][329]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:791][329]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:799][330]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:801][330]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:808][331]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:809][331]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:819][332]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:821][332]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:830][333]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:831][333]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:839][334]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:841][334]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:851][335]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:852][335]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:860][336]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:862][336]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:870][337]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:872][337]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:881][338]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:882][338]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:890][339]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:891][339]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:898][340]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:899][340]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:911][341]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:913][341]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:921][342]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:922][342]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:930][343]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:931][343]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:940][344]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:941][344]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:950][345]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:952][345]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:959][346]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:961][346]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:971][347]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:972][347]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:982][348]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:985][348]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.14:993][349]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.14:994][349]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:004][350]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:006][350]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:015][351]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:016][351]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:024][352]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:025][352]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:033][353]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:036][353]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:044][354]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:045][354]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:054][355]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:055][355]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:063][356]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:064][356]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:074][357]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:076][357]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:086][358]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:088][358]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:098][359]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:100][359]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:108][360]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:109][360]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:118][361]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:120][361]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:128][362]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:130][362]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:139][363]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:140][363]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:149][364]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:150][364]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:158][365]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:159][365]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:168][366]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:170][366]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:177][367]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:179][367]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:188][368]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:189][368]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:198][369]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:200][369]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:208][370]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:210][370]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:219][371]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:220][371]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:227][372]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:230][372]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:238][373]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:239][373]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:249][374]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:250][374]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:258][375]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:260][375]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:268][376]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:269][376]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:278][377]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:279][377]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:288][378]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:289][378]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:297][379]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:298][379]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:307][380]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:308][380]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:317][381]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:318][381]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:326][382]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:329][382]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:337][383]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:339][383]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:348][384]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:350][384]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:358][385]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:359][385]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:369][386]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:370][386]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:379][387]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:380][387]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:388][388]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:389][388]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:397][389]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:400][389]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:407][390]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:408][390]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:418][391]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:421][391]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:429][392]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:432][392]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:440][393]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:441][393]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:451][394]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:452][394]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:460][395]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:464][395]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:472][396]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:473][396]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:482][397]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:484][397]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:491][398]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:493][398]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:501][399]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:503][399]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:511][400]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:513][400]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:521][401]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:523][401]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:531][402]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:533][402]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:541][403]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:542][403]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:552][404]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:553][404]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:561][405]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:566][405]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:573][406]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:574][406]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:584][407]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:585][407]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:593][408]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:597][408]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:604][409]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:606][409]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:615][410]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:617][410]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:625][411]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:627][411]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:635][412]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:637][412]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:646][413]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:649][413]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:658][414]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:660][414]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:670][415]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:671][415]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:681][416]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:682][416]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:690][417]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:692][417]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:701][418]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:703][418]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:710][419]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:714][419]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:722][420]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:724][420]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:733][421]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:735][421]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:743][422]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:744][422]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:754][423]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:755][423]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:764][424]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:765][424]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:774][425]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:775][425]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:785][426]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:786][426]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:794][427]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:796][427]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:805][428]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:806][428]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:815][429]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:817][429]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:825][430]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:826][430]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:834][431]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:836][431]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:845][432]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:847][432]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:855][433]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:858][433]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:866][434]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:867][434]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:875][435]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:878][435]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:887][436]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:889][436]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:897][437]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:900][437]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:908][438]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:909][438]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:918][439]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:920][439]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:929][440]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:930][440]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:938][441]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:940][441]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:949][442]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:950][442]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:959][443]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:960][443]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:968][444]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:972][444]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:982][445]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:984][445]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.15:991][446]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.15:993][446]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:001][447]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:002][447]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:010][448]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:012][448]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:021][449]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:023][449]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:031][450]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:033][450]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:041][451]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:042][451]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:052][452]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:053][452]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:061][453]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:067][453]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:075][454]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:079][454]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:088][455]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:090][455]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:098][456]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:100][456]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:108][457]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:110][457]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:119][458]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:120][458]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:128][459]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:130][459]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:137][460]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:138][460]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:147][461]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:148][461]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:156][462]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:157][462]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:166][463]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:167][463]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:175][464]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:176][464]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:186][465]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:187][465]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:196][466]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:197][466]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:205][467]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:207][467]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:216][468]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:218][468]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:227][469]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:228][469]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:237][470]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:239][470]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:248][471]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:249][471]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:257][472]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:258][472]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:268][473]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:269][473]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:277][474]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:280][474]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:290][475]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:291][475]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:299][476]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:300][476]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:308][477]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:310][477]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:319][478]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:321][478]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:329][479]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:330][479]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:337][480]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:339][480]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:348][481]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:350][481]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:357][482]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:358][482]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:366][483]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:368][483]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:375][484]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:380][484]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:389][485]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:390][485]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:399][486]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:400][486]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:409][487]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:410][487]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:420][488]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:421][488]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:430][489]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:431][489]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:438][490]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:440][490]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:450][491]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:451][491]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:459][492]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:461][492]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:469][493]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:471][493]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:480][494]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:481][494]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:489][495]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:490][495]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:498][496]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:504][496]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:514][497]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:515][497]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:523][498]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:524][498]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:533][499]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:534][499]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:543][500]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:545][500]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:555][501]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:556][501]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:564][502]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:567][502]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:575][503]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:577][503]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:587][504]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:588][504]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:597][505]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:599][505]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:609][506]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:610][506]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:621][507]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:622][507]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:630][508]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:633][508]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:641][509]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:643][509]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:652][510]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:654][510]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:662][511]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:664][511]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:671][512]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:673][512]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:682][513]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:684][513]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:691][514]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:692][514]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:701][515]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:704][515]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:712][516]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:714][516]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:723][517]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:725][517]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:733][518]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:735][518]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:744][519]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:745][519]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:755][520]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:756][520]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:765][521]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:767][521]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:775][522]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:778][522]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:788][523]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:789][523]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:798][524]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:800][524]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:808][525]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:810][525]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:820][526]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:821][526]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:830][527]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:832][527]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:841][528]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:842][528]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:851][529]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:853][529]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:861][530]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:864][530]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:873][531]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:874][531]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:883][532]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:885][532]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:897][533]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:899][533]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:907][534]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:909][534]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:918][535]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:923][535]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:934][536]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:935][536]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:943][537]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:947][537]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:957][538]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:959][538]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:970][539]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:973][539]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:982][540]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:984][540]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.16:992][541]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.16:993][541]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:001][542]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.17:005][542]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:014][543]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.17:015][543]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:023][544]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.17:025][544]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:033][545]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.17:035][545]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:043][546]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.17:045][546]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:054][547]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.17:055][547]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:064][548]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.17:065][548]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:077][549]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.17:081][549]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:092][550]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.17:093][550]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:103][551]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.17:106][551]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:119][552]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.17:121][552]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:131][553]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.17:136][553]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:147][554]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.17:153][554]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:166][555]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.17:168][555]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:177][556]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.17:181][556]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:192][557]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.17:199][557]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:209][558]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.17:211][558]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:220][559]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.17:221][559]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:229][560]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.17:233][560]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:242][561]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.17:244][561]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:255][562]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.17:257][562]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:266][563]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.17:268][563]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:278][564]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.17:280][564]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:290][565]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.17:291][565]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:299][566]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.17:302][566]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:311][567]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.17:313][567]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:323][568]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.17:324][568]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:333][569]LogBlueprintUserMessages: [BP_Base_Character_C_0] Server: 100.0
+[2019.08.04-13.51.17:336][569]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:351][570]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:363][571]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:375][572]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:387][573]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:397][574]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:408][575]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:419][576]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:427][577]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:441][578]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:452][579]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:461][580]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:473][581]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:484][582]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:494][583]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:504][584]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:514][585]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:523][586]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:532][587]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:542][588]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:553][589]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:565][590]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:575][591]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:587][592]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:597][593]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:607][594]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:623][595]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:634][596]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:644][597]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:658][598]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:673][599]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:684][600]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:694][601]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:703][602]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:713][603]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:723][604]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:733][605]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:742][606]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:753][607]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:763][608]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:773][609]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:784][610]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:793][611]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:803][612]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:812][613]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:822][614]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:832][615]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:841][616]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:852][617]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:861][618]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:871][619]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:882][620]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:890][621]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:902][622]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:911][623]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:922][624]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:931][625]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:939][626]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:950][627]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:961][628]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:971][629]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:981][630]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.17:992][631]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0
+[2019.08.04-13.51.18:000][632]LogBlueprintUserMessages: [BP_Base_Character_C_0] Client 1: 100.0

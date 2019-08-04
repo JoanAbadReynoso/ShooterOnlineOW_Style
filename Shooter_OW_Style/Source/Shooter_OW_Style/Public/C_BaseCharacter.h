@@ -46,8 +46,6 @@ protected:
 	float ZoomInterpSpeed;
 
 	float DefaultFOV;
-
-
 	void BeginZoom();
 
 	void EndZoom();
@@ -68,7 +66,7 @@ protected:
 	UFUNCTION()
 	void OnHealthChanged(UHealthComponent* OwningHealthComponent, float Health, float HealthDelta, const class UDamageType* DamageType ,AController* InstigatedBy, AActor* DamageCauser);
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Player")
+	UPROPERTY(Replicated, VisibleAnywhere, BlueprintReadOnly, Category = "Player")
 	bool bDied;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")

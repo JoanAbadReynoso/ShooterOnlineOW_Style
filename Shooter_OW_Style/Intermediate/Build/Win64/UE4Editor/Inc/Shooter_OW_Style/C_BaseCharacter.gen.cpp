@@ -203,7 +203,7 @@ void EmptyLinkFunctionForGeneratedCodeC_BaseCharacter() {}
 	{
 		((AC_BaseCharacter*)Obj)->bDied = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AC_BaseCharacter_Statics::NewProp_bDied = { UE4CodeGen_Private::EPropertyClass::Bool, "bDied", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000020015, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(AC_BaseCharacter), &Z_Construct_UClass_AC_BaseCharacter_Statics::NewProp_bDied_SetBit, METADATA_PARAMS(Z_Construct_UClass_AC_BaseCharacter_Statics::NewProp_bDied_MetaData, ARRAY_COUNT(Z_Construct_UClass_AC_BaseCharacter_Statics::NewProp_bDied_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AC_BaseCharacter_Statics::NewProp_bDied = { UE4CodeGen_Private::EPropertyClass::Bool, "bDied", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000020035, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(AC_BaseCharacter), &Z_Construct_UClass_AC_BaseCharacter_Statics::NewProp_bDied_SetBit, METADATA_PARAMS(Z_Construct_UClass_AC_BaseCharacter_Statics::NewProp_bDied_MetaData, ARRAY_COUNT(Z_Construct_UClass_AC_BaseCharacter_Statics::NewProp_bDied_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC_BaseCharacter_Statics::NewProp_WeaponAttachSocketName_MetaData[] = {
 		{ "Category", "Player" },
@@ -274,7 +274,7 @@ void EmptyLinkFunctionForGeneratedCodeC_BaseCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AC_BaseCharacter, 2476836106);
+	IMPLEMENT_CLASS(AC_BaseCharacter, 3457959615);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AC_BaseCharacter(Z_Construct_UClass_AC_BaseCharacter, &AC_BaseCharacter::StaticClass, TEXT("/Script/Shooter_OW_Style"), TEXT("AC_BaseCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AC_BaseCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
